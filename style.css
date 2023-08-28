@@ -15,8 +15,8 @@ a{
 }
 
 .nav-home, .navbar-nav > li{
-    padding-left:100px;
-    padding-right:120px;
+    /* padding-left:100px; */
+    padding-right:20px;
   }
 
 #carouselExampleDark{
