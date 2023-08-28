@@ -32,35 +32,27 @@ a{
     box-shadow: 0 3px 4px 0 ;
 }
 
-.area{
-    display: flex;
-    margin: 20px;
-    
-}
-
 .btn{
 
-    flex-direction: row;
-    outline: none;
-    /* border: 10px solid #404B69; */
-    font-size: 1.5rem;
-    font-family: 'Arvo', cursive;
-    line-height: 14;
-    font-weight: 900;
-    color: #d0ffe7;
-    /* text-shadow: 3px 0 #DBEDF3; */
-    border-radius: 15px;
-    display: inline-block;
-    width: 250px;
-    height: 200px;
-    margin: 10px;
-    background-color: white;
-    
-  }
+  flex-direction: row;
+  outline: none;
+  /* border: 10px solid #404B69; */
+  font-size: 1.5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 14;
+  font-weight: 900;
+  color: #d0ffe7;
+  /* text-shadow: 3px 0 #DBEDF3; */
+  border-radius: 15px;
+  display: inline-block;
+  width: 270px;
+  height: 200px;
+  margin: 10px;
+  background-color: white;
+  
+}
 
-  .first{
-    margin-left: 100px;
-  }
+
   .agra{
     background-image: url(Images/agra-fort-2.jpg);
   }
@@ -89,7 +81,17 @@ a{
     background-image: url(Images/Mysore.jpg);
  }
 
+ .mumbai{
+  background-image: url(Images/Mumbai.jpg);
+ }
 
+ .minar{
+  background-image: url(Images);
+ }
+
+ .rishikesh{
+  background-image: url(Images/Rishikesh.jpg);
+ }
 /* .row{
     display: flex;
     flex-direction: row; 
