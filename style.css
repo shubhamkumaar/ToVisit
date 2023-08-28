@@ -88,24 +88,9 @@ a{
  .mysore{
     background-image: url(Images/Mysore.jpg);
  }
-/* #first{
-    padding-top: 100px;
-    display: flex;
-    flex-direction: row; 
-    justify-content: center;
-    align-items: center;
-    gap:200px;
-    
-}
-/* #first > *{
-    padding: 10px;
-    flex-basis: 200px;
-    min-width: 300px;
-    background-color: #DAC0A3;    
-    text-align: center;
-} */ 
 
-.row{
+
+/* .row{
     display: flex;
     flex-direction: row; 
     justify-content: center;
@@ -121,4 +106,4 @@ a{
     min-width: 300px;
     background-color: #DAC0A3;    
     text-align: center;
-}
+} */
