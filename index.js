@@ -1,8 +1,12 @@
-function buttonAnnimation(press){
-    var buttonPressed = document.querySelector("."+press);
-    buttonPressed.classList.add("pressed");
+function buttonAnimation(btn) {
+
+  var activeButton = document.querySelector("." + btn);
+
+  activeButton.classList.add("pressed");
+
+  setTimeout(function() {
+    activeButton.classList.remove("pressed");
+  }, 100);
+
+}
  
-    setTimeout(function(){
-      buttonPressed.classList.remove("pressed")
-    },90);
- }
