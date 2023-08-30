@@ -1,6 +1,7 @@
 body{
     background-color: #FFF3DA;
     justify-content: center;
+    color: black;
     
 }
 a{
@@ -19,6 +20,26 @@ a{
     padding-right:20px;
   }
 
+  /* Introduction */
+
+  .intro{
+    background-color: #DFCCFB;
+    padding-bottom: 100px;
+  }
+  .logo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .intro-para{
+    align-items: center;
+    width: 650px;
+    flex-basis: 100px;
+    line-height: 2;
+    
+  }
+/* carosouel */
 #carouselExampleDark{
     margin-bottom: 100px;
 }
