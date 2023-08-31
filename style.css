@@ -27,7 +27,7 @@ a{
     align-items: center;
     flex-direction: column;
     background-color: #DFCCFB;
-    /* padding-bottom: 3px; */
+    padding-bottom: 40px;
     padding-top: 50px;
   }
   
@@ -55,10 +55,10 @@ a{
   width: 80%;
 }
 
-
+/* 
 #carouselExampleDark{
     margin-bottom: 100px;
-}
+} */
 
 
 
