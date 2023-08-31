@@ -23,13 +23,12 @@ a{
   /* Introduction */
 
   .intro{
-    background-color: #DFCCFB;
-    padding-bottom: 100px;
-  }
-  .logo{
     display: flex;
     align-items: center;
     flex-direction: column;
+    background-color: #DFCCFB;
+    padding-bottom: 40px;
+    padding-top: 50px;
   }
   
   .intro-para{
@@ -37,12 +36,29 @@ a{
     width: 650px;
     flex-basis: 100px;
     line-height: 2;
-    
+    padding-bottom: 40px;
   }
+
+  #brand{
+    width: 250px;
+    padding-bottom: 20px;
+  }
+
+
 /* carosouel */
+
+.slide{
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 80%;
+}
+
+/* 
 #carouselExampleDark{
     margin-bottom: 100px;
-}
+} */
 
 
 
@@ -74,7 +90,7 @@ a{
   
 }
 .btn:hover{
-color:  rgba(1, 1, 1, 0.893);
+color:  snow;
 }
 
 
@@ -99,7 +115,7 @@ color:  rgba(1, 1, 1, 0.893);
  }
 
  .jama{
-    background-image: url(Images/Jama-masjid2.jpg);
+    background-image: url(Images/Jama-masjid.jpg);
  }
 
  .mysore{
@@ -107,15 +123,15 @@ color:  rgba(1, 1, 1, 0.893);
  }
 
  .mumbai{
-  background-image: url(Images/Mumbai\ 2.jpg);
+  background-image: url(Images/Mumbai.jpg);
  }
 
  .minar{
-  background-image: url(Images/qutub-minar2.jpg);
+  background-image: url(Images);
  }
 
  .rishikesh{
-  background-image: url(Images/Rishikesh\ 2.jpg);
+  background-image: url(Images/Rishikesh.jpg);
  }
 /* .row{
     display: flex;
