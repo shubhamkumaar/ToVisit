@@ -74,7 +74,7 @@ a{
   
 }
 .btn:hover{
-color:  snow;
+color:  rgba(1, 1, 1, 0.893);
 }
 
 
@@ -99,7 +99,7 @@ color:  snow;
  }
 
  .jama{
-    background-image: url(Images/Jama-masjid.jpg);
+    background-image: url(Images/Jama-masjid2.jpg);
  }
 
  .mysore{
@@ -107,15 +107,15 @@ color:  snow;
  }
 
  .mumbai{
-  background-image: url(Images/Mumbai.jpg);
+  background-image: url(Images/Mumbai\ 2.jpg);
  }
 
  .minar{
-  background-image: url(Images);
+  background-image: url(Images/qutub-minar2.jpg);
  }
 
  .rishikesh{
-  background-image: url(Images/Rishikesh.jpg);
+  background-image: url(Images/Rishikesh\ 2.jpg);
  }
 /* .row{
     display: flex;
