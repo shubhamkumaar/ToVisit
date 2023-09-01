@@ -21,7 +21,6 @@ a{
   }
 
   /* Introduction */
-
   .intro{
     display: flex;
     align-items: center;
@@ -31,12 +30,13 @@ a{
     padding-top: 50px;
   }
   
-  .intro-para{
-    align-items: center;
+  .para{
+    margin: auto;
     width: 650px;
     flex-basis: 100px;
     line-height: 2;
     padding-bottom: 40px;
+    font-size: 20px;
   }
 
   #brand{
@@ -46,7 +46,6 @@ a{
 
 
 /* carosouel */
-
 .slide{
   margin: auto;
   justify-content: center;
@@ -54,13 +53,6 @@ a{
   align-content: center;
   width: 80%;
 }
-
-/* 
-#carouselExampleDark{
-    margin-bottom: 100px;
-} */
-
-
 
 
 /* Buttons */
@@ -93,7 +85,7 @@ a{
 color:  snow;
 }
 
-
+/* Images */
   .agra{
     background-image: url(Images/agra-fort-2.jpg);
   }
@@ -133,20 +125,38 @@ color:  snow;
  .rishikesh{
   background-image: url(Images/Rishikesh3\ \(1\).jpg);
  }
-/* .row{
-    display: flex;
-    flex-direction: row; 
-    justify-content: center;
-    align-items: center;
-    gap:20px;
-    padding-top: 20px;
 
+.meghalaya{
+  background-image: url(Images/Andaman.jpg);
 }
 
-.row > *{
-    padding: 10px;
-    flex-basis: 200px;
-    min-width: 300px;
-    background-color: #DAC0A3;    
-    text-align: center;
-} */
+
+/* States CSS */
+.st-intro{
+  display: flex;  
+  justify-content: center;
+  padding-bottom: 20px;
+  gap: 50px;
+  
+}
+.st-text{
+  width: 350px;
+  height: 200px;
+}
+.st-description{
+
+   margin-top: auto;
+}
+
+.rest{
+  margin: auto;
+  width: 80%;
+}
+
+.festival {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 20px;
+   /* margin: auto; */
+   width: 40%;
+}
