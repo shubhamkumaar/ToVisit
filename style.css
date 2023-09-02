@@ -26,9 +26,10 @@ a{
     align-items: center;
     flex-direction: column;
     background-color: #DFCCFB;
-    padding-bottom: 40px;
-    padding-top: 50px;
+    padding-top: 120px;
   }
+
+  
   
   .para{
     margin: auto;
@@ -54,6 +55,9 @@ a{
   width: 80%;
 }
 
+.car{
+  border: 0;
+}
 
 /* Buttons */
 .pressed {
@@ -156,7 +160,8 @@ color:  snow;
 .festival {
   display: grid;
   grid-template-columns: auto auto auto;
-  padding: 20px;
-   /* margin: auto; */
    width: 40%;
+}
+.fest-item{
+  margin:0 50px 0 50px;
 }

@@ -13,12 +13,12 @@
         
         <!-- styleSheet -->
         <link rel="stylesheet" href="style.css">
-        <link rel="icon" href="Images/logo.png">
+        <link rel="icon" href="Images/favicon.png">
     </head>
     <body>
       <!-- NavBar -->
       
-       <nav class="navbar navbar-expand-lg " style = "background-color: #BEADFA;" >
+       <nav class="navbar navbar-expand-lg fixed-top " style = "background-color: #BEADFA;" >
         <div class="container-fluid">
           <a class="navbar-brand" href="./index.html"><img style = "margin-right: 80px;" src="./Images/navlogo.png" alt="Logo" height="50px" width="150px"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -60,30 +60,32 @@
 
           <!-- Slide -->
           <div class="slide">
-            <div class = 'container-fluid'>
-            <div id="carouselExampleDark" class="carousel slide" data-ride = "carousel">
+           
+            <div id="carouselExampleDark" class="carousel slide" data-bs-ride = "carousel">
               <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
                 <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
               </div>
+              
               <div class="carousel-inner">
-                
-                <div class="carousel-item active" data-interval="10000">
+                <div class="carousel-item active" data-bs-interval="3000">
                   <img src="./Images/premMandir.jpg" class="d-block w-100" alt="...">
                   <div class="carousel-caption d-none d-md-block">
                     <h5 style = 'color: white;'>Prem Mandir</h5>
                     <p  style = 'color: white;'>Symbol of love between Lord Krishna and Radha </p>
                   </div>
                 </div>
-                <div class="carousel-item" data-interval="2000">
+          
+                
+                <div class="carousel-item" data-bs-interval="3000">
                   <img src="./Images/tajMahal.jpg" class="d-block w-100" alt="...">
                   <div class="carousel-caption d-none d-md-block">
                     <h5>Taj Mahal</h5>
                     <p>Built by <b>Shah Jahan</b> to immortalize his wife <b>Mumtaz Mahal</b>.</p>
                   </div>
                 </div>
-                <div class="carousel-item" data-interval="20">
+                <div class="carousel-item" data-bs-interval="2000">
                   <img src="./Images/kedarnath.jpg" class="d-block w-100" alt="...">
                   <div class="carousel-caption d-none d-md-block">
                     <h5 style = 'color: white;'>Kedarnath</h5>
@@ -103,12 +105,12 @@
             </div>
           </div>
         </div>
-        </div>
+        
 
       
 
       <!-- States -->
-    <center><strong><h2 style = "margin-left: 10px;" id = "northern">Must visit places</h2></strong></center>
+    <center><strong><h2 style = "margin-top: 20px;" id = "northern">Must visit places</h2></strong></center>
     <div class = 'container-fluid'>
       <button class = "agra btn">Agra fort</button>      
       <button class = "indiaGate btn">India Gate</button>      
