@@ -165,3 +165,9 @@ color:  snow;
 .fest-item{
   margin:0 50px 0 50px;
 }
+.hotels{
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+
+}
