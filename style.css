@@ -9,6 +9,10 @@ a{
     text-decoration: none;  
 }
 
+.dark{
+  color-scheme: dark;
+}
+
 /* NavBar */
 
 .navbar{

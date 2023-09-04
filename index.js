@@ -1,12 +1,20 @@
-function buttonAnimation(btn) {
 
-  var activeButton = document.querySelector("." + btn);
+// document.getElementById('prem').addEventListener('click',function (){
+//   alert("HEllo");
+// });
 
-  activeButton.classList.add("pressed");
 
-  setTimeout(function() {
-    activeButton.classList.remove("pressed");
-  }, 100);
+// function buttonAnimation(btn) {
 
-}
+//   var activeButton = document.querySelector("." + btn);
+
+//   activeButton.classList.add("pressed");
+
+//   setTimeout(function() {
+//     activeButton.classList.remove("pressed");
+//   }, 100);
+
+// }
+
+
  
