@@ -3,6 +3,7 @@ body{
     justify-content: center;
     color: black;
     
+    
 }
 a{
     color : black;
@@ -58,6 +59,9 @@ a{
   align-content: center;
   width: 80%;
   
+}
+.slide-txt{
+  color: #F5F5DC;
 }
 .carousel-item > img{
   height: 1ren;
@@ -178,4 +182,23 @@ color:  snow;
   gap: 20px;
   flex-direction: row;
 
+}
+
+/* Footer */
+.section{
+  position: relative;
+  letter-spacing: 1.1px;
+} 
+.footer-nav-section{
+  background-color: #6499E9;
+}
+section{
+  display: block;
+}
+::after,::before{
+  box-sizing: border-box;
+}
+.flex{
+  display: felx;
+  flex-direction: row;
 }
