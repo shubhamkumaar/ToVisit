@@ -77,11 +77,11 @@ a{
   opacity: 0.5;
 }
 
-.btn{
+.bton{
 
   flex-direction: row;
   outline: none;
-  /* border: 10px solid #404B69; */
+  border: 0;
   font-size: 1.5rem;
   font-family: 'Arvo', cursive;
   line-height: 14;
@@ -97,7 +97,7 @@ a{
   background-color: white;
   
 }
-.btn:hover{
+.bton:hover{
 color:  snow;
 }
 
