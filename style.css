@@ -111,11 +111,11 @@ color:  snow;
   }
 
  .lotus{
-    background-image: url(Images/lotus-temple\ \(1\).jpg);
+    background-image: url(Images/lotus-temple.jpg);
  }
 
  .Munnar{
-    background-image: url(Images/munnar\ \(2\).jpg);
+    background-image: url(Images/munnar.jpg);
  }
 
  .hawa{
@@ -146,7 +146,9 @@ color:  snow;
   background-image: url(Images/Andaman.jpg);
 }
 
-
+.del{
+  background-image: url(Images/);
+}
 /* States CSS */
 .st-intro{
   display: flex;  
@@ -201,4 +203,18 @@ section{
 .flex{
   display: felx;
   flex-direction: row;
+}
+
+/* Delhi */
+.delhi{
+  margin: 6rem 10rem;
+}
+
+.kedar{
+  margin: 5rem;
+}
+.video{
+  justify-items: center;
+  align-items: center;
+  margin-left: 32%;
 }
