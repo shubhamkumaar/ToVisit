@@ -204,12 +204,25 @@ section{
   display: felx;
   flex-direction: row;
 }
+/* States */
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
 
 /* Delhi */
 .delhi{
-  margin: 6rem 10rem;
+  margin:  10rem;
 }
 
+
+
+
+/* Kedarnath */
 .kedar{
   margin: 5rem;
 }

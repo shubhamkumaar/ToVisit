@@ -32,8 +32,30 @@
             margin: 0 15px;
         }
 
+        a{
+            text-decoration: none;
+            color: black;
+        }
         section {
             padding: 20px;
+        }
+
+        .featured {
+            background: url('bihar-landscape.jpg') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 100px 0;
+        }
+
+        .featured h2 {
+            font-size: 36px;
+        }
+
+        .highlight {
+            background-color: #fff;
+            padding: 40px 20px;
+            margin: 20px 0;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
         footer {
@@ -41,9 +63,6 @@
             color: white;
             text-align: center;
             padding: 10px 0;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
         }
     </style>
 </head>
@@ -56,7 +75,7 @@
 
     <nav>
         <a href="#">Home</a>
-        <a href="#">Heritage Sites</a>
+        <a href="./biharSites.html">Heritage Sites</a>
         <a href="#">Spiritual Journeys</a>
         <a href="#">Cultural Experiences</a>
         <a href="#">Adventure and Nature</a>
@@ -66,11 +85,44 @@
         <a href="#">Contact Us</a>
     </nav>
 
+    <div class="featured">
+        <h2>Discover the Beauty of Bihar</h2>
+        <p>Explore the rich heritage, spirituality, and adventure of Bihar</p>
+        <a href="#" style="background-color: #ff9800; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none;">Explore Now</a>
+    </div>
+
+    <section class="highlight" id="heritage">
+        <h2>Heritage Sites</h2>
+        <p>Explore the historical wonders of Bihar, including Mahabodhi Temple, Nalanda University Ruins, and more.</p>
+        <ul>
+            <li><a href=""><h3>Mahabodhi Temple, Bodh Gaya</h3></a></li>
+            <li><a href=""><h3>Nalanda University Ruins</h3></a></li>
+            <li><a href=""><h3>Vikramshila University</h3></a></li>
+            <li><a href=""><h3>Rajgir</h3></a></li>
+            <li><a href=""><h3>Sasaram - Tomb of Sher Shah Suri</h3></a></li>
+            <li><a href=""><h3>Pawapuri</h3></a></li>
+            <li><a href=""><h3>Vaishali</h3></a></li>
+        </ul>
+    </section>
+
+    <section class="highlight">
+        <h2>Spiritual Journeys</h2>
+        <p>Embark on spiritual adventures to Bodh Gaya, Takht Sri Patna Sahib, and other sacred places.</p>
+    </section>
+
+    <section class="highlight">
+        <h2>Cultural Experiences</h2>
+        <p>Indulge in the vibrant Bihari cuisine, folk dances, music, and traditional handicrafts.</p>
+    </section>
+
+    <section class="highlight">
+        <h2>Adventure and Nature</h2>
+        <p>Experience thrilling activities like river rafting, trekking, and bird watching in Bihar's natural wonders.</p>
+    </section>
+
     <section>
-        <h2>Explore Bihar</h2>
-        <p>Discover the heart of India with Bihar Tourism. Immerse yourself in the enchanting heritage, vibrant culture,
-            and natural beauty of Bihar. From ancient temples to serene rivers, Bihar has something for every traveler.
-        </p>
+        <h2>Plan Your Trip</h2>
+        <p>Find the best hotels, restaurants, and activities. Get travel tips and local insights to make your trip memorable.</p>
     </section>
 
     <footer>
