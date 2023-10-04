@@ -102,6 +102,28 @@ color:  snow;
 }
 
 /* Images */
+
+/* Central */
+.Uttarakhand{
+  background-image: url(./States/Uttarakhand/Images/uk.jpg);
+}
+
+.up{
+  background-image: url(./States/UP/Images/up.jpg);
+}
+
+
+/* North East */
+.bihar{
+  background-image: url(./States/Bihar/Images/bihar.jpg);
+}
+/* South States Images */
+.ap{
+  background-image: url(./States/AP/Images/andhra-pradesh.webp);
+}
+
+
+
   .agra{
     background-image: url(Images/agra-fort-2.jpg);
   }
@@ -143,12 +165,9 @@ color:  snow;
  }
 
 .meghalaya{
-  background-image: url(Images/Andaman.jpg);
+  background-image: url();
 }
 
-.del{
-  background-image: url(Images/);
-}
 /* States CSS */
 .st-intro{
   display: flex;  
