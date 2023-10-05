@@ -102,7 +102,16 @@ color:  snow;
 }
 
 /* Images */
-
+/* North */
+.jammu{
+  background-image: url(./States/Jammu/Images/jammu.jpg);
+}
+.punjab{
+  background-image: url(./States/Punjab/Images/punjab.jpg);
+}
+.haryana{
+  background-image: url(./States/Haryana/Images/haryana.jpg);
+}
 /* Central */
 .Uttarakhand{
   background-image: url(./States/Uttarakhand/Images/uk.jpg);
@@ -112,14 +121,28 @@ color:  snow;
   background-image: url(./States/UP/Images/up.jpg);
 }
 
-
+.mp{
+  background-image: url(./States/MP/Images/mp.jpg);
+}
 /* North East */
 .bihar{
   background-image: url(./States/Bihar/Images/bihar-btn.jpg);
 }
+
+
+/* West */
+.gujarat{
+  background-image: url(./States/Gujarat/Images/gujarat.jpg);
+}
+.maharashtra{
+  background-image: url(./States/Maharashtra/Images/maharashtra.jpg);
+}
 /* South States Images */
 .ap{
   background-image: url(./States/AP/Images/andhra-pradesh.webp);
+}
+.karnataka{
+  background-image: url(./States/Karnataka/Images/karnataka.jpg);
 }
 
 

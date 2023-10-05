@@ -8,16 +8,20 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 0;
+            margin: 0 ;
             padding: 0;
             background-color: #f4f4f4;
+            
         }
 
         header {
-            background-color: #333;
-            color: white;
+            background-color: #333;     
             padding: 10px 0;
             text-align: center;
+        }
+        header a{
+            text-decoration: none;
+            color: white;
         }
 
         nav {
@@ -32,7 +36,7 @@
             margin: 0 15px;
         }
 
-        a{
+        section a{
             text-decoration: none;
             color: black;
         }
@@ -59,6 +63,19 @@
             padding: 40px 20px;
             margin: 20px 0;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            font-size: 18px;
+        }
+        section *{
+            width: 50rem;
+            margin: auto;
+            word-spacing: 1.1px;
+            line-height: 1.9;
+            text-align: justify;
+        }
+        .utube{
+            margin-top: 2rem;
+            text-align: center;
+           
         }
 
         footer {
@@ -73,7 +90,7 @@
 <body>
 
     <header>
-        <h1>ToVisit</h1>
+        <h1><a href="../../index.html">ToVisit</a></h1>
     </header>
 
     <nav>
@@ -94,6 +111,9 @@
         <a href="#" style="background-color: #ff9800; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none;">Explore Now</a>
     </div>
 
+    <div class='utube'>
+        <iframe  width="720" height="405" src="https://www.youtube.com/embed/84dD6-GPuqs?autoplay=1&mute=1&start=56"  frameborder="0" allowfullscreen></iframe>
+     </div>
     <section class="highlight" id="heritage">
         <h2>Heritage Sites</h2>
         <p>Explore the historical wonders of Bihar, including Mahabodhi Temple, Nalanda University Ruins, and more.</p>
