@@ -103,13 +103,13 @@ color:  snow;
  }
 /* North */
 .ladakh{
-  background-image: url(./Images/ladakh.jpg);
+  background-image: url(./States/Ladakh/Images/ladakh.jpg);
 }
 .jammu{
   background-image: url(./States/Jammu/Images/jammu.jpg);
 }
 .himachal{
-  background-image: url(./Images/himachal\ pradesh.jpg);
+  background-image: url(./States/Himachal-pradesh/Images/himachal\ pradesh.jpg);
 }
 .punjab{
   background-image: url(./States/Punjab/Images/punjab.jpg);
@@ -118,11 +118,11 @@ color:  snow;
   background-image: url(./States/Haryana/Images/haryana.jpg);
 }
 .rajasthan{
-  background-image: url(./Images/rajasthan.jpg);
+  background-image: url(./States/Rajasthan/Images/rajasthan.jpg);
 }
 /* Central */
 .del{
-  background-image: url(./Images/delhi.jpg);
+  background-image: url(./States/Delhi/Images/delhi.jpg);
 }
 .Uttarakhand{
   background-image: url(./States/Uttarakhand/Images/uk.jpg);
@@ -144,13 +144,13 @@ color:  snow;
   background-image: url(./States/Bihar/Images/bihar-btn.jpg);
 }
 .west-bengal{
-  background-image: url(./Images/west\ bengal.jpg);
+  background-image: url(./States/West-bengal/Images/west\ bengal.jpg);
 }
 .odisha{
   background-image: url(./States/Odisha/Images/odisha.jpg);
 }
 .jharkhand{
-  background-image: url(./Images/jharkhand.jpg);
+  background-image: url(./States/Jharkhand/Images/jharkhand.jpg);
 }
 
 /* West */
@@ -165,7 +165,7 @@ color:  snow;
 }
 /* South States Images */
 .ap{
-  background-image: url(./Images/andhra\ pradesh\ \(5\).jpg);
+  background-image: url(./States/AP/Images/andhra\ pradesh\ \(5\).jpg);
 }
 .karnataka{
   background-image: url(./States/Karnataka/Images/karnataka.jpg);
