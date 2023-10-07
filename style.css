@@ -128,6 +128,12 @@ color:  snow;
 .bihar{
   background-image: url(./States/Bihar/Images/bihar-btn.jpg);
 }
+.ladakh{
+  background-image: url(./Images/ladhak.jpg);
+}
+.himachal{
+  background-image: url(./Images/himachal\ pradesh.jpg);
+}
 
 
 /* West */
@@ -139,10 +145,19 @@ color:  snow;
 }
 /* South States Images */
 .ap{
-  background-image: url(./States/AP/Images/andhra-pradesh.webp);
+  background-image: url(./Images/andhra\ pradesh\ \(5\).jpg);
 }
 .karnataka{
   background-image: url(./States/Karnataka/Images/karnataka.jpg);
+}
+.telangana{
+  background-image: url(./Images/telangana\ \(1\)\ \(1\).jpg);
+}
+.kerala{
+  background-image: url(./Images/kerala.jpg);
+}
+.tamil{
+  background-image: url(./Images/tamil\ nadu.jpg);
 }
 
 
