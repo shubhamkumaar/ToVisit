@@ -92,12 +92,24 @@ color:  snow;
 /* Images */
 /* Must Visit */
 
+.agra{
+  background-image: url(./Images/agra\ fort\ \(2\).jpg);
+}
+.indiaGate{
+  background-image: url(./Images/india\ gate.jpg);
+}
 .rishikesh{
   background-image: url(Images/Rishikesh3\ \(1\).jpg);
  }
 /* North */
+.ladakh{
+  background-image: url(./Images/ladakh.jpg);
+}
 .jammu{
   background-image: url(./States/Jammu/Images/jammu.jpg);
+}
+.himachal{
+  background-image: url(./Images/himachal\ pradesh.jpg);
 }
 .punjab{
   background-image: url(./States/Punjab/Images/punjab.jpg);
@@ -105,7 +117,13 @@ color:  snow;
 .haryana{
   background-image: url(./States/Haryana/Images/haryana.jpg);
 }
+.rajasthan{
+  background-image: url(./Images/rajasthan.jpg);
+}
 /* Central */
+.del{
+  background-image: url(./Images/delhi.jpg);
+}
 .Uttarakhand{
   background-image: url(./States/Uttarakhand/Images/uk.jpg);
 }
@@ -125,8 +143,14 @@ color:  snow;
 .bihar{
   background-image: url(./States/Bihar/Images/bihar-btn.jpg);
 }
+.west-bengal{
+  background-image: url(./Images/west\ bengal.jpg);
+}
 .odisha{
   background-image: url(./States/Odisha/Images/odisha.jpg);
+}
+.jharkhand{
+  background-image: url(./Images/jharkhand.jpg);
 }
 
 /* West */
@@ -141,7 +165,7 @@ color:  snow;
 }
 /* South States Images */
 .ap{
-  background-image: url(./States/AP/Images/AP.jpg);
+  background-image: url(./Images/andhra\ pradesh\ \(5\).jpg);
 }
 .karnataka{
   background-image: url(./States/Karnataka/Images/karnataka.jpg);
@@ -151,6 +175,9 @@ color:  snow;
 }
 .kerala{
   background-image: url(./States/Kerala/Images/kerala.jpg);
+}
+.telangana{
+  background-image: url(./States/AP/Images/AP.jpg);
 }
 
 
