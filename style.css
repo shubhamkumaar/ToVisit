@@ -166,15 +166,12 @@ color:  snow;
 /* South States Images */
 .ap{
   background-image: url(./States/AP/Images/andhra\ pradesh\ \(5\).jpg);
-
-
-
 }
 .karnataka{
   background-image: url(./States/Karnataka/Images/karnataka.jpg);
 }
 .tamil{
-  background-image: url(./States/Tamil/Images/tamil.jpg);
+  background-image: url(./States/TamilNadu/Images/tamil.jpg);
 }
 .kerala{
   background-image: url(./States/Kerala/Images/kerala.jpg);
