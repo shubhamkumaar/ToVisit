@@ -232,23 +232,33 @@ color:  snow;
 }
 
 /* Footer */
-.section{
-  position: relative;
+footer{
+  background-color: #D0BFFF;
+  margin-top:5rem ;
+}
+.container{
+  /* color: white; */
+  padding-top: 4rem;
+  display: grid;
+  line-height: 1.6;
   letter-spacing: 1.1px;
-} 
-.footer-nav-section{
-  background-color: #6499E9;
+
+  grid-template-columns: auto auto auto auto auto;
 }
-section{
-  display: block;
+
+hr{
+  border: 2px solid black;
+  size: 5px;
+  width: 7rem;
 }
-::after,::before{
-  box-sizing: border-box;
+a:hover{
+  color: grey;
+  
 }
-.flex{
-  display: felx;
-  flex-direction: row;
+ul{
+  list-style: none;
 }
+
 /* States */
 
 header {
