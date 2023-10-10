@@ -180,6 +180,30 @@ color:  snow;
   background-image: url(./States/AP/Images/AP.jpg);
 }
 
+/* Eastern states images */
+
+.meghalaya{
+  background-image: url(./States/Meghalaya/Images/meghalaya.jpg);
+}
+.assam{
+  background-image: url(./States/Assam/Images/assam.jpg);
+}
+.manipur{
+  background-image: url(./States/Manipur/Images/manipur.jpg);
+}
+.sikkim{
+  background-image: url(./States/Sikkim/Images/sikkim.jpg);
+}
+.arunachal{
+  background-image: url(./States/Arunachal-Pradesh/Images/arunachal\ pradesh.jpg);
+}
+.tripura{
+  background-image: url(./States/Tripura/Images/tripura.jpg);
+}
+.nagaland{
+  background-image: url(./States/Nagaland/Images/nagaland.jpg);
+}
+
 
 
  .lotus{
