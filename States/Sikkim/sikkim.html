@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sikkim Tourism</title>
+    <link rel="icon" href="../../Images/favicon.png">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0 ;
+            padding: 0;
+            background-color: #f4f4f4;
+            
+        }
+
+        header {
+            background-color: #333;     
+            padding: 10px 0;
+            text-align: center;
+        }
+        header a{
+            text-decoration: none;
+            color: white;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        section a{
+            text-decoration: none;
+            color: black;
+        }
+        a:hover{
+            color: #7D7C7C;
+        }
+        section {
+            padding: 20px;
+        }
+
+        .featured {
+            background: url('./Images/APback.jpg') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            /* padding: 100px 0; */
+        }
+
+        .featured h2 {
+            font-size: 36px;
+        }
+        .temp{
+            text-align: right;
+            margin-right: 5%;
+            /* padding-top: 10px; */
+            line-height: 0;
+            color: black;     
+        }
+        #weatherIcon{
+           align-content: right;
+           margin-bottom: 0;
+            margin-left:87%;
+            padding: 0;
+        }
+        .highlight {
+            background-color: #fff;
+            padding: 40px 20px;
+            margin: 20px 0;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            font-size: 18px;
+        }
+        section *{
+            width: 50rem;
+            margin: auto;
+            word-spacing: 1.1px;
+            line-height: 1.9;
+            text-align: justify;
+        }
+        .utube{
+            margin-top: 2rem;
+            text-align: center;
+           
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1><a href="../../index.html">ToVisit</a></h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#heritage">Heritage Sites</a>
+        <a href="#spiritual">Spiritual Journeys</a>
+        <a href="#culture">Cultural Experiences</a>
+        <a href="#adventure">Adventure and Nature</a>
+        <a href="#">Plan Your Trip</a>
+        <a href="#">Events and Festivals</a>
+        <a href="#">Travel Blog</a>
+        <!-- <a href="#">Contact Us</a> -->
+    </nav>
+
+    <div class="featured">
+        <img id="weatherIcon"src="" alt="">
+        <div class="temp">
+            <h4 id="temperature"></h4>
+            <p id="description"></p>
+        </div>
+        <h2>Discover the Beauty of Sikkim</h2>
+        <p>Explore the rich heritage, spirituality, and adventure of Sikkim</p>
+        <iframe  width="720" height="405" src="https://www.youtube.com/embed/sHJkxP2VWok?autoplay=1&mute=1"  frameborder="0" allowfullscreen></iframe>
+        <!-- <a href="#" style="background-color: #ff9800; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none;">Explore Now</a> -->
+    </div>
+
+    <div class='utube'>
+        </div>
+    <section class="highlight" id="heritage">
+        <h2>Heritage Sites</h2>
+        <p>Explore the historical wonders of Sikkim, including The Nathula Pass, and more.</p>
+        <ul>
+            <li><a href="https://en.wikipedia.org/wiki/Nathu_La"><h3>Nathula Pass, a historic trade route on the India-China border</h3></a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Rumtek_Monastery"><h3>Rumtek Monastery, a major seat of the Kagyu sect of Tibetan Buddhism</h3></a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Pemayangtse_Monastery"><h3>Pemayangtse Monastery, one of the oldest monasteries in Sikkim</h3></a></li>
+        </ul>
+    </section>
+
+    <section class="highlight" id="spiritual">
+        <h2>Spiritual Journeys</h2>
+        <p>Embark on spiritual adventures to Enchey Monastery, Tashiding Monastery, and other sacred places.</p>
+        <ul>
+            <li><a href="http://www.sikkimstdc.com/GeneralPages/Details/Enchey-Monastery/23/Details.aspx"><h3>Enchey Monastery, known for its annual Cham dance</h3></a></li>
+            <li><a href="http://www.sikkimeccl.gov.in/History/Monasteries/West/TashidingMonastery.aspx"><h3>Tashiding Monastery, offering panoramic views of the surrounding mountains</h3></a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Do-drul_Chorten"><h3>Do-Drul Chorten, a revered stupa in Gangtok</h3></a></li>
+        </ul>
+    </section>
+
+    <section class="highlight" id="culture">
+        <h2>Cultural Experiences</h2>
+        <p>Pang Lhabsol festival celebrating the unity of different communities, Witness traditional Sikkimese dance forms like Gha To Kito and Maruni, Explore Namgyal Institute of Tibetology for Tibetan artifacts</p>
+        <ul>
+            <li>
+                <h3>Culinary Delights</h3>
+                <ul>
+                    <li>
+                        <h4>Delicious items</h4>
+                        <p> Try Sikkimese momo, a local dumpling delicacy</p>
+                    </li>    
+                    <li>
+                        <h4>Thukpa: Soup</h4>
+                        <p>Thukpa, a noodle soup with vegetables or meat</p>
+                    </li> 
+                    <li> 
+                        <h4>Chhurpi - Traditional</h4>
+                        <p>Chhurpi, a local cheese often used in traditional dishes</p>
+                    </li>
+                </ul>
+            </li>    
+            <li>
+                <h3>Folk Dances and Music</h3>
+                <ul>
+                    <li>
+                        <h4>Cultural dances</h4>
+                        <p> Enjoy traditional Sikkimese folk dances like Maruni and Tamang Selo</p>
+                    </li>
+                    <li>
+                        <h4>Engaging in music</h4>
+                        <p>Listen to traditional music with instruments like the Dhol and Damru</p>
+                    </li>
+                </ul>    
+            </li>
+            <li>
+                <h3>Traditional Handicrafts</h3>
+                <ul>
+                    <li>
+                        <h4>Unique textiles</h4>
+                        <p>Shop for traditional Sikkimese carpets and handwoven textiles</p>
+                    </li>
+                    <li>
+                        <h4>Beautiful paitings</h4>
+                        <p>Thangka paintings depicting Buddhist themes</p>
+                    </li>
+                    <li>
+                        <h4>cheap Handicrafts</h4>
+                        <p>Exquisite handcrafted items made by local artisans</p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <h3>Fairs and Festivals</h3>
+                <ul>
+                    <li>
+                        <h4>Losar Festival</h4>
+                        <p>Sikkimese New Year celebrated with vibrant dances and rituals.</p>
+                    </li>
+                    <li>
+                        <h4>Saga Dawa</h4>
+                        <p>Honoring Buddha's birth, enlightenment, and death with prayer flags and ceremonies.</p>
+                    </li>
+                    <li>
+                        <h4>Tihar</h4>
+                        <p>A unique Sikkimese version of the festival of lights with lamps, marigold decorations, and worship of animals.</p>
+                    </li>
+                    <li>
+                        <h4>Phang Lhabsol</h4>
+                        <p>Celebrates the oath of brotherhood between the Lepchas and Bhutias with masked dances.</p>
+                    </li>
+                    <li>
+                        <h4>Namchi Mahotsav</h4>
+                        <p>A cultural extravaganza showcasing Sikkimese traditions, music, and dance.</p>
+                    </li>
+                    
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <section class="highlight" id="adventure">
+        <h2>Adventure and Nature</h2>
+        <p>Experience thrilling activities like river rafting, trekking, and bird watching in Sikkim's natural wonders.</p>
+        <ul>
+            <li>
+                <h3>Trekking in the Himalayas, including the Goechala Trek</h3>
+                <ul>
+                    <li><strong><a href="https://maps.app.goo.gl/bbpBDkwiEJhiJ5qR8">Location: Sikkim 737113</strong></a></li>
+                    <li><p><strong>Adventure Level:</strong>  Moderate to risky</p></li>
+                    <li><p><strong>Description:</strong> If you're planning to embark on the Goechala Trek, get ready for an incredible journey through the heart of the Himalayas. The breathtaking vistas and serene landscapes await you. Enjoy every step of the adventure!</p></li>
+                </ul>
+            </li>
+            <li>
+                <h3>Visit Gurudongmar Lake, one of the highest lakes in the world</h3>
+                <ul>
+                    <li><strong><a href="https://maps.app.goo.gl/Rf59wG3HgKnUTmLXA">Location: Sikkim 737120.</strong></a></li>
+                    <li><p><strong>Adventure Level: </strong>  Easy</p></li>
+                    <li><p><strong>Description:</strong>When you visit Gurudongmar Lake, you'll be captivated by its pristine beauty and tranquil surroundings. Enjoy your journey to this breathtaking destination!</p></li>
+                </ul>
+            </li>
+            <li>
+                <h3>Explore Khangchendzonga National Park, a UNESCO World Heritage Site</h3>
+                <ul>
+                    <li><strong><a href="https://maps.app.goo.gl/KBxDzUA7q6qPee4d8">Location: M88F+VRV, Sakkyong, Sikkim.</strong></a></li>
+                    <li><p><strong>Adventure Level: </strong> Easy</p></li>
+                    <li><p><strong>Description: </strong>
+                        "Welcome to the breathtaking Khangchendzonga National Park, where nature's beauty knows no bounds. Enjoy your journey through this pristine paradise!"</p></li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Plan Your Trip</h2>
+        <p>Find the best hotels, restaurants, and activities. Get travel tips and local insights to make your trip memorable.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Sikkim Tourism. All rights reserved.</p>
+    </footer>
+ <script src="../../index.js"></script>
+</body>
+
+</html>
+
