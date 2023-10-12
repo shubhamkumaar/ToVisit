@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Andhra Pradesh Tourism</title>
+    <title>Andhra Pradesh</title>
     <link rel="icon" href="../../Images/favicon.png">
     <style>
         body {
@@ -49,16 +49,28 @@
         }
 
         .featured {
-            background: url('./Images/andhra-pradesh.webp') no-repeat center center/cover;
+            background: url('./Images/APback.jpg') no-repeat center center/cover;
             color: white;
             text-align: center;
-            padding: 100px 0;
+            /* padding: 100px 0; */
         }
 
         .featured h2 {
             font-size: 36px;
         }
-
+        .temp{
+            text-align: right;
+            margin-right: 5%;
+            /* padding-top: 10px; */
+            line-height: 0;
+            color: black;     
+        }
+        #weatherIcon{
+           align-content: right;
+           margin-bottom: 0;
+            margin-left:87%;
+            padding: 0;
+        }
         .highlight {
             background-color: #fff;
             padding: 40px 20px;
@@ -107,14 +119,19 @@
     </nav>
 
     <div class="featured">
+        <img id="weatherIcon"src="" alt="">
+        <div class="temp">
+            <h4 id="temperature"></h4>
+            <p id="description"></p>
+        </div>
         <h2>Discover the Beauty of Andhra Pradesh</h2>
         <p>Explore the rich heritage, spirituality, and adventure of Andhra Pradesh</p>
-        <a href="#" style="background-color: #ff9800; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none;">Explore Now</a>
+        <iframe  width="720" height="405" src="https://www.youtube.com/embed/sHJkxP2VWok?autoplay=1&mute=1"  frameborder="0" allowfullscreen></iframe>
+        <!-- <a href="#" style="background-color: #ff9800; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none;">Explore Now</a> -->
     </div>
 
     <div class='utube'>
-        <iframe  width="720" height="405" src="https://www.youtube.com/watch?v=sHJkxP2VWok"  frameborder="0" allowfullscreen></iframe>
-     </div>
+        </div>
     <section class="highlight" id="heritage">
         <h2>Heritage Sites</h2>
         <p>Explore the historical wonders of Andhra Pradesh, including The Lepakshi Temple, Amaravati, and more.</p>
@@ -280,7 +297,7 @@
     <footer>
         <p>&copy; 2023 Andhra Pradesh Tourism. All rights reserved.</p>
     </footer>
-
+ <script src="../../index.js"></script>
 </body>
 
 </html>

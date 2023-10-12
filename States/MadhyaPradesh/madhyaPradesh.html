@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Madhya Pradesh Tourism</title>
+    <title>Madhya Pradesh</title>
     <link rel="icon" href="../../Images/favicon.png">
+    <link rel="stylesheet" href="../../style.css">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -49,10 +50,10 @@
         }
 
         .featured {
-            background: url('./Images/andhra-pradesh.webp') no-repeat center center/cover;
+            background: url('./Images/MP.jpg') no-repeat center center/cover;
             color: white;
             text-align: center;
-            padding: 100px 0;
+            /* padding: 100px 0; */
         }
 
         .featured h2 {
@@ -86,6 +87,7 @@
             padding: 10px 0;
         }
     </style>
+  
 </head>
 
 <body>
@@ -107,14 +109,20 @@
     </nav>
 
     <div class="featured">
+        <img id="weatherIcon"src="" alt="">
+        <div class="temp">
+            <h4 id="temperature"></h4>
+            <p id="description"></p>
+        </div>
         <h2>Discover the Beauty of Madhya Pradesh</h2>
         <p>Explore the rich heritage, spirituality, and adventure of Madhya Pradesh</p>
-        <a href="#" style="background-color: #ff9800; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none;">Explore Now</a>
+        <iframe  width="720" height="405" src="https://www.youtube.com/embed/wFbUw2Ge-f4?autoplay=1&mute=1&start=8"  frameborder="0" allowfullscreen></iframe>
+    
+        <!-- <a href="#" style="background-color: #ff9800; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none;">Explore Now</a> -->
     </div>
 
     <div class='utube'>
-        <iframe  width="720" height="405" src="https://www.youtube.com/watch?v=sHJkxP2VWok"  frameborder="0" allowfullscreen></iframe>
-     </div>
+         </div>
     <section class="highlight" id="heritage">
         <h2>Heritage Sites</h2>
         <p>Explore the historical wonders of Madhya Pradesh, including Sanchi Stupa, Gwalior Fort and more.</p>
@@ -260,7 +268,7 @@
     <footer>
         <p>&copy; 2023 Madhya Pradesh Tourism. All rights reserved.</p>
     </footer>
-
+    <script src="../../index.js"></script>
 </body>
 
 </html>

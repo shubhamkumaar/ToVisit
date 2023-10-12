@@ -1,7 +1,5 @@
-const city = "patna";
-// const city = document.querySelector("title").innerText;
-
-
+// const city = "patna";
+const city = document.querySelector("title").innerText;
 const apiKey = "6185ba8fc40fa5cea58dbcbf63fa9635";
 const unit = "metric";
 const URL = "https://api.openweathermap.org/data/2.5/weather?q="+city+"&appid=" + apiKey +  "&units="+unit;

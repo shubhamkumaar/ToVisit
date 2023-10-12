@@ -57,8 +57,24 @@ a{
 .carousel-item > img{
   height: 1ren;
 }
-
-
+/* Weather */
+.temp{
+  text-align: right;
+  margin-top: 0;
+  margin-right: 5%;
+  /* padding-top: 10px; */
+  line-height: 0;
+  color: black;     
+}
+#temperature{
+  margin-top: 0;
+}
+#weatherIcon{
+ align-content: right;
+ margin-bottom: 0;
+  margin-left:87%;
+  padding: 0;
+}
 /* Buttons */
 .pressed {
   box-shadow: 0 3px 4px 0 #DBEDF3;
