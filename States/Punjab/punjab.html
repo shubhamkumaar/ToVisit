@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Punjab Tourism</title>
+    <link rel="icon" href="../../Images/favicon.png">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0 ;
+            padding: 0;
+            background-color: #f4f4f4;
+            
+        }
+
+        header {
+            background-color: #333;     
+            padding: 10px 0;
+            text-align: center;
+        }
+        header a{
+            text-decoration: none;
+            color: white;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        section a{
+            text-decoration: none;
+            color: black;
+        }
+        a:hover{
+            color: #7D7C7C;
+        }
+        section {
+            padding: 20px;
+        }
+
+        .featured {
+            background: url('./Images/APback.jpg') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            /* padding: 100px 0; */
+        }
+
+        .featured h2 {
+            font-size: 36px;
+        }
+        .temp{
+            text-align: right;
+            margin-right: 5%;
+            /* padding-top: 10px; */
+            line-height: 0;
+            color: black;     
+        }
+        #weatherIcon{
+           align-content: right;
+           margin-bottom: 0;
+            margin-left:87%;
+            padding: 0;
+        }
+        .highlight {
+            background-color: #fff;
+            padding: 40px 20px;
+            margin: 20px 0;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            font-size: 18px;
+        }
+        section *{
+            width: 50rem;
+            margin: auto;
+            word-spacing: 1.1px;
+            line-height: 1.9;
+            text-align: justify;
+        }
+        .utube{
+            margin-top: 2rem;
+            text-align: center;
+           
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1><a href="../../index.html">ToVisit</a></h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#heritage">Heritage Sites</a>
+        <a href="#spiritual">Spiritual Journeys</a>
+        <a href="#culture">Cultural Experiences</a>
+        <a href="#adventure">Adventure and Nature</a>
+        <a href="#">Plan Your Trip</a>
+        <a href="#">Events and Festivals</a>
+        <a href="#">Travel Blog</a>
+        <!-- <a href="#">Contact Us</a> -->
+    </nav>
+
+    <div class="featured">
+        <img id="weatherIcon"src="" alt="">
+        <div class="temp">
+            <h4 id="temperature"></h4>
+            <p id="description"></p>
+        </div>
+        <h2>Discover the Beauty of Punjab</h2>
+        <p>Explore the rich heritage, spirituality, and adventure of Punjab</p>
+        <iframe  width="720" height="405" src="https://www.youtube.com/embed/sHJkxP2VWok?autoplay=1&mute=1"  frameborder="0" allowfullscreen></iframe>
+        <!-- <a href="#" style="background-color: #ff9800; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none;">Explore Now</a> -->
+    </div>
+
+    <div class='utube'>
+        </div>
+    <section class="highlight" id="heritage">
+        <h2>Heritage Sites</h2>
+        <p>Explore the historical wonders of Punjab, including The Golden Temple, Jallianwala Bagh memorial, and more.</p>
+        <ul>
+            <li><a href="https://en.wikipedia.org/wiki/Golden_Temple"><h3>Golden Temple in Amritsar, a sacred Sikh pilgrimage site</h3></a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Jallianwala_Bagh"><h3>Jallianwala Bagh, a memorial for the Jallianwala Bagh massacre</h3></a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Qila_Mubarak"><h3>Qila Mubarak in Patiala, a historic fort and palace</h3></a></li>
+        </ul>
+    </section>
+
+    <section class="highlight" id="spiritual">
+        <h2>Spiritual Journeys</h2>
+        <p>Embark on spiritual adventures to most famous Golden Temple, Anandpur Sahib, and other sacred places.</p>
+        <ul>
+            <li><a href="https://maps.app.goo.gl/Hqu293qosnS576Y38"><h3>Golden Temple, a place of religious significance and architectural beauty</h3></a></li>
+            <li><a href="https://maps.app.goo.gl/R3ygX8vSnzQkMpi88"><h3>Anandpur Sahib, known for the Virasat-e-Khalsa museum and religious events</h3></a></li>
+            <li><a href="https://maps.app.goo.gl/DtxiVZoBV2u5TSnC7"><h3>Durgiana Temple in Amritsar, dedicated to Goddess Durga</h3></a></li>
+        </ul>
+    </section>
+
+    <section class="highlight" id="culture">
+        <h2>Cultural Experiences</h2>
+        <p>Bhangra, the energetic and vibrant traditional dance form, Attari-Wagah Border Ceremony, a patriotic and lively event, Visiting the Punjabi Rural Museum for a glimpse of rural life.</p>
+        <ul>
+            <li>
+                <h3>Culinary Delights</h3>
+                <ul>
+                    <li>
+                        <h4>Chicken curry</h4>
+                        <p>Butter Chicken, a popular Punjabi dish</p>
+                    </li>    
+                    <li>
+                        <h4>Varieties in Breakfast</h4>
+                        <p>Sarson da Saag and Makki di Roti, a traditional winter delicacy</p>
+                    </li> 
+                    <li> 
+                        <h4>Famous streetfoods</h4>
+                        <p>Amritsari Kulcha and Chole, a famous street food</p>
+                    </li>
+                </ul>
+            </li>    
+            <li>
+                <h3>Folk Dances and Music</h3>
+                <ul>
+                    <li>
+                        <h4>Bhangra</h4>
+                        <p> Bhangra, a lively dance with upbeat music</p>
+                    </li>
+                    <li>
+                        <h4>Giddha dance</h4>
+                        <p>Giddha, a traditional Punjabi dance performed by women</p>
+                    </li>
+                    <li>
+                        <h4>Punjabi folk music</h4>
+                        <p>Enjoying live performances of Punjabi folk music</p>
+                    </li>
+                </ul>    
+            </li>
+            <li>
+                <h3>Traditional Handicrafts</h3>
+                <ul>
+                    <li>
+                        <h4>Phulkari embroidery</h4>
+                        <p>Phulkari embroidery, vibrant and colorful handwork</p>
+                    </li>
+                    <li>
+                        <h4>Juttis</h4>
+                        <p>Punjabi Juttis, traditional handmade footwear</p>
+                    </li>
+                    <li>
+                        <h4>Punjabi attire</h4>
+                        <p>Patiala Salwar, traditional Punjabi attire</p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <h3>Fairs and Festivals</h3>
+                <ul>
+                    <li>
+                        <h4>Lohri</h4>
+                        <p>Lohri is a winter harvest festival celebrated with bonfires, dance, and traditional Punjabi songs.</p>
+                    </li>
+                    <li>
+                        <h4>Baisakhi</h4>
+                        <p> Baisakhi marks the Punjabi New Year and the harvest season's onset, celebrated with energetic bhangra dance and special prayers at Gurudwaras.</p>
+                    </li>
+                    <li>
+                        <h4>Diwali</h4>
+                        <p>Diwali, the Festival of Lights, is celebrated with lamps, candles, and fireworks, symbolizing the victory of light over darkness.</p>
+                    </li>
+                    <li>
+                        <h4>Guru Nanak Jayanti</h4>
+                        <p>This festival celebrates the birth of Guru Nanak, the founder of Sikhism, with religious processions and readings from the Guru Granth Sahib.</p>
+                    </li>
+                    <li>
+                        <h4>Hola Mohalla</h4>
+                        <p>Hola Mohalla is a Sikh festival featuring martial arts demonstrations, poetry contests, and other competitive events.</p>
+                    </li>
+                    
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <section class="highlight" id="adventure">
+        <h2>Adventure and Nature</h2>
+        <p>Experience thrilling activities like river rafting, trekking, and bird watching in Punjab's natural wonders.</p>
+        <ul>
+            <li>
+                <h3>Visiting the Ranjit Sagar Dam for scenic views and water activities</h3>
+                <ul>
+                    <li><strong><a href="https://maps.app.goo.gl/puZALGibAvz61QLJ7">Location: Thara Uparla, Punjab 145001.</strong></a></li>
+                    <li><p><strong>Adventure Level:</strong>  Moderate</p></li>
+                    <li><p><strong>Description:</strong>"To all the travelers, who venture to the Ranjit Sagar Dam for scenic vistas and thrilling water activities, may your journey be as boundless as the waters that stretch before you, and your memories as unforgettable as the views that surround you."</p></li>
+                </ul>
+            </li>
+            <li>
+                <h3>Exploring the Ropar Wetland for bird watching</h3>
+                <ul>
+                    <li><strong><a href="https://maps.app.goo.gl/edVsArpVtYMSVC4o8">Location: Garh Bagga, Punjab 140119.</strong></a></li>
+                    <li><p><strong>Adventure Level: </strong>  Easy</p></li>
+                    <li><p><strong>Description:</strong>"To all the travelers who venture to the Ropar Wetland for the enchanting experience of bird watching, may your journey be filled with the symphony of nature's finest, where every flutter of wings becomes a serenade to your wanderlust."</p></li>
+                </ul>
+            </li>
+            <li>
+                <h3>An excursion to the scenic hills of Morni</h3>
+                <ul>
+                    <li><strong><a href="https://maps.app.goo.gl/JB5qYCkKRLDS22ZE8">Location: H8HH+5R9, Nagarjuna Sagar, Nagarjuna Sagar-Srisailam Rd, Nagarjuna Sagar, Andhra Pradesh 522439</strong></a></li>
+                    <li><p><strong>Adventure Level: </strong> Easy</p></li>
+                    <li><p><strong>Description: </strong>
+                        "To all the travelers embarking on an excursion to the scenic hills of Morni, may your journey be as breathtaking as the panoramic vistas that await you."</p></li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Plan Your Trip</h2>
+        <p>Find the best hotels, restaurants, and activities. Get travel tips and local insights to make your trip memorable.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Punjab Tourism. All rights reserved.</p>
+    </footer>
+ <script src="../../index.js"></script>
+</body>
+
+</html>
+
