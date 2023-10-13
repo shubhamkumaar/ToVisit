@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: grid;
+    place-items: center;
+}
+
+img{
+    /* color: rgb(223, 155, 52); */
+    margin-top: 20vh;
+    margin-bottom: 30px;
+
+}
+a{
+    text-decoration: none;
+    
+}
+input{
+    
+    font-size: 1rem;
+    width: 300px;
+    padding: 6px 2px; 
+    margin: 10px 0 10px 0;
+    border-radius: 0.8rem;
+}
+.sub{
+    background-color:rgb(223, 155, 52);
+    cursor: pointer;
+}
+
+form{
+    /* margin-top: 20vh; */
+    text-align: center;
+    border: 5px solid rgb(111, 70, 23);
+    padding: 20px;
+    background-color: #FFF3DA;
+    border-radius: 1rem;
+}
