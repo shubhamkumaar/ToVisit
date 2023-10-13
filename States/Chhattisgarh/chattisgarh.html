@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chattisgarh Tourism</title>
+    <link rel="icon" href="../../Images/favicon.png">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0 ;
+            padding: 0;
+            background-color: #f4f4f4;
+            
+        }
+
+        header {
+            background-color: #333;     
+            padding: 10px 0;
+            text-align: center;
+        }
+        header a{
+            text-decoration: none;
+            color: white;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        section a{
+            text-decoration: none;
+            color: black;
+        }
+        a:hover{
+            color: #7D7C7C;
+        }
+        section {
+            padding: 20px;
+        }
+
+        .featured {
+            background: url('./Images/APback.jpg') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            /* padding: 100px 0; */
+        }
+
+        .featured h2 {
+            font-size: 36px;
+        }
+        .temp{
+            text-align: right;
+            margin-right: 5%;
+            /* padding-top: 10px; */
+            line-height: 0;
+            color: black;     
+        }
+        #weatherIcon{
+           align-content: right;
+           margin-bottom: 0;
+            margin-left:87%;
+            padding: 0;
+        }
+        .highlight {
+            background-color: #fff;
+            padding: 40px 20px;
+            margin: 20px 0;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            font-size: 18px;
+        }
+        section *{
+            width: 50rem;
+            margin: auto;
+            word-spacing: 1.1px;
+            line-height: 1.9;
+            text-align: justify;
+        }
+        .utube{
+            margin-top: 2rem;
+            text-align: center;
+           
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1><a href="../../index.html">ToVisit</a></h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#heritage">Heritage Sites</a>
+        <a href="#spiritual">Spiritual Journeys</a>
+        <a href="#culture">Cultural Experiences</a>
+        <a href="#adventure">Adventure and Nature</a>
+        <a href="#">Plan Your Trip</a>
+        <a href="#">Events and Festivals</a>
+        <a href="#">Travel Blog</a>
+        <!-- <a href="#">Contact Us</a> -->
+    </nav>
+
+    <div class="featured">
+        <img id="weatherIcon"src="" alt="">
+        <div class="temp">
+            <h4 id="temperature"></h4>
+            <p id="description"></p>
+        </div>
+        <h2>Discover the Beauty of Chattisgarh</h2>
+        <p>Explore the rich heritage, spirituality, and adventure of Chattisgarh</p>
+        <iframe  width="720" height="405" src="https://www.youtube.com/embed/sHJkxP2VWok?autoplay=1&mute=1"  frameborder="0" allowfullscreen></iframe>
+        <!-- <a href="#" style="background-color: #ff9800; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none;">Explore Now</a> -->
+    </div>
+
+    <div class='utube'>
+        </div>
+    <section class="highlight" id="heritage">
+        <h2>Heritage Sites</h2>
+        <p>Explore the historical wonders of Chattisgarh, including The Bastar Palace, Chitrakote Falls, and more.</p>
+        <ul>
+            <li><a href="https://maps.app.goo.gl/Vc9AFkh4LfSTCdfe8"><h3>Bastar Palace in Jagdalpur, showcasing traditional architecture</h3></a></li>
+            <li><a href="https://maps.app.goo.gl/K2BtAUFmLCZRFWh76"><h3> Sirpur, an archaeological site with ancient temples</h3></a></li>
+            <li><a href="https://maps.app.goo.gl/eyrdhrSctCY7YQRU8"><h3>Chitrakote Falls, often referred to as the "Niagara Falls of India"</h3></a></li>
+        </ul>
+    </section>
+
+    <section class="highlight" id="spiritual">
+        <h2>Spiritual Journeys</h2>
+        <p>Embark on spiritual adventures to famous Bambleshwari Temple, and other sacred places.</p>
+        <ul>
+            <li><a href="https://maps.app.goo.gl/YuAxNKdmQPNuJuPN7"><h3>Bambleshwari Temple in Dongargarh</h3></a></li>
+            <li><a href="https://maps.app.goo.gl/BPBJCLCxQj4cum4M6"><h3>Rajiv Lochan Temple in Rajim</h3></a></li>
+            <li><a href="https://maps.app.goo.gl/kbm3kxBF3DnZffVY7"><h3>Danteshwari Temple in Dantewada, dedicated to Goddess Danteshwari</h3></a></li>
+        </ul>
+    </section>
+
+    <section class="highlight" id="culture">
+        <h2>Cultural Experiences</h2>
+        <p> Bastar Dussehra, one of the longest celebrations in the world, Witness traditional dance forms like Panthi and Raut Nacha, Explore tribal villages and their unique customs.</p>
+        <ul>
+            <li>
+                <h3>Culinary Delights</h3>
+                <ul>
+                    <li>
+                        <h4>Popular streetfoods</h4>
+                        <p>Chana Samosa, a popular street food</p>
+                    </li>    
+                    <li>
+                        <h4>Traditional snack</h4>
+                        <p>Fara, a traditional Chhattisgarhi snack</p>
+                    </li> 
+                    <li> 
+                        <h4>Spicy evening snacks</h4>
+                        <p>Chana Jor Garam, a spicy and tangy snack</p>
+                    </li>
+                </ul>
+            </li>    
+            <li>
+                <h3>Folk Dances and Music</h3>
+                <ul>
+                    <li>
+                        <h4>
+                            Traditional folk dance
+                        </h4>
+                        <p>Panthi Dance, a traditional folk dance depicting the journey of life
+                        </p>
+                    </li>
+                    <li>
+                        <h4>Dance forms</h4>
+                        <p>Suwa Nacha, a dance form celebrating the harvest season
+                        </p>
+                    </li>
+                    <li>
+                        <h4>Traditional music</h4>
+                        <p>Enjoying traditional music with instruments like the Bansuri and Dhakki
+                        </p>
+                    </li>
+                </ul>    
+            </li>
+            <li>
+                <h3>Traditional Handicrafts</h3>
+                <ul>
+                    <li>
+                        <h4>Kalamkari hand-painted textiles</h4>
+                        <p>Kosa Silk, a traditional silk weaving craft
+                        </p>
+                    </li>
+                    <li>
+                        <h4>Wooden-Toys</h4>
+                        <p>Bell Metal Craft, known for its intricate designs
+                        </p>
+                    </li>
+                    <li>
+                        <h4>Saree art</h4>
+                        <p>Traditional Bastar Iron Craft
+                        </p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <h3>Fairs and Festivals</h3>
+                <ul>
+                    <li>
+                        <h4>Bastar Dussehra </h4>
+                        <p>This festival in Bastar is known for its unique wooden chariots and traditional tribal dances.</p>
+                    </li>
+                    <li>
+                        <h4>Chakradhar Samaroh</h4>
+                        <p>An annual classical music and dance festival held in Raigarh to promote and celebrate Indian art forms.</p>
+                    </li>
+                    <li>
+                        <h4>Madai Festival</h4>
+                        <p> Celebrated by Gond and Muria tribes, Madai is a harvest festival that features folk dances and music.</p>
+                    </li>
+                    <li>
+                        <h4>Polasa Festival</h4>
+                        <p>A significant festival for the tribal community of Chhattisgarh, Polasa celebrates sowing and farming.</p>
+                    </li>
+                    <li>
+                        <h4>Hareli Festival</h4>
+                        <p>Dedicated to the harvest season, Hareli is celebrated with traditional songs and dances.</p>
+                    </li>
+                    
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <section class="highlight" id="adventure">
+        <h2>Adventure and Nature</h2>
+        <p>Experience thrilling activities like river rafting, trekking, and bird watching in Chattisgarh's natural wonders.</p>
+        <ul>
+            <li>
+                <h3>Kanger Valley National Park for wildlife and limestone caves
+                </h3>
+                <ul>
+                    <li><strong><a href="https://maps.app.goo.gl/U5j9CqeuJUoJk53j8">Location: X63P+HJX, Choras, Chhattisgarh</strong></a></li>
+                    <li><p><strong>Adventure Level:</strong>  Moderate</p></li>
+                    <li><p><strong>Description:</strong>"To all the travelers who wander into the enchanting embrace of Kanger Valley National Park, may your footsteps be guided by the whispers of ancient forests, and may your hearts be filled with the symphony of nature's hidden wonders. Embrace the beauty that lies within and let the wilderness of Kanger Valley be your muse on this extraordinary journey."</p></li>
+                </ul>
+            </li>
+            <li>
+                <h3>Barnawapara Wildlife Sanctuary for flora and fauna
+                </h3>
+                <ul>
+                    <li><strong><a href="https://maps.app.goo.gl/6PzZM5vPuJKzifh16">Location:Unnamed Road, Nanwapara, Chhattisgarh 493229.</strong></a></li>
+                    <li><p><strong>Adventure Level: </strong>  Easy</p></li>
+                    <li><p><strong>Description:</strong>
+                        To all travelers exploring the wonders of Barnawapara Wildlife Sanctuary, may the whispers of the ancient forest and the songs of its vibrant wildlife enchant your soul, and may your journey be a harmonious dance with nature's rhythm.</p></li>
+                </ul>
+            </li>
+            <li>
+                <h3>Chitrakote Falls for a scenic natural retreat
+                </h3>
+                <ul>
+                    <li><strong><a href="https://maps.app.goo.gl/ggj6H5TvijUHnBC39">Location: Tiratha, Chhattisgarh 494010.</strong></a></li>
+                    <li><p><strong>Adventure Level: </strong> Easy</p></li>
+                    <li><p><strong>Description: </strong>
+                        "To all the travelers who venture to Chitrakote Falls, let the cascading waters serenade your soul, and the lush greenery embrace your spirit in nature's grand symphony. "</p></li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Plan Your Trip</h2>
+        <p>Find the best hotels, restaurants, and activities. Get travel tips and local insights to make your trip memorable.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Chattisgarh Tourism. All rights reserved.</p>
+    </footer>
+ <script src="../../index.js"></script>
+</body>
+
+</html>
+
