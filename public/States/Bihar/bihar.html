@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bihar Tourism</title>
+    <link rel="stylesheet" href="../../style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0 ;
+            padding: 0;
+            background-color: #f4f4f4;
+            
+        }
+
+        header {
+            background-color: #333;     
+            padding: 10px 0;
+            text-align: center;
+        }
+        header a{
+            text-decoration: none;
+            color: white;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        section a{
+            text-decoration: none;
+            color: black;
+        }
+        a:hover{
+            color: #7D7C7C;
+        }
+        section {
+            padding: 20px;
+        }
+
+        .featured {
+            background: url('./Images/bihar.jpg') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            
+            /* padding: 100px 0; */
+        }
+
+        .featured h2 {
+            font-size: 36px;
+        }
+        .highlight {
+            background-color: #fff;
+            padding: 40px 20px;
+            margin: 20px 0;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            font-size: 18px;
+        }
+        section *{
+            width: 50rem;
+            margin: auto;
+            word-spacing: 1.1px;
+            line-height: 1.9;
+            text-align: justify;
+        }
+        .utube{
+            margin-top: 2rem;
+            text-align: center;
+           
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+   
+</head>
+
+<body>
+
+    <header>
+        <h1><a href="../../index.html">ToVisit</a></h1>
+    </header>
+
+    <nav>
+        <a href="#about">Home</a>
+        <a href="#heritage">Heritage Sites</a>
+        <a href="#spiritual">Spiritual Journeys</a>
+        <a href="#culture">Cultural Experiences</a>
+        <a href="#adventure">Adventure and Nature</a>
+        <a href="#plan">Plan Your Trip</a>
+        <a href="#fest">Events and Festivals</a>
+        <a href="https://youtu.be/84dD6-GPuqs?si=d9so7Ug_6t3CoKBX">Travel Blog</a>
+        <!-- <a href="#">Contact Us</a> -->
+    </nav>
+
+    <div class="featured">
+        <img id="weatherIcon"src="" alt="">
+        <div class="temp">
+            <h4 id="temperature"></h4>
+            <p id="description"></p>
+        </div>
+        <h2>Discover the Beauty of Bihar</h2>
+        <p>Explore the rich heritage, spirituality, and adventure of Bihar</p>
+        <!-- <a href="https://tourism.bihar.gov.in/" style="background-color: #ff9800; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none;">Explore Now</a> -->
+        <iframe style="padding-top: 80px;" width="720" height="405" src="https://www.youtube.com/embed/84dD6-GPuqs?autoplay=1&mute=1&start=56"  frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <section class="highlight" id="about">
+        <h2>About</h2>
+        <h3 id="capital">Patna</h3>
+    </section>
+    <section class="highlight" id="heritage">
+        <h2>Heritage Sites</h2>
+        <p>Explore the historical wonders of Bihar, including Mahabodhi Temple, Nalanda University Ruins, and more.</p>
+        <ul>
+            <li><a href="https://bodhgayatemple.com/"><h3>Mahabodhi Temple, Bodh Gaya</h3></a></li>
+            <li><a href="https://nalandauniversity.wordpress.com/about/"><h3>Nalanda University Ruins</h3></a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Vikramashila"><h3>Vikramshila University</h3></a></li>
+            <li><a href="https://en.wikivoyage.org/wiki/Rajgir"><h3>Rajgir</h3></a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Tomb_of_Sher_Shah_Suri"><h3>Sasaram - Tomb of Sher Shah Suri</h3></a></li>
+            <li><a href="https://nalanda.nic.in/en/tourist-place/pawapuri-jal-mandir/"><h3>Pawapuri</h3></a></li>
+            <li><a href="https://www.newworldencyclopedia.org/entry/Vaishali_(ancient_city)"><h3>Vaishali</h3></a></li>
+        </ul>
+    </section>
+
+    <section class="highlight" id="spiritual">
+        <h2>Spiritual Journeys</h2>
+        <p>Embark on spiritual adventures to Bodh Gaya, Takht Sri Patna Sahib, and other sacred places.</p>
+        <ul>
+            <li><a href="https://bodhgayatemple.com/"><h3>Mahabodhi Temple, Bodh Gaya</h3></a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Bodhi_Tree"><h3>Bodhi Tree, Bodh Gaya</h3></a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Takht_Sri_Patna_Sahib"><h3>Takht Sri Patna Sahib</h3></a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Vulture_Peak"><h3>Griddhakuta Peak(Vulture Peak), Rajgir</h3></a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Sita_Kund"><h3>Sita Kund, Sitamarhi</h3></a></li>
+            <li><a href="https://eastchamparan.nic.in/tourist-place/kesaria-baudh-stup-kesaria/"><h3>Kesaria Stupa</h3></a></li>
+            <li><a href="https://en.wikivoyage.org/wiki/Bihar_Sharif"><h3>Bari Masjid, Bihar Sharif</h3></a></li>
+        </ul>
+    </section>
+
+    <section class="highlight" id="culture">
+        <h2>Cultural Experiences</h2>
+        <p>Indulge in the vibrant Bihari cuisine, folk dances, music, and traditional handicrafts.</p>
+        <ul>
+            <li>
+                <h3>Culinary Delights</h3>
+                <ul>
+                    <li>
+                        <h4>Litti Chokha</h4>
+                        <p>Taste the traditional Bihari dish made of wheat flour balls stuffed with roasted gram flour, and served with mashed vegetables</p>
+                    </li>    
+                    <li>
+                        <h4>Sattu</h4>
+                        <p>Enjoy Sattu, a nutritious flour made from roasted gram or pulses, used in various Bihari delicacies and drinks.</p>
+                    </li> 
+                    <li> 
+                        <h4>Thekua</h4>
+                        <p>Indulge in the sweet and crispy Thekua, a popular Bihari sweet made during festivals</p>
+                    </li>
+                </ul>
+            </li>    
+            <li>
+                <h3>Folk Dances and Music</h3>
+                <ul>
+                    <li>
+                        <h4>
+                            Jat-Jatin
+                        </h4>
+                        <p> Witness the energetic Jat-Jatin dance, performed during festivals and celebrations, portraying the struggles of farmers.</p>
+                    </li>
+                    <li>
+                        <h4>Bidesia</h4>
+                        <p>Enjoy the melodious Bidesia folk songs that depict themes of love, separation, and longing.</p>
+                    </li>
+                    <li>
+                        <h4>Sohar-Khilouna</h4>
+                        <p>Experience the traditional folk songs sung during childbirth ceremonies, capturing the essence of family and community bonds</p>
+                    </li>
+                </ul>    
+            </li>
+            <li>
+                <h3>Traditional Handicrafts</h3>
+                <ul>
+                    <li>
+                        <h4>Madhubani Painting</h4>
+                        <p>Explore the intricate and colorful Madhubani paintings, a traditional art form depicting mythological and natural themes.</p>
+                    </li>
+                    <li>
+                        <h4>Sujini Embroidery</h4>
+                        <p>Admire the fine Sujini embroidery, a craft form that involves colorful stitching depicting rural life and religious motifs.</p>
+                    </li>
+                    <li>
+                        <h4>Bamboo and Tikuli Art</h4>
+                        <p>Witness skilled artisans creating beautiful bamboo crafts and Tikuli art, where paint is applied on glass and later adorned with fine details.</p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <h3 id="fest">Fairs and Festivals</h3>
+                <ul>
+                    <li>
+                        <h4>Chhath Puja</h4>
+                        <p> Participate in the grand Chhath Puja celebrations, dedicated to the Sun God, where devotees offer prayers and offerings to the rising and setting sun.</p>
+                    </li>
+                    <li>
+                        <h4>Sonepur Cattle Fair</h4>
+                        <p>Visit Asia’s largest cattle fair in Sonepur, where traders from across the country gather to buy and sell various animals.</p>
+                    </li>
+                    <li>
+                        <h4>Rajgir Mahotsav</h4>
+                        <p>Attend the Rajgir Mahotsav, a cultural festival showcasing classical and folk dance performances, art exhibitions, and craft displays.</p>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <section class="highlight" id="adventure">
+        <h2>Adventure and Nature</h2>
+        <p>Experience thrilling activities like river rafting, trekking, and bird watching in Bihar's natural wonders.</p>
+        <ul>
+            <li>
+                <h3>River Rafting in Koshi River</h3>
+                <ul>
+                    <li><strong><a href="https://www.google.com/maps/place/Koshi+River/@26.175919,86.1757582,9z/data=!4m6!3m5!1s0x39f03aa6866fc465:0x815f08bb103c41e2!8m2!3d26.291844!4d86.7170777!16s%2Fm%2F025s119?entry=ttu">Location:</strong>  Koshi River, Saharsa District</a></li>
+                    <li><p><strong>Adventure Level:</strong>  Moderate to Challenging</p></li>
+                    <li><p><strong>Description:</strong>  Experience the thrill of river rafting in the mighty Koshi River. Navigate through the river's rapids and enjoy the scenic beauty surrounding the area.</p></li>
+                </ul>
+            </li>
+            <li>
+                <h3>Valmiki National Park</h3>
+                <ul>
+                    <li><p><strong><a href="https://maps.app.goo.gl/vPgyTq2VUrPdX2Wq7">Location: </strong> West Champaran District</a></p></li>
+                    <li><p><strong>Adventure Level: </strong>  Easy to Moderate</p></li>
+                    <li><p><strong>Description:</strong> Explore Valmiki National Park, one of the most biodiverse national parks in India. Go on a safari to spot Bengal tigers, leopards, elephants, and various bird species. The park also houses the famous Valmiki Ashram.</p></li>
+                </ul>
+            </li>
+            <li>
+                <h3>Trekking in Rajgir Hills</h3>
+                <ul>
+                    <li>
+                        <p><strong><a href="https://maps.app.goo.gl/xMxRRc6cA9T6uptk9">Location: </strong>  Rajgir, Nalanda District</a></p>
+                    </li>
+                    <li><p><strong>Adventure Level: </strong> Moderate</p></li>
+                    <li><p><strong>Description: </strong>Embark on a trekking adventure in the picturesque hills of Rajgir. The trails offer stunning views, and you can visit sites like Griddhakuta Peak and Vulture's Peak during your trek</p></li>
+                </ul>
+            </li>
+            <li>
+                <h3>Bike Touring in Vikramshila Gangetic Dolphin Sanctuary</h3>
+                <ul>
+                    <li><p><strong><a href="https://maps.app.goo.gl/fQ8ynHE8WEZUq2TJ6">Location: </strong> Bhagalpur District</a></p></li>
+                    <li><p><strong>Adventure Level: </strong> Easy</p></li>
+                    <li><p><strong>Description: </strong> Explore the Vikramshila Gangetic Dolphin Sanctuary on a bike. Enjoy the scenic ride along the Ganges River and keep an eye out for the endangered Gangetic dolphins in their natural habitat.</p></li>
+                </ul>
+            </li>
+
+        </ul>
+    </section>
+
+    <section>
+        <h2 id="plan">Plan Your Trip</h2>
+        <p>Find the best hotels, restaurants, and activities. Get travel tips and local insights to make your trip memorable.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Bihar Tourism. All rights reserved.</p>
+    </footer>
+    <script src="../../index.js"></script>
+</body>
+
+</html>
