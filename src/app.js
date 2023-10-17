@@ -1,9 +1,10 @@
 const express = require("express")
 const path = require("path")
-const app = express()
-
 const LogInCollection = require("./mongo")
 const port = process.env.PORT || 3000
+
+
+const app = express()
 app.use(express.json())
 
 app.use(express.urlencoded({ extended: false }))
@@ -14,17 +15,9 @@ var cons = require('consolidate');
 const publicPath = path.join(__dirname, '../public')
 // view engine setup
 app.engine('html', cons.swig)
-app.set('views', path.join(__dirname, '../'));
+app.set('views', path.join(__dirname, '../public'));
 app.set('view engine', 'html');
 app.use(express.static(publicPath))
-// const tempelatePath = path.join(__dirname, '../')
-// const publicPath = path.join(__dirname, '../')
-// console.log(publicPath);
-
-// app.set('view engine', 'html')
-// app.set('views', tempelatePath)
-// app.use(express.static(publicPath))
-// app.use(express.static(tempelatePath))
 
 app.get('/signup', (req, res) => {
     res.render('signup')
@@ -40,10 +33,26 @@ app.post('/signup', async (req, res) => {
         name: req.body.name,
         password: req.body.password
     }
-    await LogInCollection.insertMany([data])
-    res.render("index")
+    try{
+    const checking = await LogInCollection.findOne({ name: req.body.name })
+
+    if (checking === null) {
+        await LogInCollection.insertMany([data])      
+    }
+    else{
+        res.send("user details already exists")
+    }
+}
+    catch(e){
+        res.send("wrong details") 
+    }
+
+    res.status(201).render("index")
 })
 
+function logOut(req,res){
+     document.getElementById("logOut").addEventListener("click",res.redirect("/"))
+}
 
 app.post('/login', async (req, res) => {
 
@@ -61,8 +70,11 @@ app.post('/login', async (req, res) => {
     }
 })
 
+app.post('/logout',(req,res)=>{
 
+})
 
 app.listen(port, () => {
-    console.log('port connected');
+   
+    console.log('post connected');
 })

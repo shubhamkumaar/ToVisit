@@ -1,4 +1,4 @@
-// const city = "patna";
+
 const city = document.querySelector("#capital").innerText;
 console.log(city);
 const apiKey = "6185ba8fc40fa5cea58dbcbf63fa9635";
