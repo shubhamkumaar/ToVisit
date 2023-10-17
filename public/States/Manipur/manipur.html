@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipur Tourism</title>
+    <link rel="icon" href="../../Images/favicon.png">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0 ;
+            padding: 0;
+            background-color: #f4f4f4;
+            
+        }
+
+        header {
+            background-color: #333;     
+            padding: 10px 0;
+            text-align: center;
+        }
+        header a{
+            text-decoration: none;
+            color: white;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        section a{
+            text-decoration: none;
+            color: black;
+        }
+        a:hover{
+            color: #7D7C7C;
+        }
+        section {
+            padding: 20px;
+        }
+
+        .featured {
+            background: url('./Images/APback.jpg') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            /* padding: 100px 0; */
+        }
+
+        .featured h2 {
+            font-size: 36px;
+        }
+        .temp{
+            text-align: right;
+            margin-right: 5%;
+            /* padding-top: 10px; */
+            line-height: 0;
+            color: black;     
+        }
+        #weatherIcon{
+           align-content: right;
+           margin-bottom: 0;
+            margin-left:87%;
+            padding: 0;
+        }
+        .highlight {
+            background-color: #fff;
+            padding: 40px 20px;
+            margin: 20px 0;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            font-size: 18px;
+        }
+        section *{
+            width: 50rem;
+            margin: auto;
+            word-spacing: 1.1px;
+            line-height: 1.9;
+            text-align: justify;
+        }
+        .utube{
+            margin-top: 2rem;
+            text-align: center;
+           
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1><a href="../../index.html">ToVisit</a></h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#heritage">Heritage Sites</a>
+        <a href="#spiritual">Spiritual Journeys</a>
+        <a href="#culture">Cultural Experiences</a>
+        <a href="#adventure">Adventure and Nature</a>
+        <a href="#">Plan Your Trip</a>
+        <a href="#">Events and Festivals</a>
+        <a href="#">Travel Blog</a>
+        <!-- <a href="#">Contact Us</a> -->
+    </nav>
+
+    <div class="featured">
+        <img id="weatherIcon"src="" alt="">
+        <div class="temp">
+            <h4 id="temperature"></h4>
+            <p id="description"></p>
+        </div>
+        <h2>Discover the Beauty of Manipur</h2>
+        <p>Explore the rich heritage, spirituality, and adventure of Manipur</p>
+        <iframe  width="720" height="405" src="https://www.youtube.com/embed/sHJkxP2VWok?autoplay=1&mute=1"  frameborder="0" allowfullscreen></iframe>
+        <!-- <a href="#" style="background-color: #ff9800; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none;">Explore Now</a> -->
+    </div>
+<h3 id="capital">Amaravati</h3>
+    <section class="highlight" id="heritage">
+        <h2>Heritage Sites</h2>
+        <p>Explore the historical wonders of Manipur, including The Shaheed Minar, Ima Keithel, and more.</p>
+        <ul>
+            <li><a href="https://maps.app.goo.gl/8xPYWYCqpeFFn4DK7"><h3>Kangla Fort : Historic fort in Imphal with cultural and archaeological significance</h3></a></li>
+            <li><a href="https://maps.app.goo.gl/PWCGmqqHQJzXaiVA9"><h3>Shaheed Minar: A war memorial commemorating the soldiers who sacrificed their lives</h3></a></li>
+            <li><a href="https://maps.app.goo.gl/mh3CJpZ6zhPhwHDh7"><h3>Ima Keithel: Asia's largest all-women market in Imphal.</h3></a></li>
+        </ul>
+    </section>
+
+    <section class="highlight" id="spiritual">
+        <h2>Spiritual Journeys</h2>
+        <p>Embark on spiritual adventures to famous Shree Govindajee Temple, and other sacred places.</p>
+        <ul>
+            <li><a href="https://maps.app.goo.gl/nfqW3U1KnyiJ8VRo6"><h3>Shree Govindajee Temple: A historic temple dedicated to Lord Krishna</h3></a></li>
+            <li><a href="https://maps.app.goo.gl/cyREkVnrggAcs4NBA"><h3>ISKCON Temple, Imphal: A serene temple complex in the capital city</h3></a></li>
+            <li><a href="https://maps.app.goo.gl/Nx8ryLW6ymrENBVq6"><h3>Baba Kali Kamakhya Mandir: A revered temple in Imphal.</h3></a></li>
+        </ul>
+    </section>
+
+    <section class="highlight" id="culture">
+        <h2>Cultural Experiences</h2>
+        <p>Lai Haraoba Festival :   A traditional festival celebrating the local deities</p>
+        <p>Ras Leela: Traditional Manipuri dance depicting the love story of Radha and Krishna</p>
+        <p>Manipur State Museum: Showcasing the state's rich cultural heritage</p>
+        <ul>
+            <li>
+                <h3>Culinary Delights</h3>
+                <ul>
+                    <li>
+                        <h4>Eromba</h4>
+                        <p>A traditional Manipuri dish made with fermented fish and bamboo shoot</p>
+                    </li>
+                    <li>
+                        <h4>Chamfoot</h4>
+                        <p>A delicious dish made with bamboo shoots and pork</p>
+                    </li>
+                    <li>
+                        <h4>Chak-hao Kheer</h4>
+                        <p>Black rice pudding, a popular dessert</p>
+                    </li>      
+            <li>
+                <h3>Folk Dances and Music</h3>
+                <ul>
+                    <li>
+                        <h4>Manipuri Dance</h4>
+                        <p>A classical dance form known for its graceful movements
+                        </p>
+                    </li>
+                    <li>
+                        <h4>
+                            Pung Cholom:
+                        </h4>
+                        <p> A traditional drum dance performed during festivals</p>
+                    </li>
+                    <li>
+                        <h4>
+                            Khongjom Parba
+                        </h4>
+                        <p>  Epic ballad narrating the Battle of Khongjom</p>
+                    </li>
+                </ul>    
+            </li>
+            <li>
+                <h3>Traditional Handicrafts</h3>
+                <ul>
+                    <li>
+                        <h4>Moiraingphee</h4>
+                        <p> Traditional handwoven shawls with intricate designs</p>
+                    </li>
+                    <li>
+                        <h4>Manipur Pottery</h4>
+                        <p>Unique and artistic pottery made by skilled craftsmen</p>
+                    </li>
+                    <li>
+                        <h4>Phijigee</h4>
+                        <p>Decorative mats made from water reed</p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <h3>Fairs and Festivals</h3>
+                <ul>
+                    <li>
+                        <h4>Yaoshang</h4>
+                        <p>A vibrant Manipuri festival celebrating the onset of spring, marked by traditional dances and sports.</p>
+                    </li>
+                    <li>
+                        <h4>Kang Chingba</h4>
+                        <p>An annual boat race festival on the Manipur River, where various teams compete for victory.</p>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <section class="highlight" id="adventure">
+        <h2>Adventure and Nature</h2>
+        <p>Experience thrilling activities like river rafting, trekking, and bird watching in Manipur's natural wonders.</p>
+        <ul>
+            <li>
+                <h3>Loktak Lake</h3>
+                <p>The largest freshwater lake in Northeast India</p>
+                <ul>
+                    <li><strong><a href="https://maps.app.goo.gl/79T93y9t5joE6NDR7"> Location: Manipur</strong></a></li>
+                    <li><p><strong>Adventure Level:</strong>  Moderate</p></li>
+                    <li><p><strong>Description:</strong>"Hello visitors, as you gaze upon the tranquil beauty of Loktak Lake, may your hearts find serenity in the gentle ripples of its waters and your spirits be lifted by the vibrant, natural tapestry that surrounds you. Welcome to a place where nature's artistry knows no bounds."</p></li>
+                </ul>
+            </li>
+            <li>
+                <h3>Keibul Lamjao National Park</h3>
+                <p>Home to the endangered Sangai deer
+                </p>
+                <ul>
+                    <li><strong><a href="https://maps.app.goo.gl/ZdDx7kCuo5UEmgWb6">Location: FRHQ+GR6, Keibul Lamjao Rd, Manipur 795133. </strong></a></li>
+                    <li><p><strong>Adventure Level: </strong>  Moderate</p></li>
+                    <li><p><strong>Description:</strong>"To all the visitors who embark on a journey to Keibul Lamjao National Park, may you find solace in the untouched beauty of nature's masterpiece, where the whispers of the wild meet the echoes of your heart's adventure. Welcome to a realm where the extraordinary becomes ordinary, and where every step unveils a new wonder. Enjoy your exploration."</p></li>
+                </ul>
+            </li>
+            <li>
+                <h3>Dzuko Valley</h3>
+                <p> A beautiful valley known for its trekking trails.</p>
+                <ul>
+                    <li><strong><a href="https://maps.app.goo.gl/h7RRddmPkKQAxjBr5">Location: H36M+GHQ, Kohima, Nagaland 797005.</strong></a></li>
+                    <li><p><strong>Adventure Level: </strong> Easy</p></li>
+                    <li><p><strong>Description: </strong>
+                        "To all the visitors who venture to Dzuko Valley, may you find tranquility in the whispers of nature and be forever touched by the breathtaking beauty that surrounds you. Welcome to a piece of paradise on Earth."</p></li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Plan Your Trip</h2>
+        <p>Find the best hotels, restaurants, and activities. Get travel tips and local insights to make your trip memorable.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Manipur Tourism. All rights reserved.</p>
+    </footer>
+ <script src="../../index.js"></script>
+</body>
+
+</html>
+

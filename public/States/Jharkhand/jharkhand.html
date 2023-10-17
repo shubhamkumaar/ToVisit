@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jharkhand Tourism</title>
+    <link rel="icon" href="../../Images/favicon.png">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0 ;
+            padding: 0;
+            background-color: #f4f4f4;
+            
+        }
+
+        header {
+            background-color: #333;     
+            padding: 10px 0;
+            text-align: center;
+        }
+        header a{
+            text-decoration: none;
+            color: white;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        section a{
+            text-decoration: none;
+            color: black;
+        }
+        a:hover{
+            color: #7D7C7C;
+        }
+        section {
+            padding: 20px;
+        }
+
+        .featured {
+            background: url('./Images/APback.jpg') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            /* padding: 100px 0; */
+        }
+
+        .featured h2 {
+            font-size: 36px;
+        }
+        .temp{
+            text-align: right;
+            margin-right: 5%;
+            /* padding-top: 10px; */
+            line-height: 0;
+            color: black;     
+        }
+        #weatherIcon{
+           align-content: right;
+           margin-bottom: 0;
+            margin-left:87%;
+            padding: 0;
+        }
+        .highlight {
+            background-color: #fff;
+            padding: 40px 20px;
+            margin: 20px 0;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            font-size: 18px;
+        }
+        section *{
+            width: 50rem;
+            margin: auto;
+            word-spacing: 1.1px;
+            line-height: 1.9;
+            text-align: justify;
+        }
+        .utube{
+            margin-top: 2rem;
+            text-align: center;
+           
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1><a href="../../index.html">ToVisit</a></h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#heritage">Heritage Sites</a>
+        <a href="#spiritual">Spiritual Journeys</a>
+        <a href="#culture">Cultural Experiences</a>
+        <a href="#adventure">Adventure and Nature</a>
+        <a href="#">Plan Your Trip</a>
+        <a href="#">Events and Festivals</a>
+        <a href="#">Travel Blog</a>
+        <!-- <a href="#">Contact Us</a> -->
+    </nav>
+
+    <div class="featured">
+        <img id="weatherIcon"src="" alt="">
+        <div class="temp">
+            <h4 id="temperature"></h4>
+            <p id="description"></p>
+        </div>
+        <h2>Discover the Beauty of Jharkhand</h2>
+        <p>Explore the rich heritage, spirituality, and adventure of Jharkhand</p>
+        <iframe  width="720" height="405" src="https://www.youtube.com/embed/sHJkxP2VWok?autoplay=1&mute=1"  frameborder="0" allowfullscreen></iframe>
+        <!-- <a href="#" style="background-color: #ff9800; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none;">Explore Now</a> -->
+    </div>
+<h3 id="capital">Amaravati</h3>
+    <section class="highlight" id="heritage">
+        <h2>Heritage Sites</h2>
+        <p>Explore the historical wonders of Jharkhand, including The Hundru Falls, Baidyanath Jyotirlinga Temple, and more.</p>
+        <ul>
+            <li><a href="https://maps.app.goo.gl/uJWL1AjmKTvQuf647"><h3>Hundru Falls : One of the highest waterfalls in Jharkhand</h3></a></li>
+            <li><a href="https://maps.app.goo.gl/BiLzMTrZeHhy35wF8"><h3>Baidyanath Jyotirlinga Temple: A revered Hindu pilgrimage site in Deoghar</h3></a></li>
+            <li><a href="https://maps.app.goo.gl/w5fDAdPZKEvyGsp66"><h3>Jagannath Temple, Ranchi: A modern architectural marvel.</h3></a></li>
+        </ul>
+    </section>
+
+    <section class="highlight" id="spiritual">
+        <h2>Spiritual Journeys</h2>
+        <p>Embark on spiritual adventures to most famous Amarnath Cave Temple, and other sacred places.</p>
+        <ul>
+            <li><a href="https://maps.app.goo.gl/cSdM4fQBJGupko5N8"><h3>Parasnath Hill: A significant pilgrimage site for Jains</h3></a></li>
+            <li><a href="https://maps.app.goo.gl/k9xqP8PpWMgGna7E8"><h3>Rajrappa Temple: Dedicated to the Goddess Chhinnamasta</h3></a></li>
+            <li><a href="https://maps.app.goo.gl/yGH5dVh3DV1zn9sJ9"><h3>Angrabadi Temple Complex: A cluster of ancient temples in Khunti.</h3></a></li>
+        </ul>
+    </section>
+
+    <section class="highlight" id="culture">
+        <h2>Cultural Experiences</h2>
+        <p>Tribal Culture :  Explore the diverse cultures of Santhal, Munda, Oraon, and other tribes</p>
+        <p>Sarhul Festiva: Celebrating the bond between nature and tribal communities</p>
+        <p>Chhau Dance: A traditional tribal dance form depicting martial arts.</p>
+        <ul>
+            <li>
+                <h3>Culinary Delights</h3>
+                <ul>
+                    <li>
+                        <h4>Thekua:</h4>
+                        <p>A traditional sweet made with wheat flour and jaggery</p>
+                    </li>
+                    <li>
+                        <h4>Litti Chokha</h4>
+                        <p>A popular savory dish made with wheat flour and roasted eggplant</p>
+                    </li>
+                    <li>
+                        <h4>Rugra</h4>
+                        <p>A traditional dish made with baby brinjals and spices</p>
+                    </li>      
+            <li>
+                <h3>Folk Dances and Music</h3>
+                <ul>
+                    <li>
+                        <h4>
+                            Jhumair
+                        </h4>
+                        <p> A vibrant dance form performed during festivals</p>
+                    </li>
+                    <li>
+                        <h4>
+                            Paika Dance
+                        </h4>
+                        <p> Depicting the martial arts of the tribal communities</p>
+                    </li>
+                    <li>
+                        <h4>
+                            Nagpuri Songs
+                        </h4>
+                        <p> Traditional folk songs of Jharkhand</p>
+                    </li>
+                </ul>    
+            </li>
+            <li>
+                <h3>Traditional Handicrafts</h3>
+                <ul>
+                    <li>
+                        <h4>Tussar Silk</h4>
+                        <p>Known for its rich texture and natural golden color</p>
+                    </li>
+                    <li>
+                        <h4>Bamboo and Woodcraft</h4>
+                        <p>Intricate crafts made by tribal communities</p>
+                    </li>
+                    <li>
+                        <h4>Paitkar Paintings</h4>
+                        <p> Traditional tribal paintings depicting daily life</p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <h3>Fairs and Festivals</h3>
+                <ul>
+                    <li>
+                        <h4>Sarhul</h4>
+                        <p>Sarhul is a tribal festival celebrating the sowing of seeds. It involves worshipping the Sal tree and is marked by traditional dances and rituals.</p>
+                    </li>
+                    <li>
+                        <h4>Karma</h4>
+                        <p>Karma is a major tribal festival, dedicated to the worship of trees. It involves singing, dancing, and offerings to nature.</p>
+                    </li>
+                    <li>
+                        <h4>Tusu Parab</h4>
+                        <p>Tusu Parab is a harvest festival celebrated by women. They sing traditional Tusu songs and make offerings to the deity.</p>
+                    </li>
+                    <li>
+                        <h4>Sohrai</h4>
+                        <p>Sohrai is an important cattle festival where cattle are worshipped and decorated.</p>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <section class="highlight" id="adventure">
+        <h2>Adventure and Nature</h2>
+        <p>Experience thrilling activities like river rafting, trekking, and bird watching in Jharkhand's natural wonders.</p>
+        <ul>
+            <li>
+                <h3>Netarhat</h3>
+                <p>A hill station known for its scenic beauty </p>
+                <ul>
+                    <li><strong><a href="https://maps.app.goo.gl/ZQrGEdSfi4nQyVtR6"> Location: Jharkhand.</strong></a></li>
+                    <li><p><strong>Adventure Level:</strong>  Moderate</p></li>
+                    <li><p><strong>Description:</strong>"Hello visitors to Netarhat, where nature's beauty and tranquility embrace you at every step, welcome to this paradise of serenity and charm."</p></li>
+                </ul>
+            </li>
+            <li>
+                <h3>Betla National Park</h3>
+                <p>Rich in biodiversity and a tiger reserve.</p>
+                <ul>
+                    <li><strong><a href="https://maps.app.goo.gl/HiAVDQtxC654NFe97">Location: V5PR+7X2, SH9, Betla, Jharkhand 822111. </strong></a></li>
+                    <li><p><strong>Adventure Level: </strong>  Easy</p></li>
+                    <li><p><strong>Description:</strong>"
+                        To all the visitors who explore the wonders of Betla National Park, welcome to a realm where nature's secrets unfold in every leaf, every rustling tree, and every whispering stream. Enjoy the symphony of wildlife and the tranquil beauty of this natural sanctuary."</p></li>
+                </ul>
+            </li>
+            <li>
+                <h3>Hazaribagh National Park</h3>
+                <p>Home to diverse flora and fauna.</p>
+                <ul>
+                    <li><strong><a href="https://maps.app.goo.gl/Gb7ZXcejR7suhS5r8">Location: 49VJ+5VW, Pokharia Rajderwa Raod, Pokharia, Jharkhand 825411.</strong></a></li>
+                    <li><p><strong>Adventure Level: </strong> Easy</p></li>
+                    <li><p><strong>Description: </strong>
+                        "To all the visitors at Hazaribagh National Park, let the wilderness embrace your soul and the beauty of nature ignite your spirit. Welcome to an enchanting journey through the heart of the wild."</p></li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Plan Your Trip</h2>
+        <p>Find the best hotels, restaurants, and activities. Get travel tips and local insights to make your trip memorable.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Jharkhand Tourism. All rights reserved.</p>
+    </footer>
+ <script src="../../index.js"></script>
+</body>
+
+</html>
+

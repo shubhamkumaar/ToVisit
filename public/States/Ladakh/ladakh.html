@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ladakh Tourism</title>
+    <link rel="icon" href="../../Images/favicon.png">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0 ;
+            padding: 0;
+            background-color: #f4f4f4;
+            
+        }
+
+        header {
+            background-color: #333;     
+            padding: 10px 0;
+            text-align: center;
+        }
+        header a{
+            text-decoration: none;
+            color: white;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        section a{
+            text-decoration: none;
+            color: black;
+        }
+        a:hover{
+            color: #7D7C7C;
+        }
+        section {
+            padding: 20px;
+        }
+
+        .featured {
+            background: url('./Images/APback.jpg') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            /* padding: 100px 0; */
+        }
+
+        .featured h2 {
+            font-size: 36px;
+        }
+        .temp{
+            text-align: right;
+            margin-right: 5%;
+            /* padding-top: 10px; */
+            line-height: 0;
+            color: black;     
+        }
+        #weatherIcon{
+           align-content: right;
+           margin-bottom: 0;
+            margin-left:87%;
+            padding: 0;
+        }
+        .highlight {
+            background-color: #fff;
+            padding: 40px 20px;
+            margin: 20px 0;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            font-size: 18px;
+        }
+        section *{
+            width: 50rem;
+            margin: auto;
+            word-spacing: 1.1px;
+            line-height: 1.9;
+            text-align: justify;
+        }
+        .utube{
+            margin-top: 2rem;
+            text-align: center;
+           
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1><a href="../../index.html">ToVisit</a></h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#heritage">Heritage Sites</a>
+        <a href="#spiritual">Spiritual Journeys</a>
+        <a href="#culture">Cultural Experiences</a>
+        <a href="#adventure">Adventure and Nature</a>
+        <a href="#">Plan Your Trip</a>
+        <a href="#">Events and Festivals</a>
+        <a href="#">Travel Blog</a>
+        <!-- <a href="#">Contact Us</a> -->
+    </nav>
+
+    <div class="featured">
+        <img id="weatherIcon"src="" alt="">
+        <div class="temp">
+            <h4 id="temperature"></h4>
+            <p id="description"></p>
+        </div>
+        <h2>Discover the Beauty of Ladakh</h2>
+        <p>Explore the rich heritage, spirituality, and adventure of Ladakh</p>
+        <iframe  width="720" height="405" src="https://www.youtube.com/embed/sHJkxP2VWok?autoplay=1&mute=1"  frameborder="0" allowfullscreen></iframe>
+        <!-- <a href="#" style="background-color: #ff9800; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none;">Explore Now</a> -->
+    </div>
+<h3 id="capital">Amaravati</h3>
+    <section class="highlight" id="heritage">
+        <h2>Heritage Sites</h2>
+        <p>Explore the historical wonders of Ladakh, including The Hundru Falls, Baidyanath Jyotirlinga Temple, and more.</p>
+        <ul>
+            <li><a href="https://maps.app.goo.gl/uJWL1AjmKTvQuf647"><h3>Leh Palace : A historic palace offering panoramic views of Leh</h3></a></li>
+            <li><a href="https://maps.app.goo.gl/BiLzMTrZeHhy35wF8"><h3>Hemis Monastery: The largest and richest monastery in Ladakh</h3></a></li>
+            <li><a href="https://maps.app.goo.gl/w5fDAdPZKEvyGsp66"><h3>Thiksey Monastery: Known for its stunning architecture and art.</h3></a></li>
+        </ul>
+    </section>
+
+    <section class="highlight" id="spiritual">
+        <h2>Spiritual Journeys</h2>
+        <p>Embark on spiritual adventures to famous Shanti Stupa, and other sacred places.</p>
+        <ul>
+            <li><a href="https://maps.app.goo.gl/cSdM4fQBJGupko5N8"><h3>Shanti Stupa: A white-domed stupa offering breathtaking views of Leh</h3></a></li>
+            <li><a href="https://maps.app.goo.gl/k9xqP8PpWMgGna7E8"><h3>Diskit Monastery: Home to a gigantic statue of Maitreya Buddha</h3></a></li>
+            <li><a href="https://maps.app.goo.gl/yGH5dVh3DV1zn9sJ9"><h3>Alchi Monastery: Known for its ancient wall paintings.</h3></a></li>
+        </ul>
+    </section>
+
+    <section class="highlight" id="culture">
+        <h2>Cultural Experiences</h2>
+        <p>Ladakh Festival :  Celebrating the rich cultural heritage of Ladakh</p>
+        <p>Traditional Ladakhi Architecture: Explore ancient mud-brick structures</p>
+        <p>CLadakhi Cuisine: Try local dishes like Thukpa and Momos</p>
+        <ul>
+            <li>
+                <h3>Culinary Delights</h3>
+                <ul>
+                    <li>
+                        <h4>Skyu:</h4>
+                        <p>A traditional Ladakhi noodle soup with vegetables and meat</p>
+                    </li>
+                    <li>
+                        <h4>Chhurpi</h4>
+                        <p>A local cheese used in various traditional dishes</p>
+                    </li>
+                    <li>
+                        <h4>Butter Tea</h4>
+                        <p>A traditional drink made with butter and salt in tea</p>
+                    </li>      
+            <li>
+                <h3>Folk Dances and Music</h3>
+                <ul>
+                    <li>
+                        <h4> Mask Dance</h4>
+                        <p> Performed during religious festivals like Hemis Festival</p>
+                    </li>
+                    <li>
+                        <h4>
+                            Ladakhi Folk Music:
+                        </h4>
+                        <p> Featuring traditional instruments like the Surna and Daman</p>
+                    </li>
+                    <li>
+                        <h4>
+                            Yak Dance
+                        </h4>
+                        <p>  A lively dance representing the region's wildlife</p>
+                    </li>
+                </ul>    
+            </li>
+            <li>
+                <h3>Traditional Handicrafts</h3>
+                <ul>
+                    <li>
+                        <h4>Pashmina Shawls</h4>
+                        <p> Renowned for their softness and intricate designs
+                        </p>
+                    </li>
+                    <li>
+                        <h4>Ladakhi Carpets</h4>
+                        <p>Handwoven with vibrant colors and geometric patterns
+                        </p>
+                    </li>
+                    <li>
+                        <h4>Metal Craft</h4>
+                        <p>  Intricately crafted items like tea kettles and ladles
+                        </p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <h3>Fairs and Festivals</h3>
+                <ul>
+                    <li>
+                        <h4>Hemis Festival</h4>
+                        <p>Celebrated at Hemis Monastery, it's the largest and most famous monastic festival in Ladakh, featuring masked dances and rituals.</p>
+                    </li>
+                    <li>
+                        <h4>Losar Festival</h4>
+                        <p>The Ladakhi New Year is celebrated with dance, music, and a grand feast.</p>
+                    </li>
+                    <li>
+                        <h4>Ladakh Festival</h4>
+                        <p>A grand celebration showcasing the region's rich culture, including traditional music, dance, and archery competitions.</p>
+                    </li>
+                    <li>
+                        <h4>Sindhu Darshan Festival</h4>
+                        <p>It's a unique festival that celebrates the Indus River, with cultural programs and prayers by the riverbank.</p>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <section class="highlight" id="adventure">
+        <h2>Adventure and Nature</h2>
+        <p>Experience thrilling activities like river rafting, trekking, and bird watching in Ladakh's natural wonders.</p>
+        <ul>
+            <li>
+                <h3>Pangong Lake</h3>
+                <p>A stunning high-altitude lake with changing colors</p>
+                <ul>
+                    <li><strong><a href="https://maps.app.goo.gl/qH856TrBniTvu4d17"> Location: Pangong Tso.</strong></a></li>
+                    <li><p><strong>Adventure Level:</strong>  Moderate</p></li>
+                    <li><p><strong>Description:</strong>"Hello visitors to Netarhat, where nature's beauty and tranquility embrace you at every step, welcome to this paradise of serenity and charm."</p></li>
+                </ul>
+            </li>
+            <li>
+                <h3>Nubra Valley</h3>
+                <p>Known for its sand dunes and double-humped camels</p>
+                <ul>
+                    <li><strong><a href="https://maps.app.goo.gl/EnezXzsu5NS3kxZAA">Location: 
+                        Nubra Valley, 194401. </strong></a></li>
+                    <li><p><strong>Adventure Level: </strong>  Moderate</p></li>
+                    <li><p><strong>Description:</strong>"As you explore this enchanting place, may the breathtaking landscapes and warm hospitality leave an indelible mark on your heart, just as it has on mine."</p></li>
+                </ul>
+            </li>
+            <li>
+                <h3>Trekking</h3>
+                <p> Popular treks include Markha Valley and Stok Kangri.</p>
+                <ul>
+                    <li><strong><a href="https://maps.app.goo.gl/Gb7ZXcejR7suhS5r8">Location: 49VJ+5VW, Pokharia Rajderwa Raod, Pokharia, Jharkhand 825411.</strong></a></li>
+                    <li><p><strong>Adventure Level: </strong> Easy</p></li>
+                    <li><p><strong>Description: </strong>
+                        "Hello visitors, as you embark on your journey to the enchanting Markha Valley, may your footsteps be guided by the whispers of the mountains, and may each step reveal the hidden treasures of nature's artistry. Enjoy the beauty that awaits you."</p></li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Plan Your Trip</h2>
+        <p>Find the best hotels, restaurants, and activities. Get travel tips and local insights to make your trip memorable.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Ladakh Tourism. All rights reserved.</p>
+    </footer>
+ <script src="../../index.js"></script>
+</body>
+
+</html>
+
