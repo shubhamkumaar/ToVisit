@@ -2,8 +2,17 @@ body{
     background-color: #FFF3DA;
     justify-content: center;
     color: black;
+    margin: 0;
+    padding: 0;
     
-    
+}
+header {
+  background-color: #333;   
+  text-align: center;
+  margin-bottom: 2rem;
+}
+header a{
+  color: white;
 }
 a{
     color : black;
@@ -234,43 +243,6 @@ color:  snow;
     background-image: url(Images/HawaMahal.jpg);
  }
 
-/* States CSS */
-.st-intro{
-  display: flex;  
-  justify-content: center;
-  padding-bottom: 20px;
-  gap: 50px;
-  
-}
-.st-text{
-  width: 350px;
-  height: 200px;
-}
-.st-description{
-
-   margin-top: auto;
-}
-
-.rest{
-  margin: auto;
-  width: 80%;
-}
-
-.festival {
-  display: grid;
-  grid-template-columns: auto auto auto;
-   width: 40%;
-}
-.fest-item{
-  margin:0 50px 0 50px;
-}
-.hotels{
-  display: flex;
-  gap: 20px;
-  flex-direction: row;
-
-}
-
 /* Footer */
 footer{
   background-color: #D0BFFF;
@@ -301,11 +273,40 @@ ul{
 
 /* States */
 
+/* States CSS */
+.st-intro{
+  display: flex;  
+  justify-content: center;
+  padding: 0 0 3rem 6rem;
+  gap: 50px;
+  
+}
+.st-text{
+  width: 30rem;
+  /* height: 200px; */
+}
+.st-description{
+   margin-top: auto;
+}
+
+.rest{
+  margin: auto;
+  width: 80%;
+}
+
+.hotels{
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+  
+}
+
 header {
   background-color: #333;
   color: white;
-  padding: 10px 0;
+  padding: 20px 0;
   text-align: center;
+
 }
 
 
@@ -313,9 +314,6 @@ header {
 .delhi{
   margin:  10rem;
 }
-
-
-
 
 /* Kedarnath */
 .kedar{
