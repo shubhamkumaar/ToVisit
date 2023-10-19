@@ -5,10 +5,15 @@
         <meta charset="utf-8">
         <title>India Gate</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    
         <link rel="stylesheet" href="../../style.css">
         <link rel="icon" href="../Images/favicon.png">
     </head>
     <body>
+        <header class="home">
+            <h1><a href="../../index.html">ToVisit</a></h1>
+        </header>
         <div class="st-intro">
             <div class = 'st-description'>
                 <h1 >India Gate</h1>
@@ -28,8 +33,8 @@
         </div>
     </div> 
 
-    <div class = 'rest'>
-<div class="accomodation">
+
+<div class="rest">
     <h2>Accomodation</h2>
     <!-- Create Card For Hotel -->
     <div class="hotels">
@@ -37,33 +42,35 @@
             <img src="./Images/india gate hotel1.jpg" class="card-img-top" alt="1">
             <div class="card-body">
             <h5 class="card-title">Radisson Blu Marina Hotel Connaught Place</h5>
-            <p class="card-text">G-59 Connaught Circus, New Delhi, Delhi 110001•011 4690 9090</p>
+            <p class="card-text">G-59 Connaught Circus, New Delhi, Delhi 110001 </p>
+            <h6>011 4690 9090</h6>
             <a href="https://www.google.com/travel/search?q=indiagate%20best%20hotels&g2lb=2502548%2C2503771%2C2503781%2C4258168%2C4270442%2C4284970%2C4291517%2C4308226%2C4597339%2C4757164%2C4814050%2C4874190%2C4893075%2C4924070%2C4965990%2C4990494%2C72298667%2C72302247%2C72317059%2C72370226%2C72379816%2C72381178%2C72389675%2C72389680%2C72390424&hl=en-IN&gl=in&cs=1&ssta=1&ts=CAESCAoCCAMKAggDGhwSGhIUCgcI5w8QCxgMEgcI5w8QCxgNGAEyAhAAKgkKBToDSU5SKAg&qs=CAEyE0Nnb0lob19RMmN6Y2lzRk1FQUU4CkIJCYYHNMvkKoJMQgkJQMu21EMbQAZCCQlRjQA8djLxwloCCAE&ap=aAG6AQhvdmVydmlldw&ictx=1&sa=X&ved=0CAAQ5JsGahcKEwi4t7ODmfaBAxUAAAAAHQAAAAAQBw&utm_campaign=sharing&utm_medium=link_btn&utm_source=htls" class="btn btn-primary">Book hotel</a>
             </div>
         </div>
         <div class="card" style="width: 18rem;">
             <img src="./Images/india gate hotel2.jpg" class="card-img-top" alt="2">
             <div class="card-body">
-            <h5 class="card-title">Ambassador, New Delhi - IHCL SeleQtions</h5>
-            <p class="card-text">Subramania Bharti Marg, Sujan Sing Park North, Sujan Singh Park, New Delhi, Delhi 110003•011 6626 1000</p>
-            <a href="https://www.google.com/travel/search?q=indiagate%20best%20hotels&g2lb=2502548%2C2503771%2C2503781%2C4258168%2C4270442%2C4284970%2C4291517%2C4308226%2C4597339%2C4757164%2C4814050%2C4874190%2C4893075%2C4924070%2C4965990%2C4990494%2C72298667%2C72302247%2C72317059%2C72370226%2C72379816%2C72381178%2C72389675%2C72389680%2C72390424&hl=en-IN&gl=in&cs=1&ssta=1&ts=CAESCAoCCAMKAggDGh4SHBIUCgcI5w8QCxgMEgcI5w8QCxgNGAEyBAgAEAAqCQoFOgNJTlIoCA&qs=CAEyJENoY0l3SmJicGIzb2hxQUdHZ3N2Wnk4eGRHZDRaMlozTnhBQjgKQgkJhgc0y-QqgkxCCQlAy7bUQxtABkIJCVGNADx2MvHCWgIIAQ&ap=MABoAQ&ictx=1&sa=X&ved=0CAAQ5JsGahcKEwi4t7ODmfaBAxUAAAAAHQAAAAAQNQ&utm_campaign=sharing&utm_medium=link_btn&utm_source=htls" class="btn btn-primary">Bppk hotel</a>
+            <h5 class="card-title">Ambassador, New Delhi</h5>
+            <p class="card-text">Subramania Bharti Marg, Sujan Sing Park North, Sujan Singh Park, New Delhi, Delhi 110003</p>
+            <h6>011 6626 1000</h6>
+            <a class=" hotel-add btn btn-primary" href="https://www.google.com/travel/search?q=indiagate%20best%20hotels&g2lb=2502548%2C2503771%2C2503781%2C4258168%2C4270442%2C4284970%2C4291517%2C4308226%2C4597339%2C4757164%2C4814050%2C4874190%2C4893075%2C4924070%2C4965990%2C4990494%2C72298667%2C72302247%2C72317059%2C72370226%2C72379816%2C72381178%2C72389675%2C72389680%2C72390424&hl=en-IN&gl=in&cs=1&ssta=1&ts=CAESCAoCCAMKAggDGh4SHBIUCgcI5w8QCxgMEgcI5w8QCxgNGAEyBAgAEAAqCQoFOgNJTlIoCA&qs=CAEyJENoY0l3SmJicGIzb2hxQUdHZ3N2Wnk4eGRHZDRaMlozTnhBQjgKQgkJhgc0y-QqgkxCCQlAy7bUQxtABkIJCVGNADx2MvHCWgIIAQ&ap=MABoAQ&ictx=1&sa=X&ved=0CAAQ5JsGahcKEwi4t7ODmfaBAxUAAAAAHQAAAAAQNQ&utm_campaign=sharing&utm_medium=link_btn&utm_source=htls">Book hotel</a>
             </div>
         </div>
         <div class="card" style="width: 18rem;">
             <img src="./Images/india gate hotel3.jpg" class="card-img-top" alt="3">
             <div class="card-body">
             <h5 class="card-title">Hotel Gold Regency</h5>
-            <p class="card-text">4350, Main Bazar Rd, Bagichi Ramchander, Kaseru Walan, Paharganj, New Delhi, Delhi, 110055•098115 76813
-            </p>
-            <a href="https://www.google.com/travel/search?q=indiagate%20best%20hotels&g2lb=2502548%2C2503771%2C2503781%2C4258168%2C4270442%2C4284970%2C4291517%2C4308226%2C4597339%2C4757164%2C4814050%2C4874190%2C4893075%2C4924070%2C4965990%2C4990494%2C72298667%2C72302247%2C72317059%2C72370226%2C72379816%2C72381178%2C72389675%2C72389680%2C72390424&hl=en-IN&gl=in&cs=1&ssta=1&ts=CAESCAoCCAMKAggDGh4SHBIUCgcI5w8QCxgMEgcI5w8QCxgNGAEyBAgAEAAqCQoFOgNJTlIoCA&qs=CAEyJkNoZ0kwWnFDNE9QT3pQakNBUm9MTDJjdk1YUm1NVzAyTW5FUUFROApCCQmGBzTL5CqCTEIJCUDLttRDG0AGQgkJUY0APHYy8cJIAFoCCAE&ap=MABoAQ&ictx=1&sa=X&ved=0CAAQ5JsGahcKEwi4t7ODmfaBAxUAAAAAHQAAAAAQbA&utm_campaign=sharing&utm_medium=link_btn&utm_source=htls" class="btn btn-primary">Book hotel</a>
+            <p class="card-text">4350, Main Bazar Rd, Bagichi Ramchander, Kaseru Walan, Paharganj, New Delhi, Delhi, 110055</p>
+            <h6>098115 76813</h6>
+            <a class=" hotel-add btn btn-primary" href="https://www.google.com/travel/search?q=indiagate%20best%20hotels&g2lb=2502548%2C2503771%2C2503781%2C4258168%2C4270442%2C4284970%2C4291517%2C4308226%2C4597339%2C4757164%2C4814050%2C4874190%2C4893075%2C4924070%2C4965990%2C4990494%2C72298667%2C72302247%2C72317059%2C72370226%2C72379816%2C72381178%2C72389675%2C72389680%2C72390424&hl=en-IN&gl=in&cs=1&ssta=1&ts=CAESCAoCCAMKAggDGh4SHBIUCgcI5w8QCxgMEgcI5w8QCxgNGAEyBAgAEAAqCQoFOgNJTlIoCA&qs=CAEyJkNoZ0kwWnFDNE9QT3pQakNBUm9MTDJjdk1YUm1NVzAyTW5FUUFROApCCQmGBzTL5CqCTEIJCUDLttRDG0AGQgkJUY0APHYy8cJIAFoCCAE&ap=MABoAQ&ictx=1&sa=X&ved=0CAAQ5JsGahcKEwi4t7ODmfaBAxUAAAAAHQAAAAAQbA&utm_campaign=sharing&utm_medium=link_btn&utm_source=htls" >Book hotel</a>
             </div>
         </div>
         <div class="card" style="width: 18rem;">
             <img src="./Images/india gate hotel4.jpg" class="card-img-top" alt="4">
             <div class="card-body">
-            <h5 class="card-title">The Connaught, New Delhi - IHCL SeleQtions
-            </h5>
-            <p class="card-text">37, Shaheed Bhagat Singh Marg, Shivaji Stadium, Connaught Place, New Delhi, Delhi 110001•011 6146 7000</p>
+            <h5 class="card-title">The Connaught, New Delhi</h5>
+            <p class="hotel-add card-text">37, Shaheed Bhagat Singh Marg, Shivaji Stadium, Connaught Place, New Delhi, Delhi 110001</p>
+            <h6>011 6146 7000</h6>
             <a href="https://www.google.com/travel/search?q=indiagate%20best%20hotels&g2lb=2502548%2C2503771%2C2503781%2C4258168%2C4270442%2C4284970%2C4291517%2C4308226%2C4597339%2C4757164%2C4814050%2C4874190%2C4893075%2C4924070%2C4965990%2C4990494%2C72298667%2C72302247%2C72317059%2C72370226%2C72379816%2C72381178%2C72389675%2C72389680%2C72390424&hl=en-IN&gl=in&cs=1&ssta=1&ts=CAESCAoCCAMKAggDGh4SHBIUCgcI5w8QCxgMEgcI5w8QCxgNGAEyBAgAEAAqCQoFOgNJTlIoCA&qs=CAEyJ0Noa0kwTnVQazhMQWlQV0JBUm9NTDJjdk1USm9iRE0xTTNGb0VBRTgKQgkJhgc0y-QqgkxCCQlAy7bUQxtABkIJCVGNADx2MvHCSABaAggB&ap=MABoAQ&ictx=1&sa=X&ved=0CAAQ5JsGahcKEwio_pDoofeBAxUAAAAAHQAAAAAQXA&utm_campaign=sharing&utm_medium=link_btn&utm_source=htls" class="btn btn-primary">Book hotel</a>
             </div>
         </div>
@@ -71,25 +78,13 @@
 
 
 
-</div>
-
-<div class = 'weather'>
-    <h2>Weather</h2>
-</div>
-<div class = "highlight">
-    <h2>Highlight</h2>
-
-</div>
 <div class = "History">
     <h2>History</h2>
     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 </div>
-<h2 class="fest-">Festivals</h2>
-<div class = 'festival'>
-    <h3 class = 'fest-item'>Wangla</h3>
-    <p class = 'fest-item'>Wangala Festival of Meghalaya is a most popular festival among the Garos of Meghalaya, India. Wangala Festival is a harvest festival held in honour of Saljong, the Sun-god of fertility. The celebration of the Wangala Festival marks the end of a period of toil, which brings good output of the fields.</p>
 </div>
-</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
         <script src="" async defer></script>
     </body>
 </html>
