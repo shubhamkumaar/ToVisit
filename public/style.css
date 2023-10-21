@@ -99,7 +99,7 @@ a{
   font-family: 'Arvo', cursive;
   line-height: 14;
   font-weight: 900;
-  color: #a8dac0;
+  color: snow;
   
   /* text-shadow: 3px 0 #DBEDF3; */
   border-radius: 15px;
@@ -107,11 +107,11 @@ a{
   width: 275px;
   height: 200px;
   margin: 10px;
-  background-color: white;
+  background-color: grey;
   
 }
 .bton:hover{
-color:  snow;
+color:  #060013;
 }
 
 /* Images */
@@ -160,7 +160,7 @@ color:  snow;
   background-image: url(./States/Chhattisgarh/Images/chhattisgarh.jpg);
 }
 .mp{
-  background-image: url(./States/MP/Images/mp.jpg);
+  background-image: url(./States/MadhyaPradesh/Images/MP.jpg);
 }
 
 
@@ -202,7 +202,7 @@ color:  snow;
   background-image: url(./States/Kerala/Images/kerala.jpg);
 }
 .telangana{
-  background-image: url(./States/AP/Images/AP.jpg);
+  background-image: url(./States/Telangana/Images/telangana.jpg);
 }
 
 /* Eastern states images */
@@ -229,19 +229,6 @@ color:  snow;
   background-image: url(./States/Nagaland/Images/nagaland.jpg);
 }
 
-
-
- .lotus{
-    background-image: url(Images/lotus-temple.jpg);
- }
-
- .Munnar{
-    background-image: url(Images/munnar.jpg);
- }
-
- .hawa{
-    background-image: url(Images/HawaMahal.jpg);
- }
 
 /* Footer */
 footer{
