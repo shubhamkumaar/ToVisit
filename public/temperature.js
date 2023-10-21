@@ -1,5 +1,5 @@
 
-const city = document.querySelector("#capital").innerText;
+const city = document.getElementById("capital").innerText;
 console.log(city);
 const apiKey = "6185ba8fc40fa5cea58dbcbf63fa9635";
 const unit = "metric";

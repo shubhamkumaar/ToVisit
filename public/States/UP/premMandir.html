@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kedarnath</title>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="icon" href="../../Images/favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <style>
+      body{
+        text-align: center;
+        background-color: #f4f4f4;
+        
+      }
+      section{
+        padding: 20px;
+        
+      }
+      section p{
+        width: 50rem;
+        margin: auto;
+        word-spacing: 1.1px;
+        line-height: 1.5;
+        font-size: 18px;
+        text-align: justify;
+      }
+      .featured {
+            background: url('../../Images/premMandir.jpg') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            margin-top: 70px;
+            padding: 150px 0;
+        }
+
+        .featured h2 {
+            font-size: 36px;
+        }
+        .highlight {
+            background-color: #fff;
+            padding: 40px 20px;
+            margin: 20px 0;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .utube{
+          margin-top: 2rem;
+        }
+        ul li{
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          /* text-align: justify; */
+        }
+        
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top " style = "padding-bottom: 0; background-color: #BEADFA;" >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../../index.html"><img style = "margin-right: 80px;" src="../../Images/navlogo.png" alt="Logo" height="50px" width="150px"></a>
+        </div>
+      </nav>
+
+    <div class="featured">
+      <img id="weatherIcon"src="" alt="">
+        <div class="temp">
+            <h4 id="temperature"></h4>
+            <p id="description"></p>
+        </div>
+        <h2>Discover the Divine Beauty of Prem Mandir</h2>
+        <p>Explore the rich heritage, spirituality, and adventure of Bihar</p>
+        <!-- <a href="#" style="background-color: #ff9800; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none;">Explore Now</a> -->
+        <iframe  class="utube" width="720" height="405" src="https://www.youtube.com/embed/cxlIUOMUrS4?autoplay=1&mute=1" allowfullscreen></iframe>
+    </div>
+
+    
+    <section class = 'highlight'>
+      <h2>About Prem Mandir</h2>
+      <p id="capital">Mathura</p>
+      <p> <strong>Prem Mandir</strong> <em>The Temple of Divine Love </em> is a Hindu temple in Vrindavan,district, Uttar Pradesh, India. The temple was established by Jagadguru Shri Kripalu Ji Maharaj (the fifth Original Jagadguru).[1] It is maintained by Jagadguru Kripalu Parishat, an international non-profit, educational, spiritual, charitable trust. The complex is on a 55-acre site on the outskirts of Vrindavan. It is dedicated to Radha Krishna and Sita Ram. Radha Krishna are on the first level and Sita Ram are on the second level. Different Leelas of Shri Krishna and Rasik saints are depicted all over the wall of the main temple.</p>
+    </section>
+
+    <section class="highlight">
+      <h2>Accomodation</h2>
+      <!-- Create Card For Hotel -->
+      <div class="hotels">
+          <div class="card" style="width: 18rem;">
+              <img src="./Images/rishikesh hotel1.jpg" class="card-img-top" alt="1">
+              <div class="card-body">
+              <h5 class="card-title">Radisson Blu Marina Hotel Connaught Place</h5>
+              <p class="card-text">G-59 Connaught Circus, New Delhi, Delhi 110001 </p>
+              <h6>011 4690 9090</h6>
+              <a href="https://www.google.com/travel/search?q=indiagate%20best%20hotels&g2lb=2502548%2C2503771%2C2503781%2C4258168%2C4270442%2C4284970%2C4291517%2C4308226%2C4597339%2C4757164%2C4814050%2C4874190%2C4893075%2C4924070%2C4965990%2C4990494%2C72298667%2C72302247%2C72317059%2C72370226%2C72379816%2C72381178%2C72389675%2C72389680%2C72390424&hl=en-IN&gl=in&cs=1&ssta=1&ts=CAESCAoCCAMKAggDGhwSGhIUCgcI5w8QCxgMEgcI5w8QCxgNGAEyAhAAKgkKBToDSU5SKAg&qs=CAEyE0Nnb0lob19RMmN6Y2lzRk1FQUU4CkIJCYYHNMvkKoJMQgkJQMu21EMbQAZCCQlRjQA8djLxwloCCAE&ap=aAG6AQhvdmVydmlldw&ictx=1&sa=X&ved=0CAAQ5JsGahcKEwi4t7ODmfaBAxUAAAAAHQAAAAAQBw&utm_campaign=sharing&utm_medium=link_btn&utm_source=htls" class="btn btn-primary">Book hotel</a>
+              </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+              <img src="./Images/india gate hotel2.jpg" class="card-img-top" alt="2">
+              <div class="card-body">
+              <h5 class="card-title">Ambassador, New Delhi</h5>
+              <p class="card-text">Subramania Bharti Marg, Sujan Sing Park North, Sujan Singh Park, New Delhi, Delhi 110003</p>
+              <h6>011 6626 1000</h6>
+              <a class=" hotel-add btn btn-primary" href="https://www.google.com/travel/search?q=indiagate%20best%20hotels&g2lb=2502548%2C2503771%2C2503781%2C4258168%2C4270442%2C4284970%2C4291517%2C4308226%2C4597339%2C4757164%2C4814050%2C4874190%2C4893075%2C4924070%2C4965990%2C4990494%2C72298667%2C72302247%2C72317059%2C72370226%2C72379816%2C72381178%2C72389675%2C72389680%2C72390424&hl=en-IN&gl=in&cs=1&ssta=1&ts=CAESCAoCCAMKAggDGh4SHBIUCgcI5w8QCxgMEgcI5w8QCxgNGAEyBAgAEAAqCQoFOgNJTlIoCA&qs=CAEyJENoY0l3SmJicGIzb2hxQUdHZ3N2Wnk4eGRHZDRaMlozTnhBQjgKQgkJhgc0y-QqgkxCCQlAy7bUQxtABkIJCVGNADx2MvHCWgIIAQ&ap=MABoAQ&ictx=1&sa=X&ved=0CAAQ5JsGahcKEwi4t7ODmfaBAxUAAAAAHQAAAAAQNQ&utm_campaign=sharing&utm_medium=link_btn&utm_source=htls">Book hotel</a>
+              </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+              <img src="./Images/india gate hotel3.jpg" class="card-img-top" alt="3">
+              <div class="card-body">
+              <h5 class="card-title">Hotel Gold Regency</h5>
+              <p class="card-text">4350, Main Bazar Rd, Bagichi Ramchander, Kaseru Walan, Paharganj, New Delhi, Delhi, 110055</p>
+              <h6>098115 76813</h6>
+              <a class=" hotel-add btn btn-primary" href="https://www.google.com/travel/search?q=indiagate%20best%20hotels&g2lb=2502548%2C2503771%2C2503781%2C4258168%2C4270442%2C4284970%2C4291517%2C4308226%2C4597339%2C4757164%2C4814050%2C4874190%2C4893075%2C4924070%2C4965990%2C4990494%2C72298667%2C72302247%2C72317059%2C72370226%2C72379816%2C72381178%2C72389675%2C72389680%2C72390424&hl=en-IN&gl=in&cs=1&ssta=1&ts=CAESCAoCCAMKAggDGh4SHBIUCgcI5w8QCxgMEgcI5w8QCxgNGAEyBAgAEAAqCQoFOgNJTlIoCA&qs=CAEyJkNoZ0kwWnFDNE9QT3pQakNBUm9MTDJjdk1YUm1NVzAyTW5FUUFROApCCQmGBzTL5CqCTEIJCUDLttRDG0AGQgkJUY0APHYy8cJIAFoCCAE&ap=MABoAQ&ictx=1&sa=X&ved=0CAAQ5JsGahcKEwi4t7ODmfaBAxUAAAAAHQAAAAAQbA&utm_campaign=sharing&utm_medium=link_btn&utm_source=htls" >Book hotel</a>
+              </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+              <img src="./Images/india gate hotel4.jpg" class="card-img-top" alt="4">
+              <div class="card-body">
+              <h5 class="card-title">The Connaught, New Delhi</h5>
+              <p class="hotel-add card-text">37, Shaheed Bhagat Singh Marg, Shivaji Stadium, Connaught Place, New Delhi, Delhi 110001</p>
+              <h6>011 6146 7000</h6>
+              <a href="https://www.google.com/travel/search?q=indiagate%20best%20hotels&g2lb=2502548%2C2503771%2C2503781%2C4258168%2C4270442%2C4284970%2C4291517%2C4308226%2C4597339%2C4757164%2C4814050%2C4874190%2C4893075%2C4924070%2C4965990%2C4990494%2C72298667%2C72302247%2C72317059%2C72370226%2C72379816%2C72381178%2C72389675%2C72389680%2C72390424&hl=en-IN&gl=in&cs=1&ssta=1&ts=CAESCAoCCAMKAggDGh4SHBIUCgcI5w8QCxgMEgcI5w8QCxgNGAEyBAgAEAAqCQoFOgNJTlIoCA&qs=CAEyJ0Noa0kwTnVQazhMQWlQV0JBUm9NTDJjdk1USm9iRE0xTTNGb0VBRTgKQgkJhgc0y-QqgkxCCQlAy7bUQxtABkIJCVGNADx2MvHCSABaAggB&ap=MABoAQ&ictx=1&sa=X&ved=0CAAQ5JsGahcKEwio_pDoofeBAxUAAAAAHQAAAAAQXA&utm_campaign=sharing&utm_medium=link_btn&utm_source=htls" class="btn btn-primary">Book hotel</a>
+              </div>
+          </div>
+    </section>
+    <section class="highlight">
+      <h2>History and Legend</h2>
+      <img style="height: 25rem;width: auto;" src="https://feeds.abplive.com/onecms/images/uploaded-images/2022/01/05/295a993807586f1d725ca602c956c9d4b5594.jpg" alt="">
+      <p>Kedarnath Temple has a rich historical and mythological background. According to legends, the temple was built by the Pandavas, the protagonists of the Indian epic Mahabharata. It is believed that Lord Shiva eluded them repeatedly and finally took refuge here, in the form of a bull, and dived into the ground, leaving behind a hump on the surface. The temple is constructed at this spot where the hump is believed to have appeared.</p>
+    </section>
+    <section class="highlight">
+      <h2>Architecture</h2>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/oYFYK6-OPy4?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+      <p>The temple is a fine example of ancient Hindu architecture. It is made of large, heavy, evenly cut grey slabs of stones. The temple's exterior may not be ornate, but its presence amidst the snow-capped peaks of the Himalayas creates a mesmerizing sight. The main shrine houses a sacred conical Shiva Lingam, the symbol of Lord Shiva.</p>
+    </section>
+    <section class="highlight">
+      <h2>Pilgrimage and Rituals</h2>
+      <img style="height: 25rem;width: auto;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBbffwRii-z3nXcqJnhDGkDKj8ULpd_wSryw&usqp=CAU" alt="">
+      <p>Every year, thousands of devotees undertake the arduous journey to seek the blessings of Lord Shiva at Kedarnath Temple. The temple opens its doors to devotees from late April to early November, during the summer and autumn months. Pilgrims have to trek a steep 16 km from Gaurikund to reach the temple.</p>
+    </section>
+    <section class="highlight">
+      <h2>Rituals at Kedarnath</h2>
+      <p>&#x2022;<strong> Abhishekam: </strong> The Shiva Lingam is bathed with holy water, milk, ghee, and other sacred substances.</p>
+      <p>&#x2022;<strong> Aarti: </strong>The evening aarti (prayer) is a mesmerizing experience, with priests chanting hymns and the entire temple illuminated with oil lamps.</p>
+      <p>&#x2022;<strong> Bhog Offerings: </strong> Devotees can offer fruits, flowers, and other items to seek the deity's blessings.</p>
+    </section>
+    <section class="highlight">
+      <h2>Plan Your Pilgrimage</h2>
+      <p>Visiting Kedarnath Temple requires meticulous planning due to its high altitude and challenging terrain. Pilgrims are advised to be physically prepared and carry adequate warm clothing. Accommodation is available in nearby areas, and it's recommended to make advance bookings.</p>
+      
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="../../temperature.js"></script>
+</body>
+</html>
