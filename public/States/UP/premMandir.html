@@ -4,18 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prem Mandir</title>
-    <link rel="stylesheet" href="../../style.css">
     <link rel="icon" href="../../Images/favicon.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../style.css">
     <style>
       body{
-        text-align: center;
+        margin: 0;
+        padding: 0;
         background-color: #f4f4f4;
         
       }
       section{
         padding: 20px;
         
+      }
+      a{
+        text-decoration: none;
       }
       .sectionP{
         width: 50rem;
@@ -32,7 +36,18 @@
             margin-top: 70px;
             padding: 150px 0;
         }
+        section *{
+            width: 50rem;
+            margin: auto;
+            word-spacing: 1.1px;
+            line-height: 1.9;
+            text-align: justify;
+        }
 
+        section img{
+          margin-left: 15rem;
+          
+        }
         .featured h2 {
             font-size: 36px;
         }
@@ -50,6 +65,9 @@
           margin: 0;
           padding: 0;
           /* text-align: justify; */
+        }
+        img{
+         text-align: center ;
         }
         
     </style>
@@ -76,23 +94,27 @@
     <div class="rest">
       <section class="highlight">
         <h2>Details</h2>
+        <p class="sectionP"><strong><a href="">Location: </strong></a>Vrindavan, Mathura district, Uttar Pradesh</p>
+        <p class="sectionP"><strong>Road Access:  </strong>From Mathura (Approximately 10 kilometers): A short 15-20 minute drive from Mathura via NH44 leads to Vrindavan, where Prem Mandir is located. </p>
+        
+
       </section>
     <section class = 'highlight'>
       <h2>About Prem Mandir</h2>
      
-      <p class="sectionP"> <strong>Prem Mandir</strong> <em>The Temple of Divine Love </em> is a Hindu temple in <span id="capital" >Mathura </span>Vrindavan,district, Uttar Pradesh, India. The temple was established by Jagadguru Shri Kripalu Ji Maharaj (the fifth Original Jagadguru).It is maintained by Jagadguru Kripalu Parishat, an international non-profit, educational, spiritual, charitable trust. The complex is on a 55-acre site on the outskirts of Vrindavan. It is dedicated to Radha Krishna and Sita Ram. Radha Krishna are on the first level and Sita Ram are on the second level. Different Leelas of Shri Krishna and Rasik saints are depicted all over the wall of the main temple.</p>
+      <p class="sectionP"> <strong>Prem Mandir</strong> <em>The Temple of Divine Love </em> is a Hindu temple in <span id="capital" > Vrindavan </span>Mathura district, Uttar Pradesh, India. The temple was established by Jagadguru Shri Kripalu Ji Maharaj (the fifth Original Jagadguru).It is maintained by Jagadguru Kripalu Parishat, an international non-profit, educational, spiritual, charitable trust. The complex is on a 55-acre site on the outskirts of Vrindavan. It is dedicated to Radha Krishna and Sita Ram. Radha Krishna are on the first level and Sita Ram are on the second level. Different Leelas of Shri Krishna and Rasik saints are depicted all over the wall of the main temple.</p>
     </section>
 
-    <section class="highlight">
-      <h2>Accomodation</h2>
+   
+      <h2 style="text-align: center; margin: 3rem 0 2rem;">Accomodation</h2>
       <!-- Create Card For Hotel -->
       <div class="hotels">
         <div class="card" style="width: 18rem;">
             <img src="./Images/prem mandir hotel1.jpg" class="card-img-top" alt="1">
             <div class="card-body">
             <h5 class="card-title">Hotel Shri Radha Nikunj</h5>
-            <p class="card-text">Opp. Prem Mandir Mathura - Vrindavan Marg Chhatikara, Road, Raman Reti, Vrindavan, Uttar Pradesh 281121•099272 00084 </p>
-            
+            <p class="card-text">Opp. Prem Mandir Mathura - Vrindavan Marg Chhatikara, Road, Raman Reti, Vrindavan, Uttar Pradesh 281121</p>
+            <h6>099272 00084</h6>
             <a href="https://www.google.com/travel/search?q=prem%20mandhir%20best%20hotels&g2lb=2502548%2C2503771%2C2503781%2C4258168%2C4270442%2C4284970%2C4291517%2C4308226%2C4597339%2C4757164%2C4814050%2C4874190%2C4893075%2C4924070%2C4965990%2C4990494%2C72298667%2C72302247%2C72317059%2C72370226%2C72378200%2C72379816%2C72382669%2C72389675%2C72389680%2C72390435%2C72393630%2C72404470&hl=en-IN&gl=in&cs=1&ssta=1&ts=CAESCgoCCAMKAggDEAAaOwobEhkKDC9nLzF5Z2xweDNoNDoJVnJpbmRhdmFuEhwSFAoHCOcPEAsYDRIHCOcPEAsYDhgBMgQIABAAKgkKBToDSU5SKAg&qs=CAAgACgAMihDaG9JcVpQZDZ0X3JtX2JIQVJvTkwyY3ZNVEZvWkhwemJqWjBNQkFCOA1IAA&ap=KigKEglCSlE95o07QBHtPiml1mpTQBISCe6HViV5lDtAEe0-KZG8a1NAMABoAQ&ictx=1&sa=X&sqi=2&ved=0CAAQ5JsGahcKEwjghN3M2oiCAxUAAAAAHQAAAAAQCw&utm_campaign=sharing&utm_medium=link_btn&utm_source=htls" class="btn btn-primary">Book hotel</a>
             </div>
         </div>
@@ -100,8 +122,8 @@
             <img src="./Images/prem mandir hotel2.jpg" class="card-img-top" alt="2">
             <div class="card-body">
             <h5 class="card-title">ISKCON Vrindavan Guest House</h5>
-            <p class="card-text">Shri Krishna Balaram International Guest House, Raman Reiti, Vrindavan, Uttar Pradesh 281121•076181 83108</p>
-            
+            <p class="card-text">Shri Krishna Balaram International Guest House, Raman Reiti, Vrindavan, Uttar Pradesh 281121</p>
+            <h6>076181 83108</h6>
             <a class=" hotel-add btn btn-primary" href="https://www.google.com/travel/search?q=prem%20mandhir%20best%20hotels&g2lb=2502548%2C2503771%2C2503781%2C4258168%2C4270442%2C4284970%2C4291517%2C4308226%2C4597339%2C4757164%2C4814050%2C4874190%2C4893075%2C4924070%2C4965990%2C4990494%2C72298667%2C72302247%2C72317059%2C72370226%2C72378200%2C72379816%2C72382669%2C72389675%2C72389680%2C72390435%2C72393630%2C72404470&hl=en-IN&gl=in&cs=1&ssta=1&ts=CAESCgoCCAMKAggDEAAaPQodEhsKDC9nLzF5Z2xweDNoNDoLUHJlbSBNYW5kaXISHBIUCgcI5w8QCxgNEgcI5w8QCxgOGAEyBAgAEAAqCQoFOgNJTlIoCA&qs=CAEgACgAMihDaG9JMy1QcTllemhqN1R3QVJvTkwyY3ZNVEZyYUcxblltZHJOUkFCOA1IAA&ap=KigKEgmBGdkoxpE7QBH7suoIPGtTQBISCURqc91qkztAEfuy6oN1a1NAMABoAQ&ictx=1&sa=X&sqi=2&ved=0CAAQ5JsGahgKEwjghN3M2oiCAxUAAAAAHQAAAAAQjgM&utm_campaign=sharing&utm_medium=link_btn&utm_source=htls">Book hotel</a>
             </div>
         </div>
@@ -110,7 +132,7 @@
             <div class="card-body">
             <h5 class="card-title">Shri Bhagwat kripa Rooms</h5>
             <p class="card-text">1st, 154, papri chowk, Chaitanya Vihar Phase 1, Chaitanya Vihar, Vrindavan, Uttar Pradesh 281121</p>
-            
+            <h6>07947412566</h6>
             <a class=" hotel-add btn btn-primary" href="https://www.google.com/travel/search?q=indiagate%20best%20hotels&g2lb=2502548%2C2503771%2C2503781%2C4258168%2C4270442%2C4284970%2C4291517%2C4308226%2C4597339%2C4757164%2C4814050%2C4874190%2C4893075%2C4924070%2C4965990%2C4990494%2C72298667%2C72302247%2C72317059%2C72370226%2C72379816%2C72381178%2C72389675%2C72389680%2C72390424&hl=en-IN&gl=in&cs=1&ssta=1&ts=CAESCAoCCAMKAggDGh4SHBIUCgcI5w8QCxgMEgcI5w8QCxgNGAEyBAgAEAAqCQoFOgNJTlIoCA&qs=CAEyJkNoZ0kwWnFDNE9QT3pQakNBUm9MTDJjdk1YUm1NVzAyTW5FUUFROApCCQmGBzTL5CqCTEIJCUDLttRDG0AGQgkJUY0APHYy8cJIAFoCCAE&ap=MABoAQ&ictx=1&sa=X&ved=0CAAQ5JsGahcKEwi4t7ODmfaBAxUAAAAAHQAAAAAQbA&utm_campaign=sharing&utm_medium=link_btn&utm_source=htls" >Book hotel</a>
             </div>
         </div>
@@ -118,15 +140,28 @@
             <img src="./Images/prem mandir hotel4.jpg" class="card-img-top" alt="4">
             <div class="card-body">
             <h5 class="card-title">MVT Guest House & Restaurant</h5>
-            <p class="hotel-add card-text">Rina Rd, Raman Reiti, Vrindavan, Uttar Pradesh 281121•099977 38666</p>
-           
+            <p class="hotel-add card-text">Rina Rd, Raman Reiti, Vrindavan, Uttar Pradesh 281121</p>
+           <h6>099977 38666</h6>
             <a href="https://www.google.com/travel/search?q=prem%20mandhir%20best%20hotels&g2lb=2502548%2C2503771%2C2503781%2C4258168%2C4270442%2C4284970%2C4291517%2C4308226%2C4597339%2C4757164%2C4814050%2C4874190%2C4893075%2C4924070%2C4965990%2C4990494%2C72298667%2C72302247%2C72317059%2C72370226%2C72378200%2C72379816%2C72382669%2C72389675%2C72389680%2C72390435%2C72393630%2C72404470&hl=en-IN&gl=in&cs=1&ssta=1&ts=CAESCgoCCAMKAggDEAAaPQodEhsKDC9nLzF5Z2xweDNoNDoLUHJlbSBNYW5kaXISHBIUCgcI5w8QCxgNEgcI5w8QCxgOGAEyBAgAEAAqCQoFOgNJTlIoCA&qs=CAEgACgAMiZDaGdJOElhSnZfeW9sLWJrQVJvTEwyY3ZNWFJtY25aNFl6SVFBUTgNSAA&ap=KigKEgmBGdkoxpE7QBH7suoIPGtTQBISCURqc91qkztAEfuy6oN1a1NAMABoAQ&ictx=1&sa=X&sqi=2&ved=0CAAQ5JsGahgKEwjghN3M2oiCAxUAAAAAHQAAAAAQ2gM&utm_campaign=sharing&utm_medium=link_btn&utm_source=htls" class="btn btn-primary">Book hotel</a>
             </div>
-        </div>        
-    </section>
+        </div>   
+      </div>     
     <section class="highlight">
       <h2>Visiting Hours</h2>
-      <p class="sectionP">Prem Mandir is open to visitors during specific hours, and it's advisable to check the opening and closing times before planning your visit.</p>
+      <p class="sectionP">The best time to visit the Prem Mandir in Vrindavan is during the months of October to March. This period offers a pleasant and comfortable climate, making it ideal for exploring the temple complex and enjoying the surrounding areas. The weather during these months is usually mild and enjoyable, with cooler temperatures in the evenings.</p>
+      <ul>
+        <li>
+          <h5>Morning Timing:</h5>
+          <p>Darshan: 5:30am to 12:00pm</p>
+          <p>Aarti: 7:00am</p>
+        </li>
+        <li>
+          <h5>Evening Timing:</h5>
+          <p>Darshan: 4:30pm to 9:00pm</p>
+          <p>Aarti: 7:00pm</p>
+        </li>
+      </ul>
+      <p style="color: red;">Note: These timings are subject to change, especially during special festivals and events. It is recommended to confirm the timings before your visit to avoid any inconvenience.</p>
     </section>
     <section class="highlight">
       <h2>History and Legend</h2>
@@ -139,6 +174,36 @@
       <h2>Architecture</h2>
      <img style="height: 25rem;width: auto;" src="./Images/premMandirArtictecture.jpg" alt="">
       <p class="sectionP">Prem Mandir is renowned for its stunning white marble architecture. The temple complex features intricate carvings, domes, and spires, making it a magnificent piece of architectural art.</p>
+    </section>
+    <section class="highlight">
+      <h2>Things to do</h2>
+      <ul>
+        <li>
+          <h4>Explore the Temple Complex:</h4>
+          <p>Take your time to explore the intricately designed temple complex, which includes beautifully carved walls, pillars, and domes. Admire the exquisite architecture and craftsmanship that went into creating the Prem Mandir.</p>
+        </li>
+        <li>
+          <h4>Attend the Aarti:</h4>
+          <p>Witnessing the grand Aarti (devotional ceremony) at the Prem Mandir is a must-do experience. The Aarti takes place in the morning and evening and involves chanting, singing, and offering prayers to the deities. It is a mesmerizing and spiritually uplifting event.</p>
+        </li>
+        <li>
+          <h4>Participate in Bhajans and Kirtans:</h4>
+        <p>Join the devotees in singing devotional songs, known as bhajans and kirtans. The uplifting music and chanting create a joyous atmosphere and help you connect with the divine.</p>
+        </li>
+        <li>
+          <h4>Visit the Shyama Kunda and Radha Kunda:</h4>
+          <p>These sacred water bodies located within the temple complex hold great significance in Hindu mythology. Take a dip in the holy waters and offer your prayers for purification and blessings.</p>
+        </li>
+        <li>
+          <h4>Enjoy the Musical Fountain Show:</h4>
+          <p>The Prem Mandir boasts a spectacular musical fountain show in the evening. Watch as colorful lights dance along with synchronized music, creating a captivating visual spectacle.</p>
+        </li>
+        <li>
+          <h4>Capture Memorable Photos:</h4>
+          <p>The Prem Mandir provides numerous photo opportunities with its beautiful architecture, intricate details, and serene surroundings. Capture the memories of your visit with stunning photographs.</p>
+        </li>
+      </ul>
+
     </section>
     <section class="highlight">
       <h2>Message Of Love</h2>
