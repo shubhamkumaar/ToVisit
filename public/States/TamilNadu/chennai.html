@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chennai</title>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="icon" href="../../Images/favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <style>
+      body{
+        text-align: center;
+        background-color: #f4f4f4;
+        
+      }
+      section{
+        padding: 20px;
+        
+      }
+      .sectionP{
+        width: 50rem;
+        margin: auto;
+        word-spacing: 1.1px;
+        line-height: 1.5;
+        font-size: 18px;
+        text-align: justify;
+      }
+      section *{
+            width: 50rem;
+            margin: auto;
+            word-spacing: 1.1px;
+            line-height: 1.9;
+            text-align: justify;
+        }
+      .featured {
+            background: url('./Images/chennai\ background.jpg') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            margin-top: 70px;
+            padding: 150px 0;
+        }
+
+        .featured h2 {
+            font-size: 36px;
+        }
+        .highlight {
+            background-color: #fff;
+            padding: 40px 20px;
+            margin: 20px 0;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .utube{
+          margin-top: 2rem;
+        }
+        ul li{
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          /* text-align: justify; */
+        }
+        
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top " style = "padding-bottom: 0; background-color: #BEADFA;" >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../../index.html"><img style = "margin-right: 80px;" src="../../Images/navlogo.png" alt="Logo" height="50px" width="150px"></a>
+        </div>
+      </nav>
+
+    <div style="margin-top: 0;"  class="featured">
+      <img id="weatherIcon"src="" alt="">
+        <div class="temp">
+            <h4 id="temperature"></h4>
+            <p id="description"></p>
+        </div>
+       
+        <!-- <p>Explore the rich heritage, spirituality, and adventure of Bihar</p>  -->
+        <h2 style="color: black;">Discover the Divine Beauty of Chennai</h2>
+        <p >Explore the rich heritage, spirituality, and adventure of Chennai</p> 
+        <!-- <a href="#" style="background-color: #ff9800; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none;">Explore Now</a> -->
+        <iframe  class="utube" width="720" height="405" src="https://www.youtube.com/embed/Qipxi1Qn8iE?autoplay=1&mute=1&start=10" allowfullscreen></iframe>
+    </div>
+
+ <div class="rest">  
+  <section class="highlight">
+    <h2>Details</h2>
+    <p class="sectionP"><strong>Location: </strong>Chennai, chennai district, Tamil Nadu</p>
+    <p class="sectionP"><strong>Road Access: </strong>From Tirupati, Chennai is well-connected to Tirupati, a famous pilgrimage destination, via NH 205. The journey takes around 3-4 hours.</p>
+
+  </section>
+    <section class = 'highlight'>
+      <h2>About Chennai</h2>
+      <p class="sectionP"> <strong id="capital">Chennai,</strong> the capital of Tamil Nadu in South India, is a city deeply entrenched in cultural heritage, renowned for classical arts and music. It's an economic powerhouse with a strong presence in IT, manufacturing, and the automobile industry. The city is an educational hub, home to esteemed institutions, and boasts historical landmarks such as the Kapaleeshwarar Temple and Fort St. George. Chennai's language of choice is Tamil, but English is widely spoken, especially in business and education. With excellent healthcare facilities, an international airport, and a well-connected transport network, Chennai is a thriving metropolis where tradition and modernity coexist.</p>
+    </section>
+
+    <!-- <section class="highlight"> -->
+      <h2>Accomodation</h2>
+      <!-- Create Card For Hotel -->
+      <div class="hotels">
+        <div class="card" style="width: 18rem;">
+            <img src="./Images/chennai hotel1.jpg" class="card-img-top" alt="1">
+            <div class="card-body">
+            <h5 class="card-title">Sheraton Grande Hotel Chennai</h5>
+            <p class="card-text">1/1, Nabhikhan, Shaik Ali Subedar St, near Nehru Indoor Stadium, Periyamet, Chennai, Tamil Nadu 600003•096771 65873</p>
+            <h6>096771 65873</h6>
+            <a href="https://www.google.com/travel/search?q=chennai%20best%20hotels&g2lb=2502548%2C2503771%2C2503781%2C4258168%2C4270442%2C4284970%2C4291517%2C4308226%2C4597339%2C4757164%2C4814050%2C4874190%2C4893075%2C4924070%2C4965990%2C4990494%2C72298667%2C72302247%2C72317059%2C72370226%2C72378200%2C72379816%2C72382669%2C72389675%2C72389680%2C72390435%2C72393630%2C72404470&hl=en-IN&gl=in&cs=1&ssta=1&ts=CAESCgoCCAMKAggDEAAaMwoVEhMKCC9tLzBjOHRrOgdDaGVubmFpEhoSFAoHCOcPEAsYDRIHCOcPEAsYDhgBMgIQACoJCgU6A0lOUigI&qs=CAAgACgAMidDaGtJbDVqWXZ1NzkwSmNTR2cwdlp5OHhNWE42Wm5nME0zUm9FQUU4DUgA&ap=KigKEgkJG4oVmXYpQBHDQHylngVUQBISCQSQkwXcXSpAEcNAfGX9E1RAMABoAQ&ictx=1&sa=X&sqi=2&ved=0CAAQ5JsGahgKEwiY0evos4mCAxUAAAAAHQAAAAAQjAg&utm_campaign=sharing&utm_medium=link_btn&utm_source=htls" class="btn btn-primary">Book hotel</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="./Images/chennai hotel2.jpg" class="card-img-top" alt="2">
+            <div class="card-body">
+            <h5 class="card-title">The Hydel Park ( Business Class Hotel)</h5>
+            <p class="card-text">12, VV Koil St, Park Town, Chennai, Tamil Nadu 600003•091769 03442</p>
+            <h6>091769 03442</h6>
+            <a class=" hotel-add btn btn-primary" href="https://www.google.com/travel/search?q=chennai%20best%20hotels&g2lb=2502548%2C2503771%2C2503781%2C4258168%2C4270442%2C4284970%2C4291517%2C4308226%2C4597339%2C4757164%2C4814050%2C4874190%2C4893075%2C4924070%2C4965990%2C4990494%2C72298667%2C72302247%2C72317059%2C72370226%2C72378200%2C72379816%2C72382669%2C72389675%2C72389680%2C72390435%2C72393630%2C72404470&hl=en-IN&gl=in&cs=1&ssta=1&ts=CAESCgoCCAMKAggDEAAaNQoVEhMKCC9tLzBjOHRrOgdDaGVubmFpEhwSFAoHCOcPEAsYDRIHCOcPEAsYDhgBMgQIABAAKgkKBToDSU5SKAg&qs=CAAgACgAMidDaGtJcXZYV2xQLVkxdXQxR2cwdlp5OHhNWEpyY0dSbmVUQjVFQUU4DUgA&ap=KigKEgkJG4oVmXYpQBHDQHylngVUQBISCQSQkwXcXSpAEcNAfGX9E1RAMABoAQ&ictx=1&sa=X&sqi=2&ved=0CAAQ5JsGahgKEwiY0evos4mCAxUAAAAAHQAAAAAQrAg&utm_campaign=sharing&utm_medium=link_btn&utm_source=htls">Book hotel</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="./Images/chennai hotel3.jpg" class="card-img-top" alt="3">
+            <div class="card-body">
+            <h5 class="card-title">ZThe Madras Grand - Hotel Egmore</h5>
+            <p class="card-text">1, Chinna St, Egmore, Chennai, Tamil Nadu 600008•093848 81777</p>
+            <h6>093848 81777</h6>
+            <a class=" hotel-add btn btn-primary" href="https://www.google.com/travel/search?q=chennai%20best%20hotels&g2lb=2502548%2C2503771%2C2503781%2C4258168%2C4270442%2C4284970%2C4291517%2C4308226%2C4597339%2C4757164%2C4814050%2C4874190%2C4893075%2C4924070%2C4965990%2C4990494%2C72298667%2C72302247%2C72317059%2C72370226%2C72378200%2C72379816%2C72382669%2C72389675%2C72389680%2C72390435%2C72393630%2C72404470&hl=en-IN&gl=in&cs=1&ssta=1&ts=CAESCgoCCAMKAggDEAAaNQoVEhMKCC9tLzBjOHRrOgdDaGVubmFpEhwSFAoHCOcPEAsYDRIHCOcPEAsYDhgBMgQIABAAKgkKBToDSU5SKAg&qs=CAAgACgAMidDaGtJMi1tUHVveUprSXcwR2cwdlp5OHhNVzVmZUhkc2JYbHpFQUU4DUgA&ap=KigKEgkJG4oVmXYpQBHDQHylngVUQBISCQSQkwXcXSpAEcNAfGX9E1RAMABoAQ&ictx=1&sa=X&sqi=2&ved=0CAAQ5JsGahgKEwiY0evos4mCAxUAAAAAHQAAAAAQywg&utm_campaign=sharing&utm_medium=link_btn&utm_source=htls" >Book hotel</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="./Images/chennai hotel4.jpg" class="card-img-top" alt="4">
+            <div class="card-body">
+            <h5 class="card-title">The Leela Palace Chennai - Seaside Modern Palace Hotel</h5>
+            <p class="hotel-add card-text">Adyar Sea Face, Leela Palace Rd, MRC Nagar, Raja Annamalai Puram, Chennai, Tamil Nadu 600028•044 3366 1234</p>
+           <h6>044 3366 1234</h6>
+            <a href="https://www.google.com/travel/search?q=chennai%20best%20hotels&g2lb=2502548%2C2503771%2C2503781%2C4258168%2C4270442%2C4284970%2C4291517%2C4308226%2C4597339%2C4757164%2C4814050%2C4874190%2C4893075%2C4924070%2C4965990%2C4990494%2C72298667%2C72302247%2C72317059%2C72370226%2C72378200%2C72379816%2C72382669%2C72389675%2C72389680%2C72390435%2C72393630%2C72404470&hl=en-IN&gl=in&cs=1&ssta=1&ts=CAESCgoCCAMKAggDEAAaNQoVEhMKCC9tLzBjOHRrOgdDaGVubmFpEhwSFAoHCOcPEAsYDRIHCOcPEAsYDhgBMgQIABAAKgkKBToDSU5SKAg&qs=CAAgACgAMiNDaFlJajh1VnBhZW1wS3htR2dvdmJTOHdhSHB5Y0dZNUVBRTgNSAA&ap=KigKEgkJG4oVmXYpQBHDQHylngVUQBISCQSQkwXcXSpAEcNAfGX9E1RAMABoAQ&ictx=1&sa=X&sqi=2&ved=0CAAQ5JsGahgKEwiY0evos4mCAxUAAAAAHQAAAAAQ6Qg&utm_campaign=sharing&utm_medium=link_btn&utm_source=htls" class="btn btn-primary">Book hotel</a>
+            </div>
+        </div>
+        </div>
+    <!-- </section> -->
+    <section class="highlight">
+      <h2>Visiting Time</h2>
+      <p class="sectionP">Peak Season – The best time to visit Chennai is between the months of October to February, i.e. from the end of monsoon and all of winter. During this time, the weather is relatively pleasant and it's not that hot and sticky.</p>
+    </section>
+    <section class="highlight">
+      <h2>History</h2>
+      
+      <p class="sectionP">Chennai, formerly known as Madras, is the capital of the state of Tamil Nadu and is India's fifth largest city. It is located on the Coromandel Coast of the Bay of Bengal. With an estimated population of 8.9 million, the 383-year-old city is the 31st largest metropolitan area in the world</p>
+    </section>
+    <section class="highlight">
+      <h2>Geography</h2>
+     <img style="height: 25rem;width: auto;" src="./Images/manali geography.jpg" alt="">
+      <p class="sectionP">Chennai is located at 13.04°N 80.17°E on the southeast coast of India and in the northeast corner of Tamil Nadu. It is located on a flat coastal plain known as the Eastern Coastal Plains. The city has an average elevation of 6 metres, its highest point being 60 m.</p>
+    </section>
+    <section class="highlight">
+      <h2>Weather</h2>
+     
+      <p class="sectionP"> Chennai, situated in southern India, experiences a tropical climate with distinct seasons. Summers (March to June) are hot and dry, with temperatures often exceeding 40°C (104°F). Monsoons (June to October) bring heavy rainfall and can lead to flooding. Post-monsoon months of November and December offer more pleasant weather. Winters (January and February) are mild, making it an ideal time to visit. Chennai's humidity is notable, particularly during the summer and monsoon, but the post-monsoon and winter months are preferred for outdoor activities and tourism.</p>
+      </section>
+
+    <section class="highlight"> 
+      <h2>Features</h2>
+     
+      <p class="sectionP" >&#x2022;<strong>Historical and Cultural Riches: </strong>Chennai boasts a rich historical heritage with landmarks like the Charminar and Kapaleeshwarar Temple, and it celebrates diverse cultural traditions, including vibrant music and dance festivals.</p>
+      <p class="sectionP">&#x2022;<strong>Economic Powerhouse: </strong>The city is a major economic hub, with a strong presence in IT, manufacturing, and various industries, contributing significantly to India's economy.</p>
+      <p class="sectionP">&#x2022;<strong> Culinary Delights and Modern Infrastructure: </strong>  Chennai offers a diverse culinary experience, including iconic dishes like Hyderabadi Biryani, while its modern infrastructure, including a growing metro system, enhances connectivity and livability.</p>
+    </section>
+  </div> 
+    <!-- <section class="highlight">
+      <h2>Plan Your Pilgrimage</h2>
+      <p class="sectionP">Visiting Kedarnath Temple requires meticulous planning due to its high altitude and challenging terrain. Pilgrims are advised to be physically prepared and carry adequate warm clothing. Accommodation is available in nearby areas, and it's recommended to make advance bookings.</p>
+      
+    </section> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="../../temperature.js"></script>
+</body>
+</html>
