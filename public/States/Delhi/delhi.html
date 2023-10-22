@@ -1,218 +1,310 @@
 <!DOCTYPE html>
+<html lang="en">
 
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="../../style.css">
-        <link rel="icon" href="../../Images/favicon.png"> 
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-    
-    </head>
-    <body class="delhi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delhi Tourism</title>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="icon" href="../../Images/favicon.png">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0 ;
+            padding: 0;
+            background-color: #f4f4f4;
+            
+        }
 
-      <nav class="navbar navbar-expand-lg fixed-top " style = "background-color: #BEADFA;" >
-        <div class="container-fluid">
-          <a class="navbar-brand" href="../../index.html"><img style = "margin-right: 80px;" src="../../Images/navlogo.png" alt="Logo" height="50px" width="150px"></a>
-        </div>
-      </nav>
+        header {
+            background-color: #333;     
+            padding: 10px 0;
+            text-align: center;
+        }
+        header a{
+            text-decoration: none;
+            color: white;
+        }
 
+        nav {
+            background-color: #444;
+            padding: 10px 0;
+            text-align: center;
+        }
 
-      <header>
-        <h1>Welcome to Delhi Tourism</h1>
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        section a{
+            text-decoration: none;
+            color: black;
+        }
+        a:hover{
+            color: #7D7C7C;
+        }
+        section {
+            padding: 20px;
+        }
+
+        .featured {
+            background: url('./Images/delhi\ background.jpg') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            
+            padding-bottom: 100px ;
+        }
+
+        .featured h2 {
+            font-size: 36px;
+        }
+        .highlight {
+            background-color: #fff;
+            padding: 40px 20px;
+            margin: 20px 0;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            font-size: 18px;
+        }
+        section *{
+            width: 50rem;
+            margin: auto;
+            word-spacing: 1.1px;
+            line-height: 1.9;
+            text-align: justify;
+        }
+        .utube{
+            margin-top: 2rem;
+            text-align: center;
+           
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+   
+</head>
+
+<body>
+
+    <header >
+        <h1><a href="../../index.html">ToVisit</a></h1>
     </header>
-     <p>Delhi, officially the National Capital Territory (NCT) of Delhi, is a city and a union territory of India containing New Delhi, the capital of India.</p>
-     <ul>
-        <li>Delhi is a historic, diverse, and dynamic city with a mix of old-world charm and modernity</li>
-        <li>Delhi became a union territory on 1 November 1956 and the NCT in 1995.</li>
-        <li>It boasts a rich cultural heritage and historical landmarks.</li>
-     </ul>
-     <h3>India Gate</h3>
-     <img src="./Images/indiaGate.jpg">
-     <p>
+
+    <nav>
+        <a href="#about">Home</a>
+        <a href="#heritage">Heritage Sites</a>
+        <a href="#spiritual">Spiritual Journeys</a>
+        <a href="#culture">Cultural Experiences</a>
+        <a href="#adventure">Adventure and Nature</a>
+        <a href="#plan">Plan Your Trip</a>
+        <a href="#fest">Events and Festivals</a>
+        <a href="https://youtu.be/84dD6-GPuqs?si=d9so7Ug_6t3CoKBX">Travel Blog</a>
+        <!-- <a href="#">Contact Us</a> -->
+    </nav>
+
+    <div class="featured">
+        <img id="weatherIcon"src="" alt="">
+        <div class="temp">
+            <h4 id="temperature"></h4>
+            <p id="description"></p>
+        </div>
+        <h2>Discover the Beauty of Delhi</h2>
+        <p>Explore the rich heritage, spirituality, and adventure of Delhi</p>
+        <!-- <a href="https://tourism.bihar.gov.in/" style="background-color: #ff9800; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none;">Explore Now</a> -->
+        <iframe style="padding-top: 80px;" width="720" height="405" src="https://www.youtube.com/embed/AoLiXe05-Z8?autoplay=1&mute=1&start=15"  frameborder="0" allowfullscreen></iframe>
+    </div>
+<div class="rest">
+    <section class="highlight" id="about">
+        <h2>About</h2>
+        <!-- <center><h3 id="capital">Patna</h3> -->
+            <p>Delhi, the capital city of India, is a bustling metropolis with a rich historical and cultural tapestry. It is not only the heart of the nation but also a city with a vibrant past. Delhi's history can be traced back through numerous dynasties, including the Mughals, the Delhi Sultanate, and the British colonial period, which have all left their marks on the city. The culture of Delhi is a diverse amalgamation of various influences, reflecting a blend of traditions from across the country. It is a city known for its festivals, arts, and a deep appreciation for history. Delhi's cuisine is equally diverse, offering a taste of the many regional flavors of India.</p></center>
+    </section>
+    <section class="highlight" id="heritage">
+        <h2>Historical Places in Delhi</h2>
+        <p>Explore the historical wonders of Delhi, including Lotus Temple, Red Fort, and more.</p>
+        <ol>
+            <li><a href="https://en.wikipedia.org/wiki/Red_Fort"><h3>Red Fort (Lal Qila)</h3></a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Qutb_Minar"><h3>Qutub Minar</h3></a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Humayun%27s_Tomb"><h3>Humayun's Tomb</h3></a></li>
+            <li><a href="https://en.wikipedia.org/wiki/India_Gate"><h3>India Gate</h3></a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Jama_Masjid,_Delhi"><h3>Jama Masjid</h3></a></li>
+        </ol>
+    </section>
+
+    <section class="highlight" id="spiritual">
+        <h2>Spiritual Journeys in Delhi</h2>
+        <p>Embark on spiritual adventures to Lotus Temple, Jama Masjid, and other sacred places.</p>
+        <ol>
+            <li><a href="https://en.wikipedia.org/wiki/Swaminarayan_Akshardham_(Delhi)"><h3>Akshardham Temple</h3></a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Lotus_Temple"><h3>Lotus Temple</h3></a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Jama_Masjid,_Delhi"><h3>Jama Masjid</h3></a></li>
+            <li><a href="https://en.wikipedia.org/wiki/International_Society_for_Krishna_Consciousness"><h3>ISKCON Temple</h3></a></li>
+        </ol>
+    </section>
+    <!-- Create Card For India gate, lotus temple. -->
+    <div class="hotels">
+      <div class="card" style="width: 18rem;">
+          <img src="./Images/indiaGate.jpg" class="card-img-top" alt="1">
+          <div class="card-body">
+          <h2 class="card-title">India Gate</h2>
+          <p class="card-text">India Gate stands tall as a timeless sentinel of unity, a monument that unites the heart of our incredible nation.</p>
+          <a class=" hotel-add btn btn-primary" href="Indiagate.html"><u>More info</u></a>
+          </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="./Images/lotusTemple.jpg" class="card-img-top" alt="1">
+          <div class="card-body">
+          <h2 class="card-title">Lotus Temple</h2>
+          <p>Lotus Temple, like a delicate petal unfurling, embraces all who seek solace in its tranquil embrace.</p>
+          <a class=" hotel-add btn btn-primary" href="lotustemple.html"><u>More info</u></a>
+          </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="./Images/rashtrapathi Bhawan.jpg" class="card-img-top" alt="1">
+          <div class="card-body">
+          <h2 class="card-title">Rashtrapathi Bhawan</h2>
+          <p>Rashtrapati Bhavan, a majestic symbol of India's democratic strength, where the nation's destiny is shaped with grace and grandeur.</p>
+          <a class=" hotel-add btn btn-primary" href="rashtrapathiBhawan.html"><u>More info</u></a>
+          </div>
+      </div>
+  </div>
+
+              <!-- End of card -->
+    <section class="highlight" id="culture">
+        <h2>Cultural Experiences</h2>
+        <p>Delhi offers a rich tapestry of cultural experiences : Dilli Haat, Street Food, Indian Classical Music and Dance, National Handicrafts Museum etc...</p>
         <ul>
-            <li>India Gate is a prominent and iconic war memorial located in the heart of New Delhi.</li>
-            <li> It stands as a symbol of national pride and commemorates the soldiers of the Indian Army who sacrificed their lives in various conflicts, particularly in World War I. </li>
-            <li>The monument holds deep historical and emotional significance for the people of India.</li>
-        </ul>
-     </p>
-     <h4>Location: </h4>
-     <p>
-        <ul>
-            <li>India Gate is situated at the eastern end of Rajpath, a ceremonial boulevard in New Delhi.</li>
-            <li>It is aligned with the Rashtrapati Bhavan (the President's House) on one end and the National Stadium on the other, forming an important axis in the city's planning.
+            <li>
+                <h3>Culinary Delights</h3>
+                <ul>
+                    <li>
+                        <h4>Chole Bhature</h4>
+                        <p>A classic North Indian dish of spicy chickpeas served with deep-fried bread. You can find delicious Chole Bhature at places like Sita Ram Diwan Chand and Gali Paranthe Wali.</p>
+                    </li>    
+                    <li>
+                        <h4>Street Food in Chandni Chowk</h4>
+                        <p>This bustling market in Old Delhi offers a variety of street food, including parathas, kebabs, jalebis, and more. Be sure to visit Karim's for Mughlai cuisine.</p>
+                    </li> 
+                    <li> 
+                        <h4>Dilli Ki Chaat</h4>
+                        <p>Delhi is famous for its chaat, which includes dishes like golgappa (pani puri), aloo tikki, and papri chaat. Try these at popular spots like Natraj and UPSC Chaat Wala.</p>
+                    </li>
+                </ul>
+            </li>    
+            <li>
+                <h3>Folk Dances and Music</h3>
+                <ul>
+                    <li>
+                        <h4>
+                          Dilli Haat
+                        </h4>
+                        <p> Dilli Haat often hosts cultural events and performances, including folk dances and music from different states of India. Check their event schedule for upcoming performances.</p>
+                    </li>
+                    <li>
+                        <h4>Sanskriti Kendra</h4>
+                        <p>This cultural center in Delhi regularly organizes folk dance and music performances, showcasing the diverse traditions of India.</p>
+                    </li>
+                    <li>
+                        <h4>Folk Performances at Cultural Festivals</h4>
+                        <p>Look out for cultural festivals in Delhi, such as the Surajkund Crafts Mela, which feature traditional folk dances and music from different regions.</p>
+                    </li>
+                </ul>    
+            </li>
+            <li>
+                <h3>Traditional Handicrafts</h3>
+                <ul>
+                    <li>
+                        <h4>Dilli Haat</h4>
+                        <p>This open-air market is a hub for traditional Indian handicrafts. You can find textiles, pottery, jewelry, and more from various states of India. It's a one-stop shop for a wide variety of crafts.</p>
+                    </li>
+                    <li>
+                        <h4>Central Cottage Industries Emporium</h4>
+                        <p>Located on Janpath, this emporium is known for its collection of high-quality handicrafts and handwoven textiles. It's a government-run store and has a wide range of items.</p>
+                    </li>
+                    <li>
+                        <h4>Crafts Museum</h4>
+                        <p>The National Handicrafts and Handlooms Museum in Pragati Maidan is an excellent place to explore traditional crafts from different regions of India.</p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <h3 id="fest">Fairs and Festivals</h3>
+                <ul>
+                    <li>
+                        <h4>Diwali</h4>
+                        <p>The Festival of Lights is one of the most significant festivals in Delhi. The city is beautifully illuminated, and people celebrate with fireworks, traditional sweets, and the lighting of oil lamps (diyas).</p>
+                    </li>
+                    <li>
+                        <h4>Holi</h4>
+                        <p> The festival of colors is celebrated with enthusiasm in Delhi. People play with colored powders and water, making it a vibrant and joyous occasion.</p>
+                    </li>
+                    <li>
+                        <h4>Durga Puja</h4>
+                        <p>The Bengali community in Delhi celebrates Durga Puja with grand processions, cultural performances, and elaborate idol displays.</p>
+                    </li>
+                </ul>
             </li>
         </ul>
-     </p>
-     <h4>Architectural Design: </h4>
-     <p>
-        <ul>
-            <li>The design of India Gate is attributed to Sir Edwin Lutyens, a renowned British architect who played a significant role in planning New Delhi during the British rule.</li>
-            <li>The monument is a triumphal arch, reminiscent of the Arc de Triomphe in Paris, but with distinct architectural elements that reflect India's cultural and historical identity.</li>
-        </ul>
-     </p>
-     <h4>Construction: </h4>
-     <p>
-        <ul>
-            <li>The foundation stone of India Gate was laid in 1921, and it was completed in 1931.</li>
-            <li>The monument is made of sandstone and stands at a height of 42 meters.</li>
-        </ul>
-     </p>
-     <h4>Inscription: </h4>
-     <p>
-        <ul>
-            <li>The India Gate bears the names of more than 13,500 British and Indian soldiers who lost their lives in the Northwestern Frontier in the Afghan war of 1919 and in the First World War.</li>
-            <li>An Amar Jawan Jyoti (the Flame of the Immortal Soldier) was added later as a tribute to the Unknown Soldier, representing the soldiers who sacrificed their lives in subsequent conflicts.</li>
-        </ul>
-     </p>
-     <h4>Amar Jawan Jyoti: </h4>
-     <p>
-        <ul>
-            <li> The Amar Jawan Jyoti is a perpetual flame that burns day and night under the arch of India Gate.</li>
-            <li>It serves as a memorial to honor the soldiers who died in the Indo-Pakistani War of 1971.</li>
-        </ul>
-     </p>
-     <h4>Symbolism: </h4>
-     <p>
-        <ul>
-            <li> India Gate symbolizes the valor and sacrifice of Indian soldiers and serves as a reminder of the country's military history.</li>
-            <li>The memorial is the site of annual events on Republic Day, including the President's visit to pay homage to the soldiers.</li>
-        </ul>
-     </p>
-     <h4>Tourist Attraction: </h4>
-     <p>
-        <ul>
-            <li>India Gate is a major tourist attraction, drawing both locals and international visitors.</li>
-            <li>The surrounding area is a popular spot for picnics, leisurely walks, and cultural events.</li>
-        </ul>
-     </p>
-     <p>
-        India Gate, with its architectural elegance and historical significance, remains an enduring symbol of India's rich heritage and the sacrifices made by its armed forces. It stands as a tribute to the indomitable spirit of the nation.</p>
-<br>
-  <h3>Qutub Minar</h3>
-  <img src="./Images/qutub-minar.jpg" height="250px" width="208px">
-  <p>
-    <ul>
-        <li>Qutub Minar is a UNESCO World Heritage Site located in Delhi, India.</li>
-        <li>It is one of the most iconic and tallest brick minarets in the world.</li>
-    </ul>
-  </p>
-  <h4>Construction Period: </h4>
-  <p>
-    <ul>
-        <li>Construction began in 1192 by Qutub-ud-din Aibak, the first ruler of the Delhi Sultanate.</li>
-        <li>Completed by Iltutmish, Aibak's successor, and later enhanced by subsequent rulers.</li>
-    </ul>
-  </p>
-  <h4>Architectural Style: </h4>
-  <p>
-    <ul>
-        <li>Blend of Persian and Indian architectural styles.</li>
-        <li> Red sandstone and marble are the primary construction materials.</li>
-    </ul>
-  </p>
-  <h4>Height and Structure: </h4>
-  <p>
-    <ul>
-        <li>Stands at a height of 73 meters (240 feet).
-        </li>
-        <li> Consists of five distinct stories, each marked by a projecting balcony.
-        </li>
-    </ul>
-  </p>
-  <h4>Inscriptions: </h4>
-  <p>
-    <ul>
-        <li>The tower is adorned with intricate inscriptions in Arabic and decorative motifs.</li>
-    </ul>
-  </p>
-  <h4>Qutub Complex: </h4>
-  <p>
-    <ul>
-        <li>Qutub Minar is part of the Qutub Complex, which includes several other historical structures like the Quwwat-ul-Islam Mosque and the Iron Pillar of Delhi.</li>
-    </ul>
-  </p>
-  <h4>Purpose and Symbolism: </h4>
-  <p>
-    <ul>
-        <li> Initially built as a victory tower to celebrate the triumph of Muslim rule in Delhi.</li>
-        <li> The tower might have been used for the muezzin (the person who calls to prayer) to call the faithful to prayer.</li>
-    </ul>
-  </p>
-  <h4>Destruction and Reconstruction: </h4>
-  <p>
-    <ul>
-        <li>The Qutub Minar has faced damage and destruction over the centuries due to earthquakes.</li>
-        <li> It has been restored and repaired multiple times, with the uppermost story being reconstructed by Firoz Shah Tughlaq.</li>
-    </ul>
-  </p>
-  <h4>Decorative Elements: </h4>
-  <p>
-    <ul>
-        <li>Elaborate carvings and calligraphy on the minaret.</li>
-        <li>The balconies are adorned with intricate geometric patterns and verses from the Quran.</li>
-    </ul>
-  </p>
-  <h3>Rashtrapati Bhavan: </h3>
-  <img src="./Images/rashtrapathi Bhawan.jpg" height="250px" width="208px">
-  <p>
-    <ul>
-        <li>Rashtrapati Bhavan, formerly known as the Viceroy's House, is the official residence of the President of India.</li>
-        <li>Located at the western end of Rajpath in New Delhi, it is one of the largest presidential residences in the world.</li>
-    </ul>
-  </p>
-  <h4>Architectural Design: </h4>
-  <p>
-    <ul>
-        <li>Designed by Sir Edwin Lutyens, the British architect, and Herbert Baker.</li>
-        <li>Represents a blend of Indian and Western architectural styles.</li>
-    </ul>
-  </p>
-  <h4>Construction Period: </h4>
-  <p>
-    <ul>
-        <li> Construction began in 1912 and was completed in 1929.</li>
-        <li> The building was the official residence of the Viceroy during the British colonial period.</li>
-    </ul>
-  </p>
-  <h4>Structure and Layout: </h4>
-  <p>
-    <ul>
-        <li>The Rashtrapati Bhavan covers an area of 320 acres and has a floor area of 200,000 square feet.</li>
-        <li> The building has four floors and 340 rooms.</li>
-    </ul>
-  </p>
-  <h4>Mughal Gardens: </h4>
-  <p>
-    <ul>
-        <li>The Rashtrapati Bhavan is surrounded by the beautiful Mughal Gardens, which are open to the public during certain times of the year.</li>
-        <li> The gardens showcase a variety of flowers, plants, and fountains.</li> 
-      </ul>
-  </p>
-  <h4>Durbar Hall: </h4>
-  <p>
-    <ul>
-        <li>The Durbar Hall, with its impressive dome and chandeliers, is used for official ceremonies and state functions.</li>
-        <li>It houses a large ceremonial space and the President's throne.</li>
-    </ul>
-  </p>
-  <h4>Presidential Residence: </h4>
-  <p>
-    <ul>
-        <li> The Rashtrapati Bhavan serves as the official residence of the President of India.</li>
-        <li>It is also the venue for various official events and ceremonies.</li>
-    </ul>
-  </p>
-  <h4>Change of Guard Ceremony: </h4>
-  <p>
-    <ul>
-        <li>The Change of Guard ceremony at the Rashtrapati Bhavan is a popular attraction for tourists.</li>
-        <li> It takes place every Saturday and is a grand display of military precision.</li>
-    </ul>
-  </p>
-    </body>
+    </section>
+
+    <section class="highlight" id="adventure">
+        <h2>Adventure and Nature</h2>
+        <p>Experience thrilling activities like river rafting, trekking, and bird watching in Delhi's natural wonders.</p>
+        <ol>
+            <li>
+                <h3>Sanjay Van</h3>
+                <ul>
+                    <li><strong><a href="https://maps.app.goo.gl/g8CjCaeQ1LKTKtXn9">Location:</strong> New Delhi, Delhi</a></li>
+                    <li><p><strong>Adventure Level:</strong>  Moderate to Challenging</p></li>
+                    <li><p><strong>Description:</strong>This is a sprawling forest area in the heart of the city, offering a serene escape from the urban hustle and bustle. You can explore its trails and enjoy nature walks.</p></li>
+                </ul>
+            </li>
+            <li>
+                <h3>Asola Wildlife Sanctuary</h3>
+                <ul>
+                    <li><p><strong><a href="https://maps.app.goo.gl/dx1abzAdtzZxTkcF8">Location: </strong> F7V6+53J, Shooting Range Rd, Asola Wild Life Sanctuary, Tughlakabad, New Delhi, Delhi 110044</a></p></li>
+                    <li><p><strong>Adventure Level: </strong>  Easy to Moderate</p></li>
+                    <li><p><strong>Description:</strong> Located in the southern part of Delhi, this sanctuary is home to a variety of flora and fauna. You can explore the trails and birdwatch in this natural oasis.</p></li>
+                </ul>
+            </li>
+            <li>
+                <h3>Okhla Bird Sanctuary</h3>
+                <ul>
+                    <li>
+                        <p><strong><a href="https://maps.app.goo.gl/ZSJ6df85WBgzus4P7">Location: </strong>Noida Plaza, N Block, Pocket K, Sector 95, Noida, Uttar Pradesh 201301</a></p>
+                    </li>
+                    <li><p><strong>Adventure Level: </strong> Moderate</p></li>
+                    <li><p><strong>Description: </strong>This sanctuary along the Yamuna River is a haven for birdwatchers. You can spot a wide range of migratory and resident bird species.</p></li>
+                </ul>
+            </li>
+            <li>
+                <h3>Yamuna River</h3>
+                <ul>
+                    <li><p><strong><a href="https://maps.app.goo.gl/1n9wAwe74Kw353D89">Location: Delhi</strong></a></p></li>
+                    <li><p><strong>Adventure Level: </strong> Easy</p></li>
+                    <li><p><strong>Description: </strong>While the Yamuna River is not suitable for swimming, it offers opportunities for river walks and picnics along its banks.</p></li>
+                </ul>
+            </li>
+
+        </ol>
+    </section>
+
+    <section>
+        <h2 id="plan">Plan Your Trip</h2>
+        <p>Find the best hotels, restaurants, and activities. Get travel tips and local insights to make your trip memorable.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Delhi Tourism. All rights reserved.</p>
+    </footer>
+</div>
+    <script src="../../temperature.js"></script>
+</body>
+
 </html>
