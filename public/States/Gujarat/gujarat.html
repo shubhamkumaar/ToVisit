@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gujarat Tourism</title>
     <link rel="icon" href="../../Images/favicon.png">
+    <link rel="stylesheet" href="../../style.css">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -107,15 +108,21 @@
     </nav>
 
     <div class="featured">
+        <img  id="weatherIcon"src="" alt="">
+        <div class="temp">
+            <h4 id="temperature"></h4>
+            <p id="description"></p>
+        </div>
         <h2>Discover the Beauty of Gujarat</h2>
         <p>Explore the rich heritage, spirituality, and adventure of Gujarat</p>
         <!-- <a href="#" style="background-color: #ff9800; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none;">Explore Now</a> -->
         <iframe style="padding-top: 80px;" width="720" height="405" src="https://www.youtube.com/embed/ZxALiRqtwpA?autoplay=1&mute=1&start=9"  frameborder="0" allowfullscreen></iframe>
     </div>
-    <center><h3 id="capital">Capital : Gandhinagar</h3>
-        <p>Gujarat, with its capital in Gandhinagar, is a western Indian state celebrated for its economic prosperity and rich history. The state is an industrial powerhouse, known for manufacturing and trade, while also preserving a vibrant cultural heritage. Gujarat's attractions range from the Gir Forest National Park to historic stepwells and festivals like Navratri. Challenges include environmental conservation and socioeconomic disparities, which the state actively addresses through development initiatives. Gujarat's dynamic blend of industry, history, and culture makes it a captivating subject for exploration.</p>
-    </center>
-
+    <section class="highlight">
+        <h2>About</h2> 
+        <p>Gujarat, with its capital in <span id="capital">Gandhinagar</span> , is a western Indian state celebrated for its economic prosperity and rich history. The state is an industrial powerhouse, known for manufacturing and trade, while also preserving a vibrant cultural heritage. Gujarat's attractions range from the Gir Forest National Park to historic stepwells and festivals like Navratri. Challenges include environmental conservation and socioeconomic disparities, which the state actively addresses through development initiatives. Gujarat's dynamic blend of industry, history, and culture makes it a captivating subject for exploration.</p>
+  
+    </section>
     <section class="highlight" id="heritage">
         <h2>Heritage Sites</h2>
         <p>Explore the historical wonders of Gujarat, including Queen's Stepwell,•	Sabarmati Ashram  , and more.</p>
