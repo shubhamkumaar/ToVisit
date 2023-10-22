@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taj Mahal</title>
+    <link rel="icon" href="../../Images/favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../style.css">
+    <style>
+      body{
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        
+      }
+      section{
+        padding: 20px;
+        
+      }
+      a{
+        text-decoration: none;
+      }
+      .sectionP{
+        width: 50rem;
+        margin: auto;
+        word-spacing: 1.1px;
+        line-height: 1.5;
+        font-size: 18px;
+        text-align: justify;
+      }
+      .featured {
+            background: url('./Images/tajMahal.jpg') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            margin-top: 70px;
+            padding: 150px 0;
+        }
+        section *{
+            width: 50rem;
+            margin: auto;
+            word-spacing: 1.1px;
+            line-height: 1.9;
+            text-align: justify;
+        }
+
+        section img{
+          margin-left: 15rem;
+          
+        }
+        .featured h2 {
+            font-size: 36px;
+        }
+        .highlight {
+            background-color: #fff;
+            padding: 40px 20px;
+            margin: 20px 0;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .utube{
+          margin-top: 2rem;
+        }
+        ul li{
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          /* text-align: justify; */
+        }
+        img{
+         text-align: center ;
+        }
+        
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top " style = "padding-bottom: 0; background-color: #BEADFA;" >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../../index.html"><img style = "margin-right: 80px;" src="../../Images/navlogo.png" alt="Logo" height="50px" width="150px"></a>
+        </div>
+      </nav>
+
+    <div style="margin-top: 0;"  class="featured">
+      <img id="weatherIcon"src="" alt="">
+        <div class="temp">
+            <h4 id="temperature"></h4>
+            <p id="description"></p>
+        </div>
+        <h2>Discover the Divine Beauty of Taj Mahal</h2>
+        <!-- <p>Explore the rich heritage, spirituality, and adventure of Bihar</p>  -->
+        <!-- <a href="#" style="background-color: #ff9800; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none;">Explore Now</a> -->
+        <iframe  class="utube" width="720" height="405" src="https://www.youtube.com/embed/44rTTLjZZz4?autoplay=1&mute=1&start=42" allowfullscreen></iframe>
+    </div>
+
+    <div class="rest">
+      <section class="highlight">
+        <h2>Details</h2>
+        <p class="sectionP"><strong><a href="">Location: </strong></a>Taj Mahal, Agra District, Uttar Pradesh</p>
+        <p class="sectionP"><strong>Road Access:  </strong>The Taj Mahal is located within 6 km of the Agra city center. It's easily accessible by: Auto rickshaw, Cab, Taxi, Bus. </p>
+        <p>From Delhi, the most popular method of reaching Agra is by train (2 to 3 hours) and road (4 to 5 hours).</p>
+        
+
+      </section>
+    <section class = 'highlight'>
+      <h2>About Taj Mahal</h2>
+      <p class="sectionP"> <strong>Taj Mahal</strong> - The Taj Mahal is a world-renowned monument located in Agra, India. It is often considered one of the most beautiful buildings in the world and is a UNESCO World Heritage Site. The Taj Mahal was built in the <u>17th century</u> by the Mughal Emperor <b>Shah Jahan</b> as a mausoleum for his beloved wife, <b>Mumtaz Mahal</b>. It is known for its stunning white marble architecture, intricate carvings, and the beautiful garden that surrounds it. The Taj Mahal is a symbol of love and is visited by millions of tourists from around the world each year.</p>
+    </section>
+
+   
+      <h2 style="text-align: center; margin: 3rem 0 2rem;">Accomodation</h2>
+      <!-- Create Card For Hotel -->
+      <div class="hotels">
+        <div class="card" style="width: 18rem;">
+            <img src="./Images/prem mandir hotel1.jpg" class="card-img-top" alt="1">
+            <div class="card-body">
+            <h5 class="card-title">Hotel Shri Radha Nikunj</h5>
+            <p class="card-text">Opp. Prem Mandir Mathura - Vrindavan Marg Chhatikara, Road, Raman Reti, Vrindavan, Uttar Pradesh 281121</p>
+            <h6>099272 00084</h6>
+            <a href="https://www.google.com/travel/search?q=prem%20mandhir%20best%20hotels&g2lb=2502548%2C2503771%2C2503781%2C4258168%2C4270442%2C4284970%2C4291517%2C4308226%2C4597339%2C4757164%2C4814050%2C4874190%2C4893075%2C4924070%2C4965990%2C4990494%2C72298667%2C72302247%2C72317059%2C72370226%2C72378200%2C72379816%2C72382669%2C72389675%2C72389680%2C72390435%2C72393630%2C72404470&hl=en-IN&gl=in&cs=1&ssta=1&ts=CAESCgoCCAMKAggDEAAaOwobEhkKDC9nLzF5Z2xweDNoNDoJVnJpbmRhdmFuEhwSFAoHCOcPEAsYDRIHCOcPEAsYDhgBMgQIABAAKgkKBToDSU5SKAg&qs=CAAgACgAMihDaG9JcVpQZDZ0X3JtX2JIQVJvTkwyY3ZNVEZvWkhwemJqWjBNQkFCOA1IAA&ap=KigKEglCSlE95o07QBHtPiml1mpTQBISCe6HViV5lDtAEe0-KZG8a1NAMABoAQ&ictx=1&sa=X&sqi=2&ved=0CAAQ5JsGahcKEwjghN3M2oiCAxUAAAAAHQAAAAAQCw&utm_campaign=sharing&utm_medium=link_btn&utm_source=htls" class="btn btn-primary">Book hotel</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="./Images/prem mandir hotel2.jpg" class="card-img-top" alt="2">
+            <div class="card-body">
+            <h5 class="card-title">ISKCON Vrindavan Guest House</h5>
+            <p class="card-text">Shri Krishna Balaram International Guest House, Raman Reiti, Vrindavan, Uttar Pradesh 281121</p>
+            <h6>076181 83108</h6>
+            <a class=" hotel-add btn btn-primary" href="https://www.google.com/travel/search?q=prem%20mandhir%20best%20hotels&g2lb=2502548%2C2503771%2C2503781%2C4258168%2C4270442%2C4284970%2C4291517%2C4308226%2C4597339%2C4757164%2C4814050%2C4874190%2C4893075%2C4924070%2C4965990%2C4990494%2C72298667%2C72302247%2C72317059%2C72370226%2C72378200%2C72379816%2C72382669%2C72389675%2C72389680%2C72390435%2C72393630%2C72404470&hl=en-IN&gl=in&cs=1&ssta=1&ts=CAESCgoCCAMKAggDEAAaPQodEhsKDC9nLzF5Z2xweDNoNDoLUHJlbSBNYW5kaXISHBIUCgcI5w8QCxgNEgcI5w8QCxgOGAEyBAgAEAAqCQoFOgNJTlIoCA&qs=CAEgACgAMihDaG9JMy1QcTllemhqN1R3QVJvTkwyY3ZNVEZyYUcxblltZHJOUkFCOA1IAA&ap=KigKEgmBGdkoxpE7QBH7suoIPGtTQBISCURqc91qkztAEfuy6oN1a1NAMABoAQ&ictx=1&sa=X&sqi=2&ved=0CAAQ5JsGahgKEwjghN3M2oiCAxUAAAAAHQAAAAAQjgM&utm_campaign=sharing&utm_medium=link_btn&utm_source=htls">Book hotel</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="./Images/prem mandir hotel3.jpg" class="card-img-top" alt="3">
+            <div class="card-body">
+            <h5 class="card-title">Shri Bhagwat kripa Rooms</h5>
+            <p class="card-text">1st, 154, papri chowk, Chaitanya Vihar Phase 1, Chaitanya Vihar, Vrindavan, Uttar Pradesh 281121</p>
+            <h6>07947412566</h6>
+            <a class=" hotel-add btn btn-primary" href="https://www.google.com/travel/search?q=indiagate%20best%20hotels&g2lb=2502548%2C2503771%2C2503781%2C4258168%2C4270442%2C4284970%2C4291517%2C4308226%2C4597339%2C4757164%2C4814050%2C4874190%2C4893075%2C4924070%2C4965990%2C4990494%2C72298667%2C72302247%2C72317059%2C72370226%2C72379816%2C72381178%2C72389675%2C72389680%2C72390424&hl=en-IN&gl=in&cs=1&ssta=1&ts=CAESCAoCCAMKAggDGh4SHBIUCgcI5w8QCxgMEgcI5w8QCxgNGAEyBAgAEAAqCQoFOgNJTlIoCA&qs=CAEyJkNoZ0kwWnFDNE9QT3pQakNBUm9MTDJjdk1YUm1NVzAyTW5FUUFROApCCQmGBzTL5CqCTEIJCUDLttRDG0AGQgkJUY0APHYy8cJIAFoCCAE&ap=MABoAQ&ictx=1&sa=X&ved=0CAAQ5JsGahcKEwi4t7ODmfaBAxUAAAAAHQAAAAAQbA&utm_campaign=sharing&utm_medium=link_btn&utm_source=htls" >Book hotel</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="./Images/prem mandir hotel4.jpg" class="card-img-top" alt="4">
+            <div class="card-body">
+            <h5 class="card-title">MVT Guest House & Restaurant</h5>
+            <p class="hotel-add card-text">Rina Rd, Raman Reiti, Vrindavan, Uttar Pradesh 281121</p>
+           <h6>099977 38666</h6>
+            <a href="https://www.google.com/travel/search?q=prem%20mandhir%20best%20hotels&g2lb=2502548%2C2503771%2C2503781%2C4258168%2C4270442%2C4284970%2C4291517%2C4308226%2C4597339%2C4757164%2C4814050%2C4874190%2C4893075%2C4924070%2C4965990%2C4990494%2C72298667%2C72302247%2C72317059%2C72370226%2C72378200%2C72379816%2C72382669%2C72389675%2C72389680%2C72390435%2C72393630%2C72404470&hl=en-IN&gl=in&cs=1&ssta=1&ts=CAESCgoCCAMKAggDEAAaPQodEhsKDC9nLzF5Z2xweDNoNDoLUHJlbSBNYW5kaXISHBIUCgcI5w8QCxgNEgcI5w8QCxgOGAEyBAgAEAAqCQoFOgNJTlIoCA&qs=CAEgACgAMiZDaGdJOElhSnZfeW9sLWJrQVJvTEwyY3ZNWFJtY25aNFl6SVFBUTgNSAA&ap=KigKEgmBGdkoxpE7QBH7suoIPGtTQBISCURqc91qkztAEfuy6oN1a1NAMABoAQ&ictx=1&sa=X&sqi=2&ved=0CAAQ5JsGahgKEwjghN3M2oiCAxUAAAAAHQAAAAAQ2gM&utm_campaign=sharing&utm_medium=link_btn&utm_source=htls" class="btn btn-primary">Book hotel</a>
+            </div>
+        </div>   
+      </div>     
+    <section class="highlight">
+      <h2>Visiting Hours</h2>
+      <p class="sectionP">The Taj Mahal is open for visitors every day from sunrise to sunset, except on Fridays. On Fridays, it is only accessible to Muslims for afternoon prayers. 
+    </p>
+      <ul>
+        <li>
+          <h5>Morning Timing:</h5>
+          <p>6:00 AM to 6:30 PM</p>
+        </li>
+        <li>
+          <h5>Night Timing:</h5>
+          <p>8:30 PM to 12:30 AM</p>
+        </li>
+      </ul>
+      <p style="color: red;">Note: These timings are subject to change, especially during special festivals and events. It is recommended to confirm the timings before your visit to avoid any inconvenience.</p>
+    </section>
+    <section class="highlight">
+      <h2>History and Legend</h2>
+      <img style="height: 25rem;width: auto;" src="./Images/Taj.jpg" alt="">
+      <p class="sectionP">The Taj Mahal is a magnificent white marble mausoleum located in <em>Agra</em>, India. It was built by the Mughal Emperor <b>Shah Jahan</b> in memory of his beloved wife <em>Mumtaz Mahal</em>, who passed away during childbirth. The construction of this iconic monument began in 1632 and took over 20 years to complete. The Taj Mahal is renowned for its stunning architecture, intricate details, and the love story it symbolizes. It is considered one of the most beautiful and iconic landmarks in the world.</p>
+    </section>
+    <section class="highlight">
+      <h2>Architecture</h2>
+     <img style="height: 25rem;width: auto;" src="./Images/TajArchitecture.jpg" alt="">
+      <p class="sectionP">The Taj Mahal's iconic architecture features a symmetrical layout with a central white marble dome, flanked by minarets. Its intricate exterior showcases floral inlay work, calligraphy, and Quranic inscriptions. This fusion of Persian and Mughal styles creates a symbol of timeless elegance and balance.</p>
+    </section>
+    <section class="highlight">
+      <h2>Things to do</h2>
+      <ol>
+        <li>
+          <h4>Admire the Majestic Mausoleum:</h4>
+          <p>Spend time exploring the iconic Taj Mahal. Marvel at its stunning white marble structure, intricate inlay work, and the grandeur of this world-famous mausoleum.</p>
+        </li>
+        <li>
+          <h4>Witness the Sunrise or Sunset:</h4>
+          <p>The Taj Mahal looks especially enchanting during sunrise and sunset. Plan your visit during these times to witness the changing hues of the monument and capture breathtaking photos.</p>
+        </li>
+        <li>
+          <h4>Explore the Mughal Gardens:</h4>
+        <p>The Taj Mahal complex features beautiful Mughal gardens with symmetrical layouts, fountains, and reflecting pools. Stroll through these gardens and enjoy their serene beauty.</p>
+        </li>
+        <li>
+          <h4>Visit the Taj Museum: </h4>
+          <p>Located inside the Taj Mahal complex, the museum houses artifacts, documents, and historical items related to the monument's construction and history. It's a great place to learn more about its significance.</p>
+        </li>
+        <li>
+          <h4>Cross the Yamuna River:</h4>
+          <p>For a unique view of the Taj Mahal, consider taking a boat ride across the Yamuna River. This vantage point offers a different perspective of the monument's splendor.</p>
+        </li>
+        <li>
+          <h4>Capture Memorable Photos:</h4>
+          <p>The Taj Mahal provides numerous photo opportunities with its beautiful architecture, intricate details, and serene surroundings. Capture the memories of your visit with stunning photographs.</p>
+        </li>
+      </ol>
+
+    </section>
+    <section class="highlight">
+      <h2>Symbol of Love</h2>
+      <img style="height: 25rem;width: auto;" src="./Images/tajMahal.jpg" alt="">
+      <p class="sectionP"> The Taj Mahal is renowned worldwide as a symbol of profound love. It was constructed by Shah Jahan as a tribute to his beloved wife Mumtaz Mahal, who passed away during childbirth.</p>
+    </section>
+    <section class="highlight">
+      <h2>Features</h2>
+      <img src="./Images/features.jpeg" alt="">
+      <p class="sectionP" >&#x2022;<strong>Cultural Experience: </strong>Agra, the city where the Taj Mahal is situated, offers a rich cultural experience. Visitors can enjoy Mughlai cuisine, visit local markets, and explore the city's historical heritage.</p>
+      <p class="sectionP">&#x2022;<strong>Symbol of Love: </strong> The Taj Mahal is a renowned symbol of enduring love. It was built by Emperor Shah Jahan in memory of his beloved wife Mumtaz Mahal.</p>
+      <p class="sectionP">&#x2022;<strong>Gardens and Reflecting Pools: </strong>Surrounding the Taj Mahal are well-manicured Mughal gardens with fountains and reflecting pools. These gardens add to the site's beauty and create a serene atmosphere for visitors.</p>
+    </section>
+  </div>
+    <!-- <section class="highlight">
+      <h2>Plan Your Pilgrimage</h2>
+      <p class="sectionP">Visiting Kedarnath Temple requires meticulous planning due to its high altitude and challenging terrain. Pilgrims are advised to be physically prepared and carry adequate warm clothing. Accommodation is available in nearby areas, and it's recommended to make advance bookings.</p>
+      
+    </section> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="../../temperature.js"></script>
+</body>
+</html>
