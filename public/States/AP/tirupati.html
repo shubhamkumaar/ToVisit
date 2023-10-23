@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tirupati</title>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="icon" href="../../Images/favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <style>
+      body{
+        text-align: center;
+        background-color: #f4f4f4;
+        
+      }
+      section{
+        padding: 20px;
+        
+      }
+      .sectionP{
+        width: 50rem;
+        margin: auto;
+        word-spacing: 1.1px;
+        line-height: 1.5;
+        font-size: 18px;
+        text-align: justify;
+      }
+      section *{
+            width: 50rem;
+            margin: auto;
+            word-spacing: 1.1px;
+            line-height: 1.9;
+            text-align: justify;
+        }
+      .featured {
+            background: url('./Images/tirupati\ background.jpg') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            margin-top: 70px;
+            padding: 150px 0;
+        }
+
+        .featured h2 {
+            font-size: 36px;
+        }
+        .highlight {
+            background-color: #fff;
+            padding: 40px 20px;
+            margin: 20px 0;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .utube{
+          margin-top: 2rem;
+        }
+        ul li{
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          /* text-align: justify; */
+        }
+        
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top " style = "padding-bottom: 0; background-color: #BEADFA;" >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../../index.html"><img style = "margin-right: 80px;" src="../../Images/navlogo.png" alt="Logo" height="50px" width="150px"></a>
+        </div>
+      </nav>
+
+    <div style="margin-top: 0;"  class="featured">
+      <img id="weatherIcon"src="" alt="">
+        <div class="temp">
+            <h4 id="temperature"></h4>
+            <p id="description"></p>
+        </div>
+       
+        <!-- <p>Explore the rich heritage, spirituality, and adventure of Bihar</p>  -->
+        <h2 style="color: black;">Discover the Divine Beauty of Tirupati</h2>
+        <p >Explore the rich heritage, spirituality, and adventure of Tirupati</p> 
+        <!-- <a href="#" style="background-color: #ff9800; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none;">Explore Now</a> -->
+        <iframe  class="utube" width="720" height="405" src="https://www.youtube.com/embed/Qipxi1Qn8iE?autoplay=1&mute=1&start=10" allowfullscreen></iframe>
+    </div>
+
+ <div class="rest">  
+  <section class="highlight">
+    <h2>Details</h2>
+    <p class="sectionP"><strong>Location: </strong>Tirupati, Balaji district, Telangana</p>
+    <p class="sectionP"><strong>Road Access: </strong>From Chennai, Tamil Nadu, Tirupati is approximately 135 kilometers from Chennai, and the journey can be made by road in around 3-4 hours via the NH 205 (Chennai-Tirupati Highway).</p>
+
+  </section>
+    <section class = 'highlight'>
+      <h2>About Tirupati</h2>
+      <p class="sectionP"> <strong id="capital">Tirupati, </strong> ocated in Andhra Pradesh, India, is a renowned pilgrimage destination famous for the Sri Venkateswara Temple, dedicated to Lord Venkateswara. This temple atop Tirumala Hills is a major religious site, drawing millions of devotees. Tirupati is known for its annual Brahmotsavam festival and the tradition of devotees offering their hair. The town is surrounded by scenic Seshachalam Hills, and it also has educational institutions and a rich cultural heritage. With well-connected road, rail, and air links, Tirupati offers a unique blend of spirituality, history, and natural beauty.</p>
+    </section>
+
+    <!-- <section class="highlight"> -->
+      <h2>Accomodation</h2>
+      <!-- Create Card For Hotel -->
+      <div class="hotels">
+        <div class="card" style="width: 18rem;">
+            <img src="./Images/tirupati hotel1.jpg" class="card-img-top" alt="1">
+            <div class="card-body">
+            <h5 class="card-title">Marasa Sarovar Premiere, Tirupati</h5>
+            <p class="card-text">12th Cross, Karakambadi Rd, near AGS Company, Upadhyaya Nagar, Tirupati, Andhra Pradesh 517507•0877 666 0000</p>
+            <h6>0877 666 0000</h6>
+            <a href="https://www.google.com/travel/search?q=tirupati%20best%20hotel&g2lb=2502548%2C2503771%2C2503781%2C4258168%2C4270442%2C4284970%2C4291517%2C4308226%2C4597339%2C4757164%2C4814050%2C4874190%2C4893075%2C4924070%2C4965990%2C4990494%2C72298667%2C72302247%2C72317059%2C72370226%2C72378200%2C72379816%2C72382669%2C72389675%2C72389680%2C72390435%2C72393630%2C72404470&hl=en-IN&gl=in&cs=1&ssta=1&ts=CAESCgoCCAMKAggDEAAaNwoXEhUKCS9tLzA4OWxyYzoIVGlydXBhdGkSHBIUCgcI5w8QCxgNEgcI5w8QCxgOGAEyBAgAEAAqCQoFOgNJTlIoCA&qs=CAAgACgAMs4BQ2hrSXFaaUY2cnVnMGFSYkdnMHZaeTh4TVdJMmMydGtaR0o1RUFFYWUwRlFaR1ppVnpSWVQzcEpURk54UjJaRVdGcHdMVWw2ZHpZMkxWTklWM2RqTlVGTE9ESk5VR0V5YUc1aVFuQnJVbDlSYTE5QlUySjNPREF6UW5sb2VHZERNMUl6TTNkSFprZHNZbk4zWVRabVNIWTBVa0ZCTTNOUWFsYzVaM05XYVVaNlQzWnBlV2RMZVRkWlFWSjNTeTFpVTBZMVdqSjNTelZWV1E4DUgA&ap=KigKEgmlxCPCj1wqQBEKSWY18MxTQBISCRJrsBTMKSxAEQpJZrWt6VNAMABoAboBCG92ZXJ2aWV3&ictx=1&sa=X&sqi=2&utm_campaign=sharing&utm_medium=link_btn&utm_source=htls" class="btn btn-primary">Book hotel</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="./Images/tirupati hotel2.jpg" class="card-img-top" alt="2">
+            <div class="card-body">
+            <h5 class="card-title">Fortune Select Grand Ridge, Trupati - Member ITC's hotel group</h5>
+            <p class="card-text">URBAN HUT, 8-84, SHILPARAMAM, Tiruchanoor Rd, Tirupati, Andhra Pradesh 517503•0877 222 1818</p>
+            <h6>0877 222 1818</h6>
+            <a class=" hotel-add btn btn-primary" href="https://www.google.com/travel/search?q=tirupati%20best%20hotel&g2lb=2502548%2C2503771%2C2503781%2C4258168%2C4270442%2C4284970%2C4291517%2C4308226%2C4597339%2C4757164%2C4814050%2C4874190%2C4893075%2C4924070%2C4965990%2C4990494%2C72298667%2C72302247%2C72317059%2C72370226%2C72378200%2C72379816%2C72382669%2C72389675%2C72389680%2C72390435%2C72393630%2C72404470&hl=en-IN&gl=in&cs=1&ssta=1&ts=CAESCgoCCAMKAggDEAAaNwoXEhUKCS9tLzA4OWxyYzoIVGlydXBhdGkSHBIUCgcI5w8QCxgNEgcI5w8QCxgOGAEyBAgAEAAqCQoFOgNJTlIoCA&qs=CAAgACgAMs4BQ2hrSXV2bnp4dFRFck16M0FSb01MMmN2TVRJMGRESTViR3BtRUFFYWUwRlFaR1ppVnpaa1ZuSk1VRE55UzA0dGFtSmFjMGRtVVhWcVpsbDNNWFJtYUdSSmRWQmxWMWMwVERSbFptOXNNbXMyUm1OV2JsaFpjVVJ0TmpWb2RFWlBlVWt0TlZad05GQktaVXQ1ZUVwNVNqVkhaSHBKYjBzMFdXZFJUVUpLWkhFeFoxWTBOMnN6VlRCQlpXUnNSVmxvU1VWSmRXUkdVamhEVlE4DUgA&ap=KigKEgmlxCPCj1wqQBEKSWY18MxTQBISCRJrsBTMKSxAEQpJZrWt6VNAMABoAboBCG92ZXJ2aWV3&ictx=1&sa=X&sqi=2&utm_campaign=sharing&utm_medium=link_btn&utm_source=htls">Book hotel</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="./Images/tirupati hotel4.jpg" class="card-img-top" alt="4">
+            <div class="card-body">
+            <h5 class="card-title">Springs Hotel</h5>
+            <p class="card-text">circle, Tiruchanoor Road Near shilparamam Tiruchanur flyover bridge, Tirupati, Andhra Pradesh 517503•099492 59916</p>
+            <h6>099492 59916</h6>
+            <a class=" hotel-add btn btn-primary" href="https://www.google.com/travel/search?q=tirupati%20best%20hotel&g2lb=2502548%2C2503771%2C2503781%2C4258168%2C4270442%2C4284970%2C4291517%2C4308226%2C4597339%2C4757164%2C4814050%2C4874190%2C4893075%2C4924070%2C4965990%2C4990494%2C72298667%2C72302247%2C72317059%2C72370226%2C72378200%2C72379816%2C72382669%2C72389675%2C72389680%2C72390435%2C72393630%2C72404470&hl=en-IN&gl=in&cs=1&ssta=1&ts=CAESCgoCCAMKAggDEAAaNwoXEhUKCS9tLzA4OWxyYzoIVGlydXBhdGkSHBIUCgcI5w8QCxgNEgcI5w8QCxgOGAEyBAgAEAAqCQoFOgNJTlIoCA&qs=CAAgACgAMihDaG9Jai1DSHFPcnc5djdhQVJvTkwyY3ZNVEZ5WmpadE4zcG9ZeEFCOA1IAA&ap=KigKEgmlxCPCj1wqQBEKSWY18MxTQBISCRJrsBTMKSxAEQpJZrWt6VNAMABoAQ&ictx=1&sa=X&sqi=2&ved=0CAAQ5JsGahgKEwiY0evos4mCAxUAAAAAHQAAAAAQ5wo&utm_campaign=sharing&utm_medium=link_btn&utm_source=htls" >Book hotel</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="./Images/tirupati hotel3.jpg" class="card-img-top" alt="3">
+            <div class="card-body">
+            <h5 class="card-title">HOTEL PARK KRISHNA</h5>
+            <p class="hotel-add card-text">19-2-77, Korramenugunta, Tirupati, Andhra Pradesh 517501•083870 79999</p>
+           <h6>083870 79999</h6>
+            <a href="https://www.google.com/travel/search?q=tirupati%20best%20hotel&g2lb=2502548%2C2503771%2C2503781%2C4258168%2C4270442%2C4284970%2C4291517%2C4308226%2C4597339%2C4757164%2C4814050%2C4874190%2C4893075%2C4924070%2C4965990%2C4990494%2C72298667%2C72302247%2C72317059%2C72370226%2C72378200%2C72379816%2C72382669%2C72389675%2C72389680%2C72390435%2C72393630%2C72404470&hl=en-IN&gl=in&cs=1&ssta=1&ts=CAESCgoCCAMKAggDEAAaNwoXEhUKCS9tLzA4OWxyYzoIVGlydXBhdGkSHBIUCgcI5w8QCxgNEgcI5w8QCxgOGAEyBAgAEAAqCQoFOgNJTlIoCA&qs=CAAgACgAMihDaG9JcnVXRzNzcUZ0LUNjQVJvTkwyY3ZNVEZ3YTJ3eU9EQjZlaEFCOA1IAA&ap=KigKEgmlxCPCj1wqQBEKSWY18MxTQBISCRJrsBTMKSxAEQpJZrWt6VNAMABoAQ&ictx=1&sa=X&sqi=2&ved=0CAAQ5JsGahgKEwiY0evos4mCAxUAAAAAHQAAAAAQxwo&utm_campaign=sharing&utm_medium=link_btn&utm_source=htls" class="btn btn-primary">Book hotel</a>
+            </div>
+        </div>
+        </div>
+    <!-- </section> -->
+    <section class="highlight">
+      <h2>Visiting Time</h2>
+      <p class="sectionP">Tirupati's Sri Venkateswara Temple is open daily, with darshan available from early morning to late evening. Special pujas and rituals are conducted at specific times, with options for VIP and quick darshan. Free Divya Darshan is also available, but waiting times can be long. During festivals like Brahmotsavam, schedules may vary, so it's best to check with the temple authorities for the latest timings.</p>
+    </section>
+    <section class="highlight">
+      <h2>History</h2>
+      
+      <p class="sectionP">The Sri Venkateswara Swami Temple is a Hindu temple situated in the hill town of Tirumala at Tirupati in Tirupati district of Andhra Pradesh, India. The Temple is dedicated to Venkateswara, a form of Vishnu, who is believed to have appeared on the earth to save mankind from trials and troubles of Kali Yuga.</p>
+    </section>
+    <section class="highlight">
+      <h2>Geography</h2>
+     
+      <p class="sectionP">Tirupati is located at13.65°N 79.42°E in the Tirupati district of Andhra Pradesh state in southern India. Tirupati lies at the foot of Seshachalam Hills of Eastern Ghats which were formed during Precambrian era.</p>
+    </section>
+    <section class="highlight">
+      <h2>Weather</h2>
+     
+      <p class="sectionP"> Tirupati, located in the south of India, experiences a tropical climate. Summers (March to June) are hot and dry, with temperatures often exceeding 40°C (104°F). Monsoons (June to September) bring heavy rainfall, leading to cooler temperatures and lush landscapes. Post-monsoon (October to November) offers pleasant weather, while winters (December to February) are mild and comfortable, making it the best time for a visit.</p>
+      </section>
+
+    <section class="highlight"> 
+      <h2>Features</h2>
+     
+      <p class="sectionP" >&#x2022;<strong>Sri Venkateswara Temple: </strong>The world-famous temple dedicated to Lord Venkateswara is a major pilgrimage center, renowned for its spiritual significance and stunning architecture.</p>
+      <p class="sectionP">&#x2022;<strong>Natural Beauty:  </strong>The town is surrounded by the scenic Seshachalam Hills, offering a picturesque backdrop and lush green landscapes.</p>
+      <p class="sectionP">&#x2022;<strong> Religious Festivals and Culture: </strong>  Tirupati hosts vibrant religious festivals, showcasing its rich cultural heritage. The town promotes music, dance, and arts as part of its cultural tradition.</p>
+    </section>
+  </div> 
+    <!-- <section class="highlight">
+      <h2>Plan Your Pilgrimage</h2>
+      <p class="sectionP">Visiting Kedarnath Temple requires meticulous planning due to its high altitude and challenging terrain. Pilgrims are advised to be physically prepared and carry adequate warm clothing. Accommodation is available in nearby areas, and it's recommended to make advance bookings.</p>
+      
+    </section> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="../../temperature.js"></script>
+</body>
+</html>

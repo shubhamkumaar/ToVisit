@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hyderabad</title>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="icon" href="../../Images/favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <style>
+      body{
+        text-align: center;
+        background-color: #f4f4f4;
+        
+      }
+      section{
+        padding: 20px;
+        
+      }
+      .sectionP{
+        width: 50rem;
+        margin: auto;
+        word-spacing: 1.1px;
+        line-height: 1.5;
+        font-size: 18px;
+        text-align: justify;
+      }
+      section *{
+            width: 50rem;
+            margin: auto;
+            word-spacing: 1.1px;
+            line-height: 1.9;
+            text-align: justify;
+        }
+      .featured {
+            background: url('./Images/hyderabad\ background\ \(1\).jpg') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            margin-top: 70px;
+            padding: 150px 0;
+        }
+
+        .featured h2 {
+            font-size: 36px;
+        }
+        .highlight {
+            background-color: #fff;
+            padding: 40px 20px;
+            margin: 20px 0;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .utube{
+          margin-top: 2rem;
+        }
+        ul li{
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          /* text-align: justify; */
+        }
+        
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top " style = "padding-bottom: 0; background-color: #BEADFA;" >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../../index.html"><img style = "margin-right: 80px;" src="../../Images/navlogo.png" alt="Logo" height="50px" width="150px"></a>
+        </div>
+      </nav>
+
+    <div style="margin-top: 0;"  class="featured">
+      <img id="weatherIcon"src="" alt="">
+        <div class="temp">
+            <h4 id="temperature"></h4>
+            <p id="description"></p>
+        </div>
+       
+        <!-- <p>Explore the rich heritage, spirituality, and adventure of Bihar</p>  -->
+        <h2 style="color: black;">Discover the Divine Beauty of Hyderabad</h2>
+        <p >Explore the rich heritage, spirituality, and adventure of Hyderabad</p> 
+        <!-- <a href="#" style="background-color: #ff9800; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none;">Explore Now</a> -->
+        <iframe  class="utube" width="720" height="405" src="https://www.youtube.com/embed/Qipxi1Qn8iE?autoplay=1&mute=1&start=10" allowfullscreen></iframe>
+    </div>
+
+ <div class="rest">  
+  <section class="highlight">
+    <h2>Details</h2>
+    <p class="sectionP"><strong>Location: </strong>Hyderabad, Telangana</p>
+    <p class="sectionP"><strong>Road Access: </strong>From Warangal, Telangana (Approximately 140 kilometers): Drive on NH163 (Warangal-Hyderabad Highway) for approximately 2-3 hours.</p>
+
+  </section>
+    <section class = 'highlight'>
+      <h2>About Hyderabad</h2>
+      <p class="sectionP"> <strong id="capital">Hyderabad,</strong> the "City of Pearls" and the capital of Telangana, is a culturally rich and dynamic city in southern India. Steeped in history, the city is adorned with iconic landmarks like Charminar and Golconda Fort, echoing its regal past under the Qutb Shahi and Asaf Jahi dynasties. Hyderabad's diverse population and linguistic mosaic create a unique cultural tapestry, celebrated through its delectable cuisine, including the renowned Hyderabadi Biryani. The city's modernity shines through its status as a global IT and business hub, with HITEC City and bustling tech parks. With a flourishing educational sector, advanced infrastructure, and a well-connected transportation network, including the Hyderabad Metro, the city offers a compelling blend of heritage and progress. Vibrant festivals and a thriving film industry add to Hyderabad's charm, making it an appealing destination for residents and visitors alike.</p>
+    </section>
+
+    <!-- <section class="highlight"> -->
+      <h2>Accomodation</h2>
+      <!-- Create Card For Hotel -->
+      <div class="hotels">
+        <div class="card" style="width: 18rem;">
+            <img src="./Images/hyderabad hotel1.jpg" class="card-img-top" alt="1">
+            <div class="card-body">
+            <h5 class="card-title">Amrutha Castle</h5>
+            <p class="card-text">5-9-16, NH 44, opposite State Secretariat, Ambedkar Colony, Khairtabad, Hyderabad, Telangana 500063•040 4443 3888</p>
+            <h6>040 4443 3888</h6>
+            <a href="https://www.google.com/travel/search?q=hyderabad%20best%20hotels&g2lb=2502548%2C2503771%2C2503781%2C4258168%2C4270442%2C4284970%2C4291517%2C4308226%2C4597339%2C4757164%2C4814050%2C4874190%2C4893075%2C4924070%2C4965990%2C4990494%2C72298667%2C72302247%2C72317059%2C72370226%2C72378200%2C72379816%2C72382669%2C72389675%2C72389680%2C72390435%2C72393630%2C72404470&hl=en-IN&gl=in&cs=1&ssta=1&ts=CAESCgoCCAMKAggDEAAaNQoXEhUKCC9tLzA5YzZ3OglIeWRlcmFiYWQSGhIUCgcI5w8QCxgNEgcI5w8QCxgOGAEyAhAAKgkKBToDSU5SKAg&qs=CAAgACgAMiZDaGdJNTVpOHV1YTN3TXJGQVJvTEwyY3ZNWFptY0RadWJXd1FBUTgNSAA&ap=KigKEgmxcvkI0ygxQBGg6CZ2n5JTQBISCdb0YREPmjFAEaDoJjb-oFNAMABoAQ&ictx=1&sa=X&sqi=2&ved=0CAAQ5JsGahgKEwiY0evos4mCAxUAAAAAHQAAAAAQ5QU&utm_campaign=sharing&utm_medium=link_btn&utm_source=htls" class="btn btn-primary">Book hotel</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="./Images/hyderabad hotel2.jpg" class="card-img-top" alt="2">
+            <div class="card-body">
+            <h5 class="card-title">Hyderabad Marriott Hotel & Convention Centre</h5>
+            <p class="card-text">Tank Bund Rd, opposite Hussain Sagar, Bhagyalaxmi Nagar, Lake, Hyderabad, Telangana 500080•040 6652 2999</p>
+            <h6>040 6652 2999</h6>
+            <a class=" hotel-add btn btn-primary" href="https://www.google.com/travel/search?q=hyderabad%20best%20hotels&g2lb=2502548%2C2503771%2C2503781%2C4258168%2C4270442%2C4284970%2C4291517%2C4308226%2C4597339%2C4757164%2C4814050%2C4874190%2C4893075%2C4924070%2C4965990%2C4990494%2C72298667%2C72302247%2C72317059%2C72370226%2C72378200%2C72379816%2C72382669%2C72389675%2C72389680%2C72390435%2C72393630%2C72404470&hl=en-IN&gl=in&cs=1&ssta=1&ts=CAESCgoCCAMKAggDEAAaNwoXEhUKCC9tLzA5YzZ3OglIeWRlcmFiYWQSHBIUCgcI5w8QCxgNEgcI5w8QCxgOGAEyBAgAEAAqCQoFOgNJTlIoCA&qs=CAAgACgAMiZDaGdJMjR5cXVhbThrWXRKR2d3dlp5OHhjVFZpYm1kZk5EZ1FBUTgNSAA&ap=KigKEgmxcvkI0ygxQBGg6CZ2n5JTQBISCdb0YREPmjFAEaDoJjb-oFNAMABoAQ&ictx=1&sa=X&sqi=2&ved=0CAAQ5JsGahgKEwiY0evos4mCAxUAAAAAHQAAAAAQrAY&utm_campaign=sharing&utm_medium=link_btn&utm_source=htls">Book hotel</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="./Images/hyderabad hotel3.jpg" class="card-img-top" alt="3">
+            <div class="card-body">
+            <h5 class="card-title">Zostel Hyderabad</h5>
+            <p class="card-text">5, Phase, C9QR+7XW, 1-95-2, 2, Durgam Cheruvu Rd, Kavuri Hills, Madhapur, Hyderabad, Telangana 500081•044 4011 4005</p>
+            <h6>044 4011 4005</h6>
+            <a class=" hotel-add btn btn-primary" href="https://www.google.com/travel/search?q=hyderabad%20best%20hotels&g2lb=2502548%2C2503771%2C2503781%2C4258168%2C4270442%2C4284970%2C4291517%2C4308226%2C4597339%2C4757164%2C4814050%2C4874190%2C4893075%2C4924070%2C4965990%2C4990494%2C72298667%2C72302247%2C72317059%2C72370226%2C72378200%2C72379816%2C72382669%2C72389675%2C72389680%2C72390435%2C72393630%2C72404470&hl=en-IN&gl=in&cs=1&ssta=1&ts=CAESCgoCCAMKAggDEAAaNwoXEhUKCC9tLzA5YzZ3OglIeWRlcmFiYWQSHBIUCgcI5w8QCxgNEgcI5w8QCxgOGAEyBAgAEAAqCQoFOgNJTlIoCA&qs=CAAgACgAMidDaGtJdkltVWo5TDF6dThaR2cwdlp5OHhNWFJrTkRWb2NqVTNFQUU4DUgA&ap=KigKEgmxcvkI0ygxQBGg6CZ2n5JTQBISCdb0YREPmjFAEaDoJjb-oFNAMABoAQ&ictx=1&sa=X&sqi=2&ved=0CAAQ5JsGahgKEwiY0evos4mCAxUAAAAAHQAAAAAQ0AY&utm_campaign=sharing&utm_medium=link_btn&utm_source=htls" >Book hotel</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="./Images/hyderabad hotel4.jpg" class="card-img-top" alt="4">
+            <div class="card-body">
+            <h5 class="card-title">ITC Kohenur, a Luxury Collection Hotel, Hyderabad</h5>
+            <p class="hotel-add card-text">Hitec City, Plot No.5, Survey No. 83/1 Madhapur, opposite Inorbit Mall, Hyderabad, Telangana 500081•040 6766 0101</p>
+           <h6>040 6766 0101</h6>
+            <a href="https://www.google.com/travel/search?q=hyderabad%20best%20hotels&g2lb=2502548%2C2503771%2C2503781%2C4258168%2C4270442%2C4284970%2C4291517%2C4308226%2C4597339%2C4757164%2C4814050%2C4874190%2C4893075%2C4924070%2C4965990%2C4990494%2C72298667%2C72302247%2C72317059%2C72370226%2C72378200%2C72379816%2C72382669%2C72389675%2C72389680%2C72390435%2C72393630%2C72404470&hl=en-IN&gl=in&cs=1&ssta=1&ts=CAESCgoCCAMKAggDEAAaNwoXEhUKCC9tLzA5YzZ3OglIeWRlcmFiYWQSHBIUCgcI5w8QCxgNEgcI5w8QCxgOGAEyBAgAEAAqCQoFOgNJTlIoCA&qs=CAAgACgAMihDaG9JbkwyeXI1dUk1dnlmQVJvTkwyY3ZNVEZuWm1wek9ITmliaEFCOA1IAA&ap=KigKEgmxcvkI0ygxQBGg6CZ2n5JTQBISCdb0YREPmjFAEaDoJjb-oFNAMABoAQ&ictx=1&sa=X&sqi=2&ved=0CAAQ5JsGahgKEwiY0evos4mCAxUAAAAAHQAAAAAQhgc&utm_campaign=sharing&utm_medium=link_btn&utm_source=htls" class="btn btn-primary">Book hotel</a>
+            </div>
+        </div>
+        </div>
+    <!-- </section> -->
+    <section class="highlight">
+      <h2>Visiting Time</h2>
+      <p class="sectionP">Hyderabad, the capital of Telangana, stands on the banks of River Musi in the northern part of the Deccan Plateau. The city has a tropical wet and dry climate and is warm almost all year long, except for the chilly winter season. That is why October to February is regarded as the best time to visit Hyderabad.</p>
+    </section>
+    <section class="highlight">
+      <h2>History</h2>
+      
+      <p class="sectionP">The city of Hyderabad was founded by the Qutb Shahi sultan Muhammad Quli Qutb Shah in 1591 CE. It was built around the Charminar, which formed the centerpiece of the city. Hyderabad became an important trading centre for diamonds and pearls, and a centre for culture.</p>
+    </section>
+    <section class="highlight">
+      <h2>Geography</h2>
+     <img style="height: 25rem;width: auto;" src="./Images/manali geography.jpg" alt="">
+      <p class="sectionP">Hyderabad is located in central Telangana and is spread over an area of 2,500 km2. The city lies in the Deccan Plateau and rises to an average height of 536 m above the sea level. The city lies at 17.366° N latitude and 78.476° E longitude.</p>
+    </section>
+    <section class="highlight">
+      <h2>Weather</h2>
+     
+      <p class="sectionP"> Hyderabad experiences a tropical wet and dry climate with characteristics that border on a hot semi-arid climate. The city's annual mean temperature averages around 26.6 °C (79.9 °F), with monthly mean temperatures ranging from 21 to 33 °C (70 to 91 °F). Summers, spanning from March to June, are marked by scorching heat and dry conditions, with average high temperatures reaching the mid-to-high 30s Celsius. During this period, maximum temperatures can often surpass 40 °C (104 °F), particularly between April and June. The coolest temperatures are typically felt in December and January, with occasional dips down to 10 °C (50 °F). May stands out as the hottest month, with daily temperatures fluctuating between 26 and 39 °C (79 and 102 °F), while December, the coldest month, sees temperatures ranging from 14.5 to 28 °C (58.1 to 82.4 °F).</p>
+      </section>
+
+    <section class="highlight"> 
+      <h2>Features</h2>
+     
+      <p class="sectionP" >&#x2022;<strong>Rich Historical Heritage: </strong>Hyderabad boasts a rich history with iconic landmarks like the Charminar, Golconda Fort, and Qutb Shahi Tombs, reflecting its cultural and historical significance.</p>
+      <p class="sectionP">&#x2022;<strong>Technology and Business Hub: </strong>The city is a thriving hub for technology and business, with HITEC City housing numerous IT companies and startups, making it a major player in India's tech industry.</p>
+      <p class="sectionP">&#x2022;<strong> Culinary Delights: </strong>  Hyderabad is renowned for its unique and flavorful cuisine, highlighted by the famous Hyderabadi Biryani and other delicious dishes, making it a food lover's paradise.</p>
+    </section>
+  </div> 
+    <!-- <section class="highlight">
+      <h2>Plan Your Pilgrimage</h2>
+      <p class="sectionP">Visiting Kedarnath Temple requires meticulous planning due to its high altitude and challenging terrain. Pilgrims are advised to be physically prepared and carry adequate warm clothing. Accommodation is available in nearby areas, and it's recommended to make advance bookings.</p>
+      
+    </section> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="../../temperature.js"></script>
+</body>
+</html>
