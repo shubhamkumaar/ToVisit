@@ -15,12 +15,10 @@ header a{
   color: white;
 }
 a{
-    color : black;
-    text-decoration: none;  
+  color: black;
+  text-decoration: none;
 }
 /* NavBar */
-
-
 .navbar{
     background-color: #BEADFA;
 }
