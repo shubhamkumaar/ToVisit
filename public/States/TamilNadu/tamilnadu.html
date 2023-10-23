@@ -6,9 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tamil Nadu Tourism</title>
     <link rel="icon" href="../../Images/favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+ 
+    <link rel="stylesheet" href="../../style.css">
+  
     <style>
         body {
-            font-family: Arial, sans-serif;
+            /* font-family: Arial, sans-serif; */
             margin: 0 ;
             padding: 0;
             background-color: #f4f4f4;
@@ -52,7 +56,7 @@
             background: url('./Images/tamilBack.jpg') no-repeat center center/cover;
             color: white;
             text-align: center;
-            padding: 100px 0;
+            padding-bottom: 100px ;
         }
 
         .featured h2 {
@@ -72,6 +76,10 @@
             word-spacing: 1.1px;
             line-height: 1.9;
             text-align: justify;
+        }
+        li h3{
+            font-size: 1.4rem;
+
         }
         .utube{
             margin-top: 2rem;
@@ -107,16 +115,30 @@
     </nav>
 
     <div class="featured">
+        <img id="weatherIcon"src="" alt="">
+        <div class="temp">
+            <h4 id="temperature"></h4>
+            <p id="description"></p>
+        </div>
         <h2>Discover the Beauty of Tamil Nadu</h2>
         <p>Explore the rich heritage, spirituality, and adventure of Tamil Nadu</p>
         <!-- <a href="#" style="background-color: #ff9800; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none;">Explore Now</a> -->
         <iframe style="padding-top: 80px;" width="720" height="405" src="https://www.youtube.com/embed/5s5wZqhljWQ?autoplay=1&mute=1&start=4"  frameborder="0" allowfullscreen></iframe>
     </div>
+    <div class="rest">
     <section class="highlight">
         <h2>About</h2>
         <p>Tamil Nadu, with its capital in <span id="capital">Chennai</span>, is a southern Indian state celebrated for its rich history, vibrant culture, and economic diversity. The state's culture is marked by classical Tamil language, classical arts like Bharatanatyam, and colorful festivals like Pongal. The economy thrives on manufacturing, information technology, and agriculture. Tourist attractions include the temples of Mahabalipuram, the hill station of Ooty, and the cultural heritage of Madurai. Challenges involve water management, urban development, and environmental conservation as the state balances industrial growth. Tamil Nadu offers a captivating blend of heritage, culture, and commerce for exploration and study.</p> 
     </section>
-
+    <div class="card" style="width: 18rem;">
+        <img src="./Images/chennai hotel1.jpg" class="card-img-top" alt="1">
+        <div class="card-body">
+        <h5 class="card-title">Chennai</h5>
+        <p class="card-text">Chennai, the capital of Tamil Nadu in South India, is a city deeply entrenched in cultural heritage, renowned for classical arts </p>
+        <a href="./chennai.html" class="btn btn-primary">More Info</a>
+        </div>
+    </div>
+  
     <section class="highlight" id="heritage">
         <h2>Heritage Sites</h2>
         <p>Explore the historical wonders of Tamil Nadu, including The Brihadeeswarar Temple and more.</p>
@@ -278,6 +300,7 @@
     <footer>
         <p>&copy; 2023 Tamil Nadu Tourism. All rights reserved.</p>
     </footer>
+</div>
     <script src="../../temperature.js"></script>
 
 </body>
