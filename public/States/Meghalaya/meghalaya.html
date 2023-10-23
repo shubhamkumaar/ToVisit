@@ -1,93 +1,262 @@
 <!DOCTYPE html>
+<html lang="en">
 
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Meghalaya</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="icon" href="../Images/favicon.png">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-   
-        <link rel="stylesheet" href="../../style.css">
-    </head>
-    <body>
-        <div class="st-intro">
-            <div class = 'st-description'>
-                <h1 >Meghalaya</h1>
-                <img src="./Images/meghalaya.jpg" alt="">
-            </div>
-        <div class="st-description">
-            <p class = "st-text">Meghalaya is a state in northeastern India known for its scenic beauty, lush landscapes, and abundant rainfall. Shillong, the capital, is a popular hill station. The state is characterized by its vibrant tribal culture, living root bridges, and the famous Mawsynram, one of the wettest places on Earth. Meghalaya is also home to the unique matrilineal Khasi and Garo societies, contributing to its cultural diversity.</p>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meghalaya Tourism</title>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="icon" href="../../Images/favicon.png">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0 ;
+            padding: 0;
+            background-color: #f4f4f4;
             
-        </div>
-        <div class = 'st-description'>
-            <h2>Location</h2>
-            <p>Meghalaya is situated in northeastern India, bordered by Assam, Bangladesh, and Tripura</p>
-            <a href="https://maps.app.goo.gl/93uP6rTuQoxyB6iT7">Meghalaya Location</a>
-            <h3>Road Access</h3>
-            <p>From Guwahati, take NH6 or NH40 to Shillong (2.5-3.5 hours).
-                <br>From Siliguri, use NH31 and NH6 to Shillong (12-14 hours).</p>
-        </div>
-    </div> 
+        }
 
-    <div class = 'rest'>
-<div class="accomodation">
-    <h2>Accomodation</h2>
-    <!-- Create Card For Hotel -->
-    <div class="hotels">
-        <div class="card" style="width: 18rem;">
-            <img src="./Images/meghalaya hotel1.jpg" class="card-img-top" alt="1">
-            <div class="card-body">
-            <h5 class="card-title">Polo Orchid Resort, Cherrapunji</h5>
-            <p class="card-text">Near Seven Sisters Waterfalls, Mawsmai, Nongthymmai, Cherrapunji, Meghalaya 793108•099867 02889</p>
-            <a href="https://www.google.com/travel/search?q=meghalaya%20best%20hotels&g2lb=2502548%2C2503771%2C2503781%2C4258168%2C4270442%2C4284970%2C4291517%2C4308226%2C4597339%2C4757164%2C4814050%2C4874190%2C4893075%2C4924070%2C4965990%2C4990494%2C72298667%2C72302247%2C72317059%2C72370226%2C72379816%2C72381178%2C72389675%2C72389680%2C72390424&hl=en-IN&gl=in&cs=1&ssta=1&ts=CAESCAoCCAMKAggDGhwSGhIUCgcI5w8QCxgMEgcI5w8QCxgNGAEyAhAAKgkKBToDSU5SKAg&qs=CAEyFENnc0k3NEQxNllIeWx0M0JBUkFCOApCCQlvQD0dkFu6wUIJCUmQP9N5Xc5fQgkJbJaMS4QlaB0&ap=aAG6AQhvdmVydmlldw&ictx=1&sa=X&sqi=2&ved=0CAAQ5JsGahcKEwjA7dOgpPeBAxUAAAAAHQAAAAAQBQ&utm_campaign=sharing&utm_medium=link_btn&utm_source=htls" class="btn btn-primary">Book hotel</a>
-            </div>
+        header {
+            background-color: #333;     
+            padding: 10px 0;
+            text-align: center;
+        }
+        header a{
+            text-decoration: none;
+            color: white;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        section a{
+            text-decoration: none;
+            color: black;
+        }
+        a:hover{
+            color: #7D7C7C;
+        }
+        section {
+            padding: 20px;
+        }
+
+        .featured {
+            background: url('./Images/meghalaya.jpg') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            
+            padding-bottom: 100px ;
+        }
+
+        .featured h2 {
+            font-size: 36px;
+        }
+        .highlight {
+            background-color: #fff;
+            padding: 40px 20px;
+            margin: 20px 0;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            font-size: 18px;
+        }
+        section *{
+            width: 50rem;
+            margin: auto;
+            word-spacing: 1.1px;
+            line-height: 1.9;
+            text-align: justify;
+        }
+        .utube{
+            margin-top: 2rem;
+            text-align: center;
+           
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+   
+</head>
+
+<body>
+
+    <header >
+        <h1><a href="../../index.html">ToVisit</a></h1>
+    </header>
+
+    <nav>
+        <a href="#about">Home</a>
+        <a href="#heritage">Heritage Sites</a>
+        <a href="#spiritual">Spiritual Journeys</a>
+        <a href="#culture">Cultural Experiences</a>
+        <a href="#adventure">Adventure and Nature</a>
+        <a href="#plan">Plan Your Trip</a>
+        <a href="#fest">Events and Festivals</a>
+        <a href="https://youtu.be/84dD6-GPuqs?si=d9so7Ug_6t3CoKBX">Travel Blog</a>
+        <!-- <a href="#">Contact Us</a> -->
+    </nav>
+
+    <div class="featured">
+        <img id="weatherIcon"src="" alt="">
+        <div class="temp">
+            <h4 id="temperature"></h4>
+            <p id="description"></p>
         </div>
-        <div class="card" style="width: 18rem;">
-            <img src="./Images/meghalaya hotel2.jpg" class="card-img-top" alt="2">
-            <div class="card-body">
-            <h5 class="card-title">Vivanta Meghalaya, Shillong</h5>
-            <p class="card-text">Police Bazar, Shillong, Meghalaya 793001•0364 223 4000</p>
-            <a href="https://www.google.com/travel/search?q=meghalaya%20best%20hotels&g2lb=2502548%2C2503771%2C2503781%2C4258168%2C4270442%2C4284970%2C4291517%2C4308226%2C4597339%2C4757164%2C4814050%2C4874190%2C4893075%2C4924070%2C4965990%2C4990494%2C72298667%2C72302247%2C72317059%2C72370226%2C72379816%2C72381178%2C72389675%2C72389680%2C72390424&hl=en-IN&gl=in&cs=1&ssta=1&ts=CAESCAoCCAMKAggDGh4SHBIUCgcI5w8QCxgMEgcI5w8QCxgNGAEyBAgAEAAqCQoFOgNJTlIoCA&qs=CAEyJ0Noa0l5YUQtbVoydmwtZGZHZzB2Wnk4eE1XcHpaR2gyYkhNeUVBRTgKQgkJb0A9HZBbusFCCQlJkD_TeV3OX0IJCWyWjEuEJWgd&ap=MABoAQ&ictx=1&sa=X&sqi=2&ved=0CAAQ5JsGahcKEwjA7dOgpPeBAxUAAAAAHQAAAAAQSA&utm_campaign=sharing&utm_medium=link_btn&utm_source=htls" class="btn btn-primary">Book hotel</a>
-            </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img src="./Images/meghalaya hotel3.jpg" class="card-img-top" alt="3">
-            <div class="card-body">
-            <h5 class="card-title">Zostel Shillong</h5>
-            <p class="card-text">Pine Villa, Golf Club, LumShyiap, Lumshyiap, Shillong, Meghalaya 793001•011 4116 8422</p>
-            <a href="https://www.google.com/travel/search?q=meghalaya%20best%20hotels&g2lb=2502548%2C2503771%2C2503781%2C4258168%2C4270442%2C4284970%2C4291517%2C4308226%2C4597339%2C4757164%2C4814050%2C4874190%2C4893075%2C4924070%2C4965990%2C4990494%2C72298667%2C72302247%2C72317059%2C72370226%2C72379816%2C72381178%2C72389675%2C72389680%2C72390424&hl=en-IN&gl=in&cs=1&ssta=1&ts=CAESCAoCCAMKAggDGh4SHBIUCgcI5w8QCxgMEgcI5w8QCxgNGAEyBAgAEAAqCQoFOgNJTlIoCA&qs=CAEyKENob0l3LTdRNTRtWTNPLXlBUm9OTDJjdk1URjBOMnMyT0doc2JCQUI4CkIJCW9APR2QW7rBQgkJSZA_03ldzl9CCQlsloxLhCVoHUgA&ap=MABoAQ&ictx=1&sa=X&sqi=2&ved=0CAAQ5JsGahgKEwjA7dOgpPeBAxUAAAAAHQAAAAAQigE&utm_campaign=sharing&utm_medium=link_btn&utm_source=htls" class="btn btn-primary">Book hotel</a>
-            </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img src="./Images/meghalaya hotel4.jpg" class="card-img-top" alt="4">
-            <div class="card-body">
-            <h5 class="card-title">Ri Kynjai - Serenity By The Lake</h5>
-            <p class="card-text">Umniuh Khwan, Road, UCC, Meghalaya 793122•098624 20300</p>
-            <a href="https://www.google.com/travel/search?q=meghalaya%20best%20hotels&g2lb=2502548%2C2503771%2C2503781%2C4258168%2C4270442%2C4284970%2C4291517%2C4308226%2C4597339%2C4757164%2C4814050%2C4874190%2C4893075%2C4924070%2C4965990%2C4990494%2C72298667%2C72302247%2C72317059%2C72370226%2C72379816%2C72381178%2C72389675%2C72389680%2C72390424&hl=en-IN&gl=in&cs=1&ssta=1&ts=CAESCAoCCAMKAggDGh4SHBIUCgcI5w8QCxgMEgcI5w8QCxgNGAEyBAgAEAAqCQoFOgNJTlIoCA&qs=CAEyJENoY0k3S3l5M01Td2liUWRHZ3N2Wnk4eGRHWTVkM05xTWhBQjgKQgkJb0A9HZBbusFCCQlJkD_TeV3OX0IJCWyWjEuEJWgdSAA&ap=MABoAQ&ictx=1&sa=X&sqi=2&ved=0CAAQ5JsGahcKEwjA7dOgpPeBAxUAAAAAHQAAAAAQaw&utm_campaign=sharing&utm_medium=link_btn&utm_source=htls" class="btn btn-primary">Book hotel</a>
-            </div>
-        </div>
+        <h2>Discover the Beauty of Meghalaya</h2>
+        <p>Explore the rich heritage, spirituality, and adventure of Meghalaya</p>
+        <!-- <a href="https://tourism.bihar.gov.in/" style="background-color: #ff9800; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none;">Explore Now</a> -->
+        <iframe style="padding-top: 80px;" width="720" height="405" src="https://www.youtube.com/embed/R-YuZ7uFgKE?autoplay=1&mute=1&start=8"  frameborder="0" allowfullscreen></iframe>
     </div>
+<div class="rest">
+    <section class="highlight" id="about">
+        <h2>About</h2>
+        <!-- <center><h3 id="capital">Patna</h3> -->
+            <p>Meghalya is a captivating state in northeastern India, known for its lush green landscapes and picturesque beauty. With its rolling hills, misty mountains, and stunning waterfalls, it's often referred to as the "Abode of Clouds." Meghalaya is also renowned for its unique living root bridges, crafted by the local Khasi and Jaintia tribes. This state offers a rich cultural tapestry, with various indigenous communities and their vibrant traditions. Whether you're exploring the charming capital, <span id="capital">Shillong</span>, or venturing into the remote villages, Meghalaya is a place of natural wonder and cultural diversity.</p></center>
+    </section>
+    <section class="highlight" id="heritage">
+        <h2>Heritage Sites</h2>
+        <p>Explore the historical wonders of Meghalaya, including Shillong Peak, Living Root Bridges, and more.</p>
+        <ol>
+            <li><a href="https://dbcic.org/"><h3>Shillong - Don Bosco Centre for Indigenous Cultures</h3></a></li>
+            <p>•	Open from 9:30 AM to 4:30 PM (Monday to Saturday).</p>
+            <li><a href="https://www.tourism-of-india.com/shillong-peak.html"><h3>Shillong - Shillong Peak</h3></a></li>
+            <p>•	Open from 10:00 AM to 3:30 PM.</p>
+        </ol>
+    </section>
 
-</div>
+    <section class="highlight" id="spiritual">
+        <h2>Spiritual Journeys</h2>
+        <p>Embark on spiritual adventures to Shillong Cathedral, Nohkalikai Falls, and other sacred places.</p>
+        <ol>
+            <li><a href="https://maps.app.goo.gl/HPZ6NKUpBQLaV31BA"><h3>Shillong - Shillong Cathedral</h3></a></li>
+            <p>•	Open throughout the day for prayer and visits.</p>
+            <li><a href="https://en.wikipedia.org/wiki/Nohkalikai_Falls"><h3>Cherrapunjee - Nohkalikai Falls</h3></a></li>
+            <p>•	Open for visits during daylight hours.</p>
+            <li><a href="https://www.meghalayatourism.in/experiences-4/living-root-bridges/"><h3>Mawlynnong - Living Root Bridge</h3></a></li>
+            <p>•	Open for visits during daylight hours.</p>
+        </ol>
+    </section>
 
-<div class = 'weather'>
-    <h2>Weather</h2>
-</div>
-<div class = "highlight">
-    <h2>Highlight</h2>
+    <section class="highlight" id="culture">
+        <h2>Cultural Experiences</h2>
+        <p>Shillong - Police Bazaar (•	Open during the day for shopping and dining.), Nongpoh - Ialong Park (•	Open for nature walks and picnics during the day.)</p>
+        <ol>
+            <li>
+                <h3>Culinary Delights</h3>
+                <ul>
+                    <li>
+                        <h4>Local Khasi Cuisine</h4>
+                        <p>•	Available in local eateries during meal times.</p>
+                    </li>    
+                    <li>
+                        <h4>Sattu</h4>
+                        <p>Enjoy Sattu, a nutritious flour made from roasted gram or pulses, used in various Bihari delicacies and drinks.</p>
+                    </li> 
+                    <li> 
+                        <h4>Thekua</h4>
+                        <p>Indulge in the sweet and crispy Thekua, a popular Bihari sweet made during festivals</p>
+                    </li>
+                </ul>
+            </li>    
+            <li>
+                <h3>Folk Dances and Music</h3>
+                <ul>
+                    <li>
+                        <h4>
+                            Cultural Events and Festivals
+                        </h4>
+                        <p> •	Timings vary, often in the evenings and during special occasions.</p>
+                    </li>
+                </ul>    
+            </li>
+            <li>
+                <h3>Traditional Handicrafts</h3>
+                <ul>
+                    <li>
+                        <h4>Shillong - Lewduh Market (Bara Bazaar): </h4>
+                        <p>Open during the day for shopping. </p>
+                    </li>
+                    <li>
+                        <h4>Tura - Rongrenggiri</h4>
+                        <p>Open during the day for traditional textile shopping.</p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <h3 id="fest">Fairs and Festivals</h3>
+                <ul>
+                    <li>
+                        <h4>Nongkrem Dance Festival</h4>
+                        <p>A Khasi festival featuring traditional dances to celebrate their culture and heritage.</p>
+                    </li>
+                    <li>
+                        <h4>Wangala Festival</h4>
+                        <p>Celebrated by the Garo community, it marks the end of the harvest season with dance and music.</p>
+                    </li>
+                    <li>
+                        <h4>Shad Suk Mynsiem</h4>
+                        <p>Khasi festival dedicated to giving thanks to the goddess of Shillong through colorful rituals and dances.</p>
+                    </li>
+                </ul>
+            </li>
+        </ol>
+    </section>
 
+    <section class="highlight" id="adventure">
+        <h2>Adventure and Nature</h2>
+        <p>Experience thrilling activities like river rafting, trekking, and bird watching in Meghalaya's natural wonders.</p>
+        <ol>
+            <li>
+                <h3>Cherrapunjee - Double Decker Living Root Bridge Trek</h3>
+                <ul>
+                    <li><strong><a href="https://maps.app.goo.gl/sAnvCVjDAifUaxs68">Location:</strong>  Meghalaya 793108</a></li>
+                    <li><p><strong>Adventure Level:</strong>  Moderate to Challenging</p></li>
+                    <li><p><strong>Description:</strong> Open for trekking, best during daylight hours. </p></li>
+                </ul>
+            </li>
+            <li>
+                <h3>Dawki - Umngot River</h3>
+                <ul>
+                    <li><p><strong><a href="https://maps.app.goo.gl/adJZc9B2p7CHCjK66">Location: </strong> Meghalaya 793109</a></p></li>
+                    <li><p><strong>Adventure Level: </strong>  Easy to Moderate</p></li>
+                    <li><p><strong>Description:</strong> Open for boating and nature exploration during daylight hours.</p></li>
+                </ul>
+            </li>
+            <li>
+                <h3>Mawsynram - Mawjymbuin Cave</h3>
+                <ul>
+                    <li>
+                        <p><strong><a href="https://www.google.com/maps/place/Mawjymbuin+Caves,+Meghalaya/@25.3047396,91.5824215,17z/data=!3m1!4b1!4m6!3m5!1s0x37509496b5758fdb:0x2627a9de249bb709!8m2!3d25.3047348!4d91.5849964!16s%2Fg%2F11hbgbkkcc?entry=ttu">Location: </strong>  8H3M+VXX, Mawjymbuiñ Rd, Meghalaya 793113.</a></p>
+                    </li>
+                    <li><p><strong>Adventure Level: </strong> Moderate</p></li>
+                    <li><p><strong>Description: </strong>Open for visits during specific hours.</p></li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2 id="plan">Plan Your Trip</h2>
+        <p>Find the best hotels, restaurants, and activities. Get travel tips and local insights to make your trip memorable.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Meghalaya Tourism. All rights reserved.</p>
+    </footer>
 </div>
-<div class = "History">
-    <h2>History</h2>
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-</div>
-<h2 class="fest-">Festivals</h2>
-<div class = 'festival'>
-    <h3 class = 'fest-item'>Wangla</h3>
-    <p class = 'fest-item'>Wangala Festival of Meghalaya is a most popular festival among the Garos of Meghalaya, India. Wangala Festival is a harvest festival held in honour of Saljong, the Sun-god of fertility. The celebration of the Wangala Festival marks the end of a period of toil, which brings good output of the fields.</p>
-</div>
-</div>
-        <script src="" async defer></script>
-    </body>
+    <script src="../../temperature.js"></script>
+</body>
+
 </html>
