@@ -54,7 +54,7 @@
             background: url('./Images/telangana.jpg') no-repeat center center/cover;
             color: white;
             text-align: center;
-            padding: 100px 0;
+            padding-bottom: 100px;
         }
 
         .featured h2 {
@@ -109,24 +109,32 @@
     </nav>
 
     <div class="featured">
+        <img id="weatherIcon"src="" alt="">
+        <div class="temp">
+            <h4 id="temperature"></h4>
+            <p id="description"></p>
+        </div>
         <h2>Discover the Beauty of Telangana</h2>
         <p>Explore the rich heritage, spirituality, and adventure of Telangana</p>
         <!-- <a href="#" style="background-color: #ff9800; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none;">Explore Now</a> -->
         <iframe style="padding-top: 80px;" width="720" height="405" src="https://www.youtube.com/embed/f0-uzfvPdw0?autoplay=1&mute=1&start=12"  frameborder="0" allowfullscreen></iframe>
     </div>
+
+    <div class="rest">
     <section class="highlight">
         <h2>About</h2>
         <p>Telangana, with its capital in <span id="capital">Hyderabad</span>, is a dynamic state in southern India known for its rich historical legacy, vibrant culture, and economic diversity. The state's cultural fabric is woven with the classical Telugu language, traditional arts like Kuchipudi dance, and lively festivals like Bonalu. The economy of Telangana is driven by a mix of sectors, including manufacturing, information technology, and agriculture. Tourist attractions in the state encompass the historic temples of Warangal, the lush landscapes of Adilabad, and the modern charm of Hyderabad.</p> 
     </section>
+<div class="hotels">
     <div class="card" style="width: 18rem;">
-        <img src="./Images/chennai hotel1.jpg" class="card-img-top" alt="1">
+        <img src="./Images/hyderabad background (1).jpg" class="card-img-top" alt="1">
         <div class="card-body">
-        <h5 class="card-title">Hyderabad</h5>
-        <p class="card-text">Hyderabad, the capital of Telangana in South India, is a city deeply immersed in cultural heritage, celebrated for its classical arts and vibrant traditions. </p>
-        <a href="./hyderabad.html" class="btn btn-primary">More Info</a>
+        <h2 class="card-title">Hyderabad</h2>
+        <p class="card-text">  the <strong> "City of Pearls"</strong> and the capital of Telangana, is a culturally rich and dynamic city in southern India......</p>
+        <a class=" hotel-add btn btn-primary" href="./hyderabad.html">More info</a>
         </div>
     </div>
-
+</div>
     <section class="highlight" id="heritage">
         <h2>Heritage Sites</h2>
         <p>Explore the historical wonders of Telangana, including The Golkonda Fort, Charminar, and more.</p>
@@ -287,7 +295,7 @@
         <h2>Plan Your Trip</h2>
         <p>Find the best hotels, restaurants, and activities. Get travel tips and local insights to make your trip memorable.</p>
     </section>
-
+</div>
     <footer>
         <p>&copy; 2023 Telangana Tourism. All rights reserved.</p>
     </footer>
