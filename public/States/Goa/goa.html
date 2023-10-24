@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="../../style.css">
     <style>
         body {
-            font-family: Arial, sans-serif;
+            /* font-family: Arial, sans-serif; */
             margin: 0 ;
             padding: 0;
             background-color: #f4f4f4;
@@ -55,7 +55,7 @@
             background: url('./Images/goaBack.jpg') no-repeat center center/cover;
             color: white;
             text-align: center;
-            padding: 100px 0;
+            padding-bottom: 100px ;
         }
 
         .featured h2 {
@@ -110,21 +110,28 @@
     </nav>
 
     <div class="featured">
+        <img id="weatherIcon"src="" alt="">
+        <div style="color: white;" class="temp">
+            <h4 id="temperature"></h4>
+            <p id="description"></p>
+        </div>
         <h2>Discover the Beauty of Goa</h2>
         <p>Explore the rich heritage, spirituality, and adventure of Goa</p>
         <!-- <a href="#" style="background-color: #ff9800; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none;">Explore Now</a> -->
         <iframe id="utube" style="padding-top: 80px;" width="720" height="405" src="https://www.youtube.com/embed/F3YGYr37QFI?autoplay=1&mute=1&start=8" frameborder="0" allowfullscreen></iframe>
      
     </div>
+
+    <div class="rest">
     <section class="highlight">
         <h2>About</h2>
         <p>Goa, with its capital in <span id="capital">Panaji</span> (also known as Panjim), is a picturesque coastal state along the Arabian Sea in western India. Known for its unique blend of Indian and Portuguese cultures, Goa is a major tourist destination famous for its beautiful beaches and vibrant nightlife. While tourism drives its economy, the state faces challenges related to sustainability and infrastructure. Goa's colorful festivals and distinct cuisine, along with its rich history, make it an intriguing subject for exploration and leisure.</p> 
     </section>
     <div class="card" style="width: 18rem;">
-        <img src="./Images/chennai background.jpg" class="card-img-top" alt="1">
+        <img src="./Images/panaji background.jpg" class="card-img-top" alt="1">
         <div class="card-body">
         <h5 class="card-title">Panaji</h5>
-        <p class="card-text"> Panaji, the capital of Goa, is a city known for its rich cultural heritage and unique charm. While it may not have the same classical arts heritage as Chennai, it boasts a distinct blend of Portuguese and Indian influences due to its colonial history. </p>
+        <p class="card-text"> Panaji, the capital of Goa, is a city known for its rich cultural heritage and unique charm. While it may not have the same classical arts heritage.... </p>
         <a href="./panaji.html" class="btn btn-primary">More Info</a>
         </div>
     </div>
@@ -286,7 +293,7 @@
         <h2>Plan Your Trip</h2>
         <p>Find the best hotels, restaurants, and activities. Get travel tips and local insights to make your trip memorable.</p>
     </section>
-
+</div>
     <footer>
         <p>&copy; 2023 Goa Tourism. All rights reserved.</p>
     </footer>

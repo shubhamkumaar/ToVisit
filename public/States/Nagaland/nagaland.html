@@ -6,9 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nagaland Tourism</title>
     <link rel="icon" href="../../Images/favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+ 
+    <link rel="stylesheet" href="../../style.css">
     <style>
         body {
-            font-family: Arial, sans-serif;
+            /* font-family: Arial, sans-serif; */
             margin: 0 ;
             padding: 0;
             background-color: #f4f4f4;
@@ -52,7 +55,7 @@
             background: url('./Images/nagaland\ background.jpg') no-repeat center center/cover;
             color: white;
             text-align: center;
-            padding: 100px 0;
+            padding-bottom: 100px;
         }
 
         .featured h2 {
@@ -107,23 +110,27 @@
     </nav>
 
     <div class="featured">
+        <img id="weatherIcon"src="" alt="">
+        <div style="color: white;" class="temp">
+            <h4 id="temperature"></h4>
+            <p id="description"></p>
+        </div>
         <h2>Discover the Beauty of Nagaland</h2>
         <p>Explore the rich heritage, spirituality, and adventure of Nagaland</p>
-        <a href="#" style="background-color: #ff9800; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none;">Explore Now</a>
+        <!-- <a href="#" style="background-color: #ff9800; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none;">Explore Now</a> -->
+        <iframe  width="720" height="405" src="https://www.youtube.com/embed/Upc_qAU3ztg?autoplay=1&mute=1&start=17"  frameborder="0" allowfullscreen></iframe>
     </div>
 
-    <div class='utube'>
-        <iframe  width="720" height="405" src="https://www.youtube.com/embed/Upc_qAU3ztg?autoplay=1&mute=1&start=17"  frameborder="0" allowfullscreen></iframe>
-     </div>
+    <div class="rest">
      <section class="highlight">
         <h2>About</h2>
         <p>Nagaland, with its capital in <span id="capital">Kohima</span>, is a northeastern Indian state celebrated for its rich tribal culture and stunning landscapes. The Naga people, with their diverse traditions, express their heritage through vibrant music, dance, and festivals like the Hornbill Festival. Nagaland's economy is rooted in agriculture, with an emphasis on rice and horticulture, along with the importance of handicrafts. The state offers tourist attractions like the picturesque Dzukou Valley and the annual Hornbill Festival, where Naga culture shines. Challenges include infrastructure development and preserving tribal traditions while fostering economic growth. Nagaland is a captivating subject for exploration and study.</p> 
     </section>
     <div class="card" style="width: 18rem;">
-        <img src="./Images/chennai background.jpg" class="card-img-top" alt="1">
+        <img src="./Images/nagaland.jpg" class="card-img-top" alt="1">
         <div class="card-body">
         <h5 class="card-title">Kohima</h5>
-        <p class="card-text">Kohima, the capital of Nagaland in Northeast India, is a city deeply entrenched in cultural heritage, renowned for its rich Naga traditions and cultural diversity.</p>
+        <p class="card-text">Kohima, the capital of Nagaland in Northeast India, is a city deeply entrenched in cultural heritage....</p>
         <a href="./kohima.html" class="btn btn-primary">More Info</a>
         </div>
     </div>
@@ -265,7 +272,7 @@
         <h2>Plan Your Trip</h2>
         <p>Find the best hotels, restaurants, and activities. Get travel tips and local insights to make your trip memorable.</p>
     </section>
-
+</div>
     <footer>
         <p>&copy; 2023 Nagaland Tourism. All rights reserved.</p>
     </footer>

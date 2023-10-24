@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="../../style.css">
     <style>
         body {
-            font-family: Arial, sans-serif;
+            /* font-family: Arial, sans-serif; */
             margin: 0 ;
             padding: 0;
             background-color: #f4f4f4;
@@ -55,7 +55,7 @@
             background: url('./Images/mh.jpg') no-repeat center center/cover;
             color: white;
             text-align: center;
-            padding: 100px 0;
+            padding-bottom: 100px;
         }
 
         .featured h2 {
@@ -110,20 +110,27 @@
     </nav>
 
     <div class="featured">
+        <img id="weatherIcon"src="" alt="">
+        <div  class="temp">
+            <h4 id="temperature"></h4>
+            <p id="description"></p>
+        </div>
         <h2>Discover the Beauty of Maharashtra</h2>
         <p>Explore the rich heritage, spirituality, and adventure of Maharashtra</p>
         <!-- <a href="#" style="background-color: #ff9800; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none;">Explore Now</a> -->
         <iframe  width="720" height="405" src="https://www.youtube.com/embed/48DKD8Ot45Y?autoplay=1&mute=1"  frameborder="0" allowfullscreen></iframe>
     </div>
+
+    <div class="rest">
     <section class="highlight">
         <h2>About</h2>
         <p>Maharashtra, with its capital in <span id="capital">Mumbai</span>, is a western Indian state celebrated for its economic importance, diverse culture, and rich history. The state's culture reflects traditional Marathi customs and a cosmopolitan way of life, with vibrant festivals and classical arts. Maharashtra's economy is diverse, encompassing finance, manufacturing, agriculture, and the influential Bollywood film industry. Tourist attractions range from historic sites like Ajanta and Ellora Caves to scenic hill stations such as Lonavala. While grappling with urbanization and environmental challenges, Maharashtra continues to shine as a hub of culture and commerce, offering an intriguing subject for exploration and study.</p> 
     </section>
     <div class="card" style="width: 18rem;">
-        <img src="./Images/chennai background.jpg" class="card-img-top" alt="1">
+        <img src="./Images/mh.jpg" class="card-img-top" alt="1">
         <div class="card-body">
         <h5 class="card-title">Mumbai</h5>
-        <p class="card-text">Mumbai, where dreams set sail on the shimmering waves of opportunity. The city that never sleeps, where the pulse of life beats with unwavering determination.</p>
+        <p class="card-text">Mumbai, where dreams set sail on the shimmering waves of opportunity. The city that never sleeps....</p>
         <a href="./mumbai.html" class="btn btn-primary">More Info</a>
         </div>
     </div>
@@ -288,7 +295,7 @@
         <h2>Plan Your Trip</h2>
         <p>Find the best hotels, restaurants, and activities. Get travel tips and local insights to make your trip memorable.</p>
     </section>
-
+</div>
     <footer>
         <p>&copy; 2023 Maharashtra Tourism. All rights reserved.</p>
     </footer>
