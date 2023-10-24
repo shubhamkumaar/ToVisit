@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agartala</title>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="icon" href="../../Images/favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <style>
+      body{
+        text-align: center;
+        background-color: #f4f4f4;      
+      }
+      section{
+        padding: 20px;
+      }
+      .sectionP{
+        width: 50rem;
+        margin: auto;
+        word-spacing: 1.1px;
+        line-height: 1.5;
+        font-size: 18px;
+        text-align: justify;
+      }
+      section *{
+            width: 50rem;
+            margin: auto;
+            word-spacing: 1.1px;
+            line-height: 1.9;
+            text-align: justify;
+        }
+      .featured {
+            background: url('./Images/agartala-background.jpg') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 100px 0;
+        }
+
+        .featured h2 {
+            font-size: 36px;
+        }
+        .highlight {
+            background-color: #fff;
+            padding: 40px 20px;
+            margin: 20px 0;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .utube{
+          margin-top: 2rem;
+        }
+        ul li{
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          /* text-align: justify; */
+        }
+        nav{
+          margin: 2rem auto;
+          border-radius: 1rem;
+          width: 80%;
+          opacity: .8;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top " style="background-color: #BEADFA;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../../index.html"><img style="margin-right: 80px;" src="../../Images/navlogo.png" alt="Logo" height="50px" width="150px"></a>
+        </div>
+    </nav>
+
+    <div class="featured">
+      <img id="weatherIcon" src="" alt="">
+        <div class="temp">
+            <h4 id="temperature"></h4>
+            <p id="description"></p>
+        </div>
+
+        <h2 style="color: black;">Discover the Charm of Agartala</h2>
+        <p>Explore the culture, heritage, and natural beauty of Agartala</p>
+        <iframe  class="utube" width="720" height="405" src="https://www.youtube.com/embed/eUo3ybC4uOk?autoplay=1&mute=1&start=8" allowfullscreen></iframe>
+    
+    </div>
+
+    <div class="rest">  
+        <section class="highlight">
+            <h2>Details</h2>
+            <p class="sectionP"><strong>Location: </strong>Agartala, West Tripura, India</p>
+            <p class="sectionP"><strong>Road Access: </strong>Agartala is well-connected by road to various parts of the state and neighboring regions.</p>
+        </section>
+        <section class="highlight">
+            <h2>About Agartala</h2>
+            <p class="sectionP">Agartala is the capital city of the Indian state of Tripura. Known for its rich culture and natural beauty, Agartala is a place where tradition and modernity coexist. It offers a blend of historical sites, lush landscapes, and a vibrant cultural scene. The city is known for its traditional dance forms and festivals.</p>
+        </section>
+        <section class="highlight">
+            <h2>Accommodation</h2>
+            <!-- Create Cards for Hotels in Agartala -->
+            <!-- Replace the images, names, and details with actual data -->
+            <div class="hotels">
+                <div class="card" style="width: 18rem;">
+                    <img src="./Images/agartala-hotel1.jpg" class="card-img-top" alt="1">
+                    <div class="card-body">
+                        <h5 class="card-title">Your Hotel Name 1</h5>
+                        <p class="card-text">Address: Hotel Address, Agartala, Tripura</p>
+                        <h6>Contact: 123-456-7890</h6>
+                        <a href="https://www.example.com" class="btn btn-primary">Book Hotel</a>
+                    </div>
+                </div>
+                <!-- Repeat similar card structure for other hotels -->
+            </div>
+        </section>
+        <section class="highlight">
+            <h2>Visiting Time</h2>
+            <p class="sectionP">The best time to visit Agartala is from October to March when the weather is pleasant and suitable for outdoor activities.</p>
+        </section>
+        <section class="highlight">
+            <h2>History</h2>
+            <p class="sectionP">Agartala has a rich history and is known for its historical landmarks and cultural heritage.</p>
+        </section>
+        <section class="highlight">
+            <h2>Geography</h2>
+            <img style="height: 25rem; width: auto;" src="./Images/agartala-geography.jpg" alt="">
+            <p class="sectionP">Agartala is located in the northeastern part of India and has a unique geography with diverse landscapes.</p>
+        </section>
+        <section class="highlight">
+            <h2>Weather</h2>
+            <p class="sectionP">Agartala experiences a tropical climate with distinct seasons. Summers can be hot, while monsoons bring heavy rainfall. Winters are milder and more comfortable for tourism.</p>
+        </section>
+        <section class="highlight">
+            <h2>Features</h2>
+            <p class="sectionP"><strong>Natural Beauty: </strong>Agartala is known for its scenic beauty and lush greenery, making it a great destination for nature lovers.</p>
+            <p class="sectionP"><strong>Cultural Heritage: </strong>The city is rich in cultural heritage, with traditional dance forms and festivals that showcase its vibrant culture.</p>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="../../temperature.js"></script>
+</body>
+</html>

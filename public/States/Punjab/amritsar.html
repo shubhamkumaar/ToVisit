@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amritsar</title>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="icon" href="../../Images/favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <style>
+      body{
+        text-align: center;
+        background-color: #f4f4f4;      
+      }
+      section{
+        padding: 20px;
+      }
+      .sectionP{
+        width: 50rem;
+        margin: auto;
+        word-spacing: 1.1px;
+        line-height: 1.5;
+        font-size: 18px;
+        text-align: justify;
+      }
+      section *{
+        width: 50rem;
+        margin: auto;
+        word-spacing: 1.1px;
+        line-height: 1.9;
+        text-align: justify;
+      }
+      .featured {
+        background: url('./Images/amritsar_background.jpg') no-repeat center center/cover;
+        color: white;
+        text-align: center;
+        padding: 100px 0;
+      }
+      .featured h2 {
+        font-size: 36px;
+      }
+      .highlight {
+        background-color: #fff;
+        padding: 40px 20px;
+        margin: 20px 0;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      .utube{
+        margin-top: 2rem;
+      }
+      ul li{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+      nav{
+        margin: 2rem auto;
+        border-radius: 1rem;
+        width: 80%;
+        opacity: .8;
+      }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top " style="background-color: #BEADFA;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../../index.html"><img style="margin-right: 80px;" src="../../Images/navlogo.png" alt="Logo" height="50px" width="150px"></a>
+        </div>
+    </nav>
+
+    <div class="featured">
+      <img id="weatherIcon" src="" alt="">
+      <div class="temp">
+          <h4 id="temperature"></h4>
+          <p id="description"></p>
+      </div>
+      <h2 style="color: black;">Explore the Spiritual Beauty of Amritsar</h2>
+      <p >Discover the rich cultural heritage and spirituality of Amritsar</p>
+      <iframe class="utube" width="720" height="405" src="https://www.youtube.com/embed/gMjUurYj2oA?autoplay=1&mute=1&start=5" allowfullscreen></iframe>
+    </div>
+
+    <div class="rest">
+      <section class="highlight">
+        <h2>Details</h2>
+        <p class="sectionP"><strong>Location: </strong>Amritsar, Amritsar district, Punjab</p>
+        <p class="sectionP"><strong>Road Access: </strong>Amritsar is well-connected by road, and it's easily accessible via national and state highways. The city is approximately a 4-5 hour drive from Chandigarh, the capital of Punjab.</p>
+      </section>
+      <section class="highlight">
+        <h2>About Amritsar</h2>
+        <p class="sectionP"> <strong>Amritsar,</strong> often referred to as the "Holy City," is located in the northwestern Indian state of Punjab. It is a city deeply rooted in Sikh history and culture, most famous for the Golden Temple (Harmandir Sahib), the holiest shrine in Sikhism. Amritsar is not only a spiritual hub but also a center for Punjabi cuisine and traditional crafts. The city is known for its warm hospitality, and the majority of its population follows Sikhism. The Punjabi language is widely spoken here. Amritsar's rich history, spirituality, and culinary delights make it a popular destination for both Indian and international tourists.</p>
+      </section>
+      <h2>Accommodation</h2>
+      <!-- Create Cards for Hotels in Amritsar -->
+      <div class="hotels">
+        <!-- Hotel 1 -->
+        <div class="card" style="width: 18rem;">
+          <img src="./Images/amritsar_hotel1.jpg" class="card-img-top" alt="1">
+          <div class="card-body">
+            <h5 class="card-title">Golden Temple View Hotel</h5>
+            <p class="card-text">1, Golden Temple Rd, Atta Mandi, Katra Ahluwalia, Amritsar, Punjab 143006</p>
+            <h6>Phone: 091762 34785</h6>
+            <a href="booking_link_here" class="btn btn-primary">Book hotel</a>
+          </div>
+        </div>
+        <!-- Hotel 2 -->
+        <div class="card" style="width: 18rem;">
+          <img src="./Images/amritsar_hotel2.jpg" class="card-img-top" alt="2">
+          <div class="card-body">
+            <h5 class="card-title">Punjab Heritage Hotel</h5>
+            <p class="card-text">55, Ghanta Ghar, Hall Bazaar, Amritsar, Punjab 143001</p>
+            <h6>Phone: 091760 93401</h6>
+            <a href="booking_link_here" class="btn btn-primary">Book hotel</a>
+          </div>
+        </div>
+        <!-- Hotel 3 -->
+        <div class="card" style="width: 18rem;">
+          <img src="./Images/amritsar_hotel3.jpg" class="card-img-top" alt="3">
+          <div class="card-body">
+            <h5 class="card-title">Royal Castle Hotel</h5>
+            <p class="card-text">89, Queens Rd, INA Colony, Amritsar, Punjab 143001</p>
+            <h6>Phone: 091760 37632</h6>
+            <a href="booking_link_here" class="btn btn-primary">Book hotel</a>
+          </div>
+        </div>
+      </div>
+      <section class="highlight">
+        <h2>Visiting Time</h2>
+        <p class="sectionP">The best time to visit Amritsar is during the winter months, from October to March, when the weather is cool and pleasant. This is an ideal time to explore the city and its attractions, including the Golden Temple.</p>
+      </section>
+      <section class="highlight">
+        <h2>History</h2>
+        <p class="sectionP">Amritsar's history is closely tied to Sikhism and the establishment of the Golden Temple in the 16th century. It has played a significant role in the Indian independence movement and is a city with deep cultural and spiritual roots.</p>
+      </section>
+      <section class="highlight">
+        <h2>Geography</h2>
+        <img style="height: 25rem; width: auto;" src="./Images/amritsar_geography.jpg" alt="">
+        <p class="sectionP">Amritsar is located in the northern region of India, in the state of Punjab. It is situated on the fertile plains of the Indo-Gangetic basin, with the Ravi River flowing nearby.</p>
+      </section>
+      <section class="highlight">
+        <h2>Weather</h2>
+        <p class="sectionP">Amritsar experiences a typical North Indian climate with hot summers, monsoon rains, and cold winters. Summers (April to June) can be very hot, while winters (December to February) are cold and foggy. The post-monsoon months are ideal for visiting when the weather is pleasant.</p>
+      </section>
+      <section class="highlight">
+        <h2>Features</h2>
+        <p class="sectionP" >&#x2022;<strong>Spiritual Center: </strong>Amritsar is a significant center of Sikh spirituality, home to the Golden Temple, where pilgrims from around the world come to seek blessings.</p>
+        <p class="sectionP">&#x2022;<strong>Cultural Heritage: </strong>The city is rich in Punjabi culture and offers a taste of traditional Punjabi cuisine, music, and dance.</p>
+        <p class="sectionP">&#x2022;<strong>Hospitality: </strong>Amritsar is known for its warm and welcoming hospitality, and visitors often feel at home in the city.</p>
+      </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="../../temperature.js"></script>
+</body>
+</html>

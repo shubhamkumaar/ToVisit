@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhubaneswar</title>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="icon" href="../../Images/favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <style>
+      body{
+        text-align: center;
+        background-color: #f4f4f4;      
+      }
+      section{
+        padding: 20px;
+      }
+      .sectionP{
+        width: 50rem;
+        margin: auto;
+        word-spacing: 1.1px;
+        line-height: 1.5;
+        font-size: 18px;
+        text-align: justify;
+      }
+      section *{
+        width: 50rem;
+        margin: auto;
+        word-spacing: 1.1px;
+        line-height: 1.9;
+        text-align: justify;
+      }
+      .featured {
+        background: url('./Images/bhubaneswar_background.jpg') no-repeat center center/cover;
+        color: white;
+        text-align: center;
+        padding: 100px 0;
+      }
+      .featured h2 {
+        font-size: 36px;
+      }
+      .highlight {
+        background-color: #fff;
+        padding: 40px 20px;
+        margin: 20px 0;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      .utube{
+        margin-top: 2rem;
+      }
+      ul li{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+      nav{
+        margin: 2rem auto;
+        border-radius: 1rem;
+        width: 80%;
+        opacity: .8;
+      }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top" style="background-color: #BEADFA;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../../index.html"><img style="margin-right: 80px;" src="../../Images/navlogo.png" alt="Logo" height="50px" width="150px"></a>
+        </div>
+    </nav>
+
+    <div class="featured">
+      <img id="weatherIcon" src="" alt="">
+        <div class="temp">
+            <h4 id="temperature"></h4>
+            <p id="description"></p>
+        </div>
+        <h2 style="color: black;">Explore the Wonders of Bhubaneswar, Odisha</h2>
+        <p>Discover the rich cultural heritage and natural beauty of Bhubaneswar</p>
+        <iframe class="utube" width="720" height="405" src="https://www.youtube.com/embed/your-video-id?autoplay=1&mute=1&start=10" allowfullscreen></iframe>
+    </div>
+
+    <div class="rest">
+      <section class="highlight">
+        <h2>Details</h2>
+        <p class="sectionP"><strong>Location: </strong>Bhubaneswar, Khurda district, Odisha</p>
+        <p class="sectionP"><strong>Road Access: </strong>Bhubaneswar is well-connected to major cities in Odisha and neighboring states through a network of highways.</p>
+      </section>
+      <section class="highlight">
+        <h2>About Bhubaneswar</h2>
+        <p class="sectionP"> <strong id="capital">Bhubaneswar,</strong> the capital of Odisha, is a city known for its rich cultural heritage and historic temples. It's also emerging as an educational and IT hub. Bhubaneswar offers a blend of tradition and modernity, with attractions like the Lingaraj Temple and Kalinga Stadium. The city is a significant center for art, culture, and commerce in eastern India.</p>
+      </section>
+      <h2>Accommodation</h2>
+      <!-- Create Card For Hotel -->
+      <div class="hotels">
+        <!-- Add hotel cards here -->
+      </div>
+      <section class="highlight">
+        <h2>Visiting Time</h2>
+        <p class="sectionP">The best time to visit Bhubaneswar is during the winter months, from October to February when the weather is pleasant for sightseeing.</p>
+      </section>
+      <section class="highlight">
+        <h2>History</h2>
+        <p class="sectionP">Bhubaneswar has a rich history, with numerous ancient temples and archaeological sites. It is known for its cultural and spiritual significance.</p>
+      </section>
+      <section class="highlight">
+        <h2>Geography</h2>
+        <img style="height: 25rem;width: auto;" src="./Images/bhubaneswar_geography.jpg" alt="">
+        <p class="sectionP">Bhubaneswar is situated in the eastern part of India and is known for its flat and fertile landscape. It is close to the Bay of Bengal and has a tropical climate.</p>
+      </section>
+      <section class="highlight">
+        <h2>Weather</h2>
+        <p class="sectionP">Bhubaneswar experiences a tropical climate with distinct seasons. Summers are hot and humid, while the monsoon season brings heavy rainfall. Winters are mild and pleasant, making it the best time to visit.</p>
+      </section>
+      <section class="highlight">
+        <h2>Features</h2>
+        <p class="sectionP">&#x2022;<strong>Rich Cultural Heritage: </strong>Bhubaneswar is known for its ancient temples and cultural traditions.</p>
+        <p class="sectionP">&#x2022;<strong>Educational and IT Hub: </strong>The city is home to several educational institutions and emerging as an IT hub.</p>
+        <p class="sectionP">&#x2022;<strong>Natural Beauty: </strong>Bhubaneswar offers scenic landscapes and is known for its lush greenery.</p>
+      </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="../../temperature.js"></script>
+</body>
+</html>

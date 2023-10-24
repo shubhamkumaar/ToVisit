@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kohima</title>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="icon" href="../../Images/favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <style>
+      body{
+        text-align: center;
+        background-color: #f4f4f4;      
+      }
+      section{
+        padding: 20px;
+        
+      }
+      .sectionP{
+        width: 50rem;
+        margin: auto;
+        word-spacing: 1.1px;
+        line-height: 1.5;
+        font-size: 18px;
+        text-align: justify;
+      }
+      section *{
+            width: 50rem;
+            margin: auto;
+            word-spacing: 1.1px;
+            line-height: 1.9;
+            text-align: justify;
+        }
+      .featured {
+            background: url('./Images/kohima-background.jpg') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 100px 0;
+        }
+
+        .featured h2 {
+            font-size: 36px;
+        }
+        .highlight {
+            background-color: #fff;
+            padding: 40px 20px;
+            margin: 20px 0;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .utube{
+          margin-top: 2rem;
+        }
+        ul li{
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          /* text-align: justify; */
+        }
+        nav{
+          margin: 2rem auto;
+          border-radius: 1rem;
+          width: 80%;
+          opacity: .8;
+        }
+        
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top " style = " background-color: #BEADFA;" >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../../index.html"><img style = "margin-right: 80px;" src="../../Images/navlogo.png" alt="Logo" height="50px" width="150px"></a>
+        </div>
+      </nav>
+
+    <div class="featured">
+      <img id="weatherIcon"src="" alt="">
+        <div class="temp">
+            <h4 id="temperature"></h4>
+            <p id="description"></p>
+        </div>
+       
+        <h2 style="color: black;">Discover the Enchanting Beauty of Kohima</h2>
+        <p >Explore the rich heritage, spirituality, and adventure of Kohima</p> 
+        <iframe  class="utube" width="720" height="405" src="https://www.youtube.com/embed/w6cfm2kwmKg?autoplay=1&mute=1&start=40" allowfullscreen></iframe>
+    
+      </div>
+
+ <div class="rest">  
+  <section class="highlight">
+    <h2>Details</h2>
+    <p class="sectionP"><strong>Location: </strong>Kohima, Kohima district, Nagaland</p>
+    <p class="sectionP"><strong>Road Access: </strong>Kohima is well-connected to various cities in the region. For example, it's accessible from Dimapur, a major city in Nagaland, via NH2. The journey takes around 3-4 hours.</p>
+  </section>
+    <section class = 'highlight'>
+      <h2>About Kohima</h2>
+      <p class="sectionP"> <strong id="capital">Kohima,</strong> the capital of Nagaland in Northeast India, is a city deeply entrenched in cultural heritage, renowned for its rich Naga traditions and cultural diversity. It's an economic center for the region and offers a unique blend of tradition and modernity. Kohima is known for its lush natural beauty and vibrant festivals, making it a must-visit destination for travelers. With its significant historical and cultural sites, the city provides a deep dive into the heritage of Nagaland.</p>
+    </section>
+
+    <h2>Accommodation</h2>
+    <!-- Create Card For Hotel -->
+    <div class="hotels">
+        <div class="card" style="width: 18rem;">
+            <img src="./Images/kohima-hotel1.jpg" class="card-img-top" alt="1">
+            <div class="card-body">
+            <h5 class="card-title">Kohima View Guest House</h5>
+            <p class="card-text">Kohima View, Near Old MLA Hostel, Kohima, Nagaland 797001</p>
+            <h6>01234 567 890</h6>
+            <a href="#" class="btn btn-primary">Book hotel</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="./Images/kohima-hotel2.jpg" class="card-img-top" alt="2">
+            <div class="card-body">
+            <h5 class="card-title">Naga Heritage Village</h5>
+            <p class="card-text">Naga Heritage Village, Kisama, Kohima, Nagaland 797001</p>
+            <h6>09876 543 210</h6>
+            <a class=" hotel-add btn btn-primary" href="#">Book hotel</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="./Images/kohima-hotel3.jpg" class="card-img-top" alt="3">
+            <div class="card-body">
+            <h5 class="card-title">The Naga Homestead</h5>
+            <p class="card-text">Naga Homestead, Forest Colony, Kohima, Nagaland 797001</p>
+            <h6>07890 123 456</h6>
+            <a class=" hotel-add btn btn-primary" href="#">Book hotel</a>
+            </div>
+        </div>
+    </div>
+    
+    <section class="highlight">
+      <h2>Visiting Time</h2>
+      <p class="sectionP">Peak Season – The best time to visit Kohima is between the months of October to March, when the weather is relatively pleasant, and you can enjoy the rich cultural experiences and festivals that the city offers.</p>
+    </section>
+    <section class="highlight">
+      <h2>History</h2>
+      <p class="sectionP">Kohima, the capital of Nagaland, has a unique and vibrant history that is deeply connected to the Naga people and their traditions. The city has witnessed the fusion of tradition and modernity, making it an intriguing destination for history enthusiasts.</p>
+    </section>
+    <section class="highlight">
+      <h2>Geography</h2>
+     <img style="height: 25rem;width: auto;" src="./Images/kohima-geography.jpg" alt="">
+      <p class="sectionP">Kohima is situated in the picturesque hills of Nagaland, offering stunning views and a temperate climate. It is a city surrounded by lush forests and breathtaking landscapes, making it a perfect destination for nature lovers.</p>
+    </section>
+    <section class="highlight">
+      <h2>Weather</h2>
+      <p class="sectionP">Kohima experiences a temperate climate with distinct seasons. Summers (March to June) are mild and pleasant, making it a suitable time for outdoor activities. Monsoons (June to September) bring heavy rainfall, adding to the city's lush greenery. Winters (October to February) are cold, but they offer a unique charm with a possibility of snowfall.</p>
+    </section>
+    <section class="highlight"> 
+      <h2>Features</h2>
+      <p class="sectionP" >&#x2022;<strong>Cultural Diversity: </strong>Kohima celebrates the rich cultural diversity of Nagaland, with numerous festivals and traditions that offer a unique experience for visitors.</p>
+      <p class="sectionP">&#x2022;<strong>Natural Beauty: </strong>The city is surrounded by picturesque hills and lush forests, providing a serene and peaceful environment for tourists.</p>
+      <p class="sectionP">&#x2022;<strong>Historical Significance: </strong>Kohima holds historical importance and showcases the amalgamation of tradition and modernity in Nagaland.</p>
+    </section>
+  </div> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="../../temperature.js"></script>
+</body>
+</html>
