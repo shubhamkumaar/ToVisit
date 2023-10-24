@@ -1,100 +1,175 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mysore</title>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="icon" href="../../Images/favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <style>
+      body{
+        text-align: center;
+        background-color: #f4f4f4;
+        
+      }
+      section{
+        padding: 20px;
+        
+      }
+      .sectionP{
+        width: 50rem;
+        margin: auto;
+        word-spacing: 1.1px;
+        line-height: 1.5;
+        font-size: 18px;
+        text-align: justify;
+      }
+      section *{
+            width: 50rem;
+            margin: auto;
+            word-spacing: 1.1px;
+            line-height: 1.9;
+            text-align: justify;
+        }
+      .featured {
+            background: url('./Images/hyderabad\ background\ \(1\).jpg') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            margin-top: 70px;
+            padding: 150px 0;
+        }
 
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Mysore Palace</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="icon" href="../Images/favicon.png">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-        <link rel="stylesheet" href="../../style.css">
-   
-    </head>
-    <body>
-        <nav class="navbar navbar-expand-lg fixed-top " style ="background-color: #BEADFA;" >
-            <div class="container-fluid">
-              <a class="navbar-brand" href="../../index.html"><img style = "margin-right: 80px;" src="../../Images/navlogo.png" alt="Logo" height="50px" width="150px"></a>
-            </div>
-          </nav>
-        <div style="margin-top: 100px;" class="st-intro">
-            <div class = 'st-description'>
-                <h1 >Mysore Palace</h1>
-                <img src="./Images/mysore.jpg" alt="">
-            </div>
-        <div class="st-description">
-            <p class = "st-text"><span>Mysore</span>, in Karnataka, is steeped in cultural richness and historical splendor, epitomized by the magnificent Mysore Palace. The city is famed for its lively Dasara festival, featuring a grand procession and illuminated palace celebrations. Nestled near the Chamundi Hills, Mysore offers the majestic Chamundeshwari Temple and a well-regarded zoo. This blend of history, culture, and natural beauty makes Mysore a captivating destination in Southern India.</p>
-            
+        .featured h2 {
+            font-size: 36px;
+        }
+        .highlight {
+            background-color: #fff;
+            padding: 40px 20px;
+            margin: 20px 0;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .utube{
+          margin-top: 2rem;
+        }
+        ul li{
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          /* text-align: justify; */
+        }
+        
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top " style = "padding-bottom: 0; background-color: #BEADFA;" >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../../index.html"><img style = "margin-right: 80px;" src="../../Images/navlogo.png" alt="Logo" height="50px" width="150px"></a>
         </div>
-        <div class = 'st-description'>
-            <h2>Location</h2>
-            <p>Meghalaya is situated in northeastern India, bordered by Assam, Bangladesh, and Tripura</p>
-            <a href="https://maps.app.goo.gl/rYu9ZwaoUpQro3oBA">Mysore Location</a>
-            <h3>Road Access</h3>
-            <p>From Guwahati, take NH6 or NH40 to Shillong (2.5-3.5 hours).
-                <br>From Siliguri, use NH31 and NH6 to Shillong (12-14 hours).</p>
-        </div>
-    </div> 
+      </nav>
 
-    <div class = 'rest'>
-<div class="accomodation">
-    <h2>Accomodation</h2>
-    <!-- Create Card For Hotel -->
-    <div class="hotels">
-        <div class="card" style="width: 18rem;">
-            <img src="./Images/mysore hotel1.jpg" class="card-img-top" alt="1">
-            <div class="card-body">
-            <h5 class="card-title">Grand Mercure Mysore</h5>
-            <p class="card-text">2203 60 New Sayyaji Rao Road, Nelson Mandela Rd, Mysuru, Karnataka 570021•0821 402 1212</p>
-            <a href="https://www.google.com/travel/search?q=mysore%20best%20hotels&g2lb=2502548%2C2503771%2C2503781%2C4258168%2C4270442%2C4284970%2C4291517%2C4308226%2C4597339%2C4757164%2C4814050%2C4874190%2C4893075%2C4924070%2C4965990%2C4990494%2C72298667%2C72302247%2C72317059%2C72370226%2C72378185%2C72379816%2C72381178%2C72389675%2C72389680%2C72390424&hl=en-IN&gl=in&cs=1&ssta=1&ts=CAESCgoCCAMKAggDEAAaMgoUEhIKCC9tLzBqNjAzOgZNeXN1cnUSGhIUCgcI5w8QCxgMEgcI5w8QCxgNGAEyAhAAKgkKBToDSU5SKAg&qs=CAAgASgAMihDaG9Jei1lRm9PZlhzWW1GQVJvTkwyY3ZNVEZqYkhRNVgyZHJlaEFCOA1IAA&ap=KigKEgna0fevo20oQBEMHeA--iVTQBISCWAGplWO4ShAEQwd4J4pLVNAMABoAQ&ictx=1&sa=X&ved=0CAAQ5JsGahgKEwio0ZqlqveBAxUAAAAAHQAAAAAQ9A4&utm_campaign=sharing&utm_medium=link_btn&utm_source=htls" class="btn btn-primary">Book hotel</a>
-            </div>
+    <div style="margin-top: 0;"  class="featured">
+      <img id="weatherIcon"src="" alt="">
+        <div class="temp">
+            <h4 id="temperature"></h4>
+            <p id="description"></p>
         </div>
-        <div class="card" style="width: 18rem;">
-            <img src="./Images/mysore hotel2.jpg" class="card-img-top" alt="2">
-            <div class="card-body">
-            <h5 class="card-title">Lalitha Mahal Palace Hotel</h5>
-            <p class="card-text">Lalitha Mahal Palace Road, Lalithmahal Nagar, Siddhartha Layout, Mysuru, Karnataka 570028•0821 247 0444</p>
-            <a href="https://www.google.com/travel/search?q=mysore%20best%20hotels&g2lb=2502548%2C2503771%2C2503781%2C4258168%2C4270442%2C4284970%2C4291517%2C4308226%2C4597339%2C4757164%2C4814050%2C4874190%2C4893075%2C4924070%2C4965990%2C4990494%2C72298667%2C72302247%2C72317059%2C72370226%2C72378185%2C72379816%2C72381178%2C72389675%2C72389680%2C72390424&hl=en-IN&gl=in&cs=1&ssta=1&ts=CAESCgoCCAMKAggDEAAaNAoUEhIKCC9tLzBqNjAzOgZNeXN1cnUSHBIUCgcI5w8QCxgMEgcI5w8QCxgNGAEyBAgAEAAqCQoFOgNJTlIoCA&qs=CAAgASgAMiNDaFlJbDhhZG84LU12OHZIQVJvSkwyMHZNRGd5ZVdadEVBRTgNSAA&ap=KigKEgna0fevo20oQBEMHeA--iVTQBISCWAGplWO4ShAEQwd4J4pLVNAMABoAQ&ictx=1&sa=X&ved=0CAAQ5JsGahgKEwio0ZqlqveBAxUAAAAAHQAAAAAQpw8&utm_campaign=sharing&utm_medium=link_btn&utm_source=htls" class="btn btn-primary">Book hotel</a>
-            </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img src="./Images/mysore hotel3.jpg" class="card-img-top" alt="3">
-            <div class="card-body">
-            <h5 class="card-title">Hotel Sandesh The Prince</h5>
-            <p class="card-text">No 3 Nethra Nivas, Nazarbad Main Rd, Mysuru, Karnataka 570010•0821 243 6777</p>
-            <a href="https://www.google.com/travel/search?q=mysore%20best%20hotels&g2lb=2502548%2C2503771%2C2503781%2C4258168%2C4270442%2C4284970%2C4291517%2C4308226%2C4597339%2C4757164%2C4814050%2C4874190%2C4893075%2C4924070%2C4965990%2C4990494%2C72298667%2C72302247%2C72317059%2C72370226%2C72378185%2C72379816%2C72381178%2C72389675%2C72389680%2C72390424&hl=en-IN&gl=in&cs=1&ssta=1&ts=CAESCgoCCAMKAggDEAAaNAoUEhIKCC9tLzBqNjAzOgZNeXN1cnUSHBIUCgcI5w8QCxgMEgcI5w8QCxgNGAEyBAgAEAAqCQoFOgNJTlIoCA&qs=CAAgASgAMidDaGtJcjlMZjJOZXI3SncxR2cwdlp5OHhNV2M1YXpGeE1uWmpFQUU4DUgA&ap=KigKEgna0fevo20oQBEMHeA--iVTQBISCWAGplWO4ShAEQwd4J4pLVNAMABoAQ&ictx=1&sa=X&ved=0CAAQ5JsGahgKEwio0ZqlqveBAxUAAAAAHQAAAAAQ4Q8&utm_campaign=sharing&utm_medium=link_btn&utm_source=htls" class="btn btn-primary">Book hotel</a>
-            </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img src="./Images/mysore hotel4.jpg" class="card-img-top" alt="4">
-            <div class="card-body">
-            <h5 class="card-title">Hotel Mayura Hoysala Mysuru</h5>
-            <p class="card-text">Jhansi Rani Lakshmi Bai Rd, Devaraja Mohalla, Shivarampet, Mysuru, Karnataka 570005•089706 50014</p>
-            <a href="https://www.google.com/travel/search?q=mysore%20best%20hotels&g2lb=2502548%2C2503771%2C2503781%2C4258168%2C4270442%2C4284970%2C4291517%2C4308226%2C4597339%2C4757164%2C4814050%2C4874190%2C4893075%2C4924070%2C4965990%2C4990494%2C72298667%2C72302247%2C72317059%2C72370226%2C72378185%2C72379816%2C72381178%2C72389675%2C72389680%2C72390424&hl=en-IN&gl=in&cs=1&ssta=1&ts=CAESCgoCCAMKAggDEAAaNAoUEhIKCC9tLzBqNjAzOgZNeXN1cnUSHBIUCgcI5w8QCxgMEgcI5w8QCxgNGAEyBAgAEAAqCQoFOgNJTlIoCA&qs=CAAgASgAMiRDaGNJc2RpSzFLal82WUJLR2dzdlp5OHhkR1pxZWpsaWFoQUI4DUgA&ap=KigKEgna0fevo20oQBEMHeA--iVTQBISCWAGplWO4ShAEQwd4J4pLVNAMABoAQ&ictx=1&sa=X&ved=0CAAQ5JsGahgKEwio0ZqlqveBAxUAAAAAHQAAAAAQrxA&utm_campaign=sharing&utm_medium=link_btn&utm_source=htls" class="btn btn-primary">Book hotel</a>
-            </div>
-        </div>
+       
+        <!-- <p>Explore the rich heritage, spirituality, and adventure of Bihar</p>  -->
+        <h2 style="color: black;">Discover the Divine Beauty of Mysore</h2>
+        <p >Explore the rich heritage, spirituality, and adventure of Mysore</p> 
+        <!-- <a href="#" style="background-color: #ff9800; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none;">Explore Now</a> -->
+        <iframe  class="utube" width="720" height="405" src="https://www.youtube.com/embed/0NusSgajSeY?autoplay=1&mute=1&start=29" allowfullscreen></iframe>
     </div>
 
+ <div class="rest">  
+  <section class="highlight">
+    <h2>Details</h2>
+    <p class="sectionP"><strong>Location: </strong>Mysore, Karnataka</p>
+    <p class="sectionP"><strong>Road Access: </strong>The 117 km long, access-controlled Bangalore Mysore Expressway will be built in India's Karnataka state.  It takes a little over 3 hours to cover the Bangalore to Mysore distance, sometimes more due to traffic.</p>
 
+  </section>
+    <section class = 'highlight'>
+      <h2>About Mysore</h2>
+      <p class="sectionP"> Mysore Palace, also known as the Amba Vilas Palace, is a magnificent royal residence that showcases the grandeur of Indian architecture and heritage.</p>
+    </section>
 
-</div>
+    <!-- <section class="highlight"> -->
+      <h2>Accomodation</h2>
+      <!-- Create Card For Hotel -->
+      <div class="hotels">
+        <div class="card" style="width: 18rem;">
+            <img src="./Images/hyderabad hotel1.jpg" class="card-img-top" alt="1">
+            <div class="card-body">
+            <h5 class="card-title">Amrutha Castle</h5>
+            <p class="card-text">5-9-16, NH 44, opposite State Secretariat, Ambedkar Colony, Khairtabad, Hyderabad, Telangana 500063•040 4443 3888</p>
+            <h6>040 4443 3888</h6>
+            <a href="https://www.google.com/travel/search?q=hyderabad%20best%20hotels&g2lb=2502548%2C2503771%2C2503781%2C4258168%2C4270442%2C4284970%2C4291517%2C4308226%2C4597339%2C4757164%2C4814050%2C4874190%2C4893075%2C4924070%2C4965990%2C4990494%2C72298667%2C72302247%2C72317059%2C72370226%2C72378200%2C72379816%2C72382669%2C72389675%2C72389680%2C72390435%2C72393630%2C72404470&hl=en-IN&gl=in&cs=1&ssta=1&ts=CAESCgoCCAMKAggDEAAaNQoXEhUKCC9tLzA5YzZ3OglIeWRlcmFiYWQSGhIUCgcI5w8QCxgNEgcI5w8QCxgOGAEyAhAAKgkKBToDSU5SKAg&qs=CAAgACgAMiZDaGdJNTVpOHV1YTN3TXJGQVJvTEwyY3ZNWFptY0RadWJXd1FBUTgNSAA&ap=KigKEgmxcvkI0ygxQBGg6CZ2n5JTQBISCdb0YREPmjFAEaDoJjb-oFNAMABoAQ&ictx=1&sa=X&sqi=2&ved=0CAAQ5JsGahgKEwiY0evos4mCAxUAAAAAHQAAAAAQ5QU&utm_campaign=sharing&utm_medium=link_btn&utm_source=htls" class="btn btn-primary">Book hotel</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="./Images/hyderabad hotel2.jpg" class="card-img-top" alt="2">
+            <div class="card-body">
+            <h5 class="card-title">Hyderabad Marriott Hotel & Convention Centre</h5>
+            <p class="card-text">Tank Bund Rd, opposite Hussain Sagar, Bhagyalaxmi Nagar, Lake, Hyderabad, Telangana 500080•040 6652 2999</p>
+            <h6>040 6652 2999</h6>
+            <a class=" hotel-add btn btn-primary" href="https://www.google.com/travel/search?q=hyderabad%20best%20hotels&g2lb=2502548%2C2503771%2C2503781%2C4258168%2C4270442%2C4284970%2C4291517%2C4308226%2C4597339%2C4757164%2C4814050%2C4874190%2C4893075%2C4924070%2C4965990%2C4990494%2C72298667%2C72302247%2C72317059%2C72370226%2C72378200%2C72379816%2C72382669%2C72389675%2C72389680%2C72390435%2C72393630%2C72404470&hl=en-IN&gl=in&cs=1&ssta=1&ts=CAESCgoCCAMKAggDEAAaNwoXEhUKCC9tLzA5YzZ3OglIeWRlcmFiYWQSHBIUCgcI5w8QCxgNEgcI5w8QCxgOGAEyBAgAEAAqCQoFOgNJTlIoCA&qs=CAAgACgAMiZDaGdJMjR5cXVhbThrWXRKR2d3dlp5OHhjVFZpYm1kZk5EZ1FBUTgNSAA&ap=KigKEgmxcvkI0ygxQBGg6CZ2n5JTQBISCdb0YREPmjFAEaDoJjb-oFNAMABoAQ&ictx=1&sa=X&sqi=2&ved=0CAAQ5JsGahgKEwiY0evos4mCAxUAAAAAHQAAAAAQrAY&utm_campaign=sharing&utm_medium=link_btn&utm_source=htls">Book hotel</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="./Images/hyderabad hotel3.jpg" class="card-img-top" alt="3">
+            <div class="card-body">
+            <h5 class="card-title">Zostel Hyderabad</h5>
+            <p class="card-text">5, Phase, C9QR+7XW, 1-95-2, 2, Durgam Cheruvu Rd, Kavuri Hills, Madhapur, Hyderabad, Telangana 500081•044 4011 4005</p>
+            <h6>044 4011 4005</h6>
+            <a class=" hotel-add btn btn-primary" href="https://www.google.com/travel/search?q=hyderabad%20best%20hotels&g2lb=2502548%2C2503771%2C2503781%2C4258168%2C4270442%2C4284970%2C4291517%2C4308226%2C4597339%2C4757164%2C4814050%2C4874190%2C4893075%2C4924070%2C4965990%2C4990494%2C72298667%2C72302247%2C72317059%2C72370226%2C72378200%2C72379816%2C72382669%2C72389675%2C72389680%2C72390435%2C72393630%2C72404470&hl=en-IN&gl=in&cs=1&ssta=1&ts=CAESCgoCCAMKAggDEAAaNwoXEhUKCC9tLzA5YzZ3OglIeWRlcmFiYWQSHBIUCgcI5w8QCxgNEgcI5w8QCxgOGAEyBAgAEAAqCQoFOgNJTlIoCA&qs=CAAgACgAMidDaGtJdkltVWo5TDF6dThaR2cwdlp5OHhNWFJrTkRWb2NqVTNFQUU4DUgA&ap=KigKEgmxcvkI0ygxQBGg6CZ2n5JTQBISCdb0YREPmjFAEaDoJjb-oFNAMABoAQ&ictx=1&sa=X&sqi=2&ved=0CAAQ5JsGahgKEwiY0evos4mCAxUAAAAAHQAAAAAQ0AY&utm_campaign=sharing&utm_medium=link_btn&utm_source=htls" >Book hotel</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="./Images/hyderabad hotel4.jpg" class="card-img-top" alt="4">
+            <div class="card-body">
+            <h5 class="card-title">ITC Kohenur, a Luxury Collection Hotel, Hyderabad</h5>
+            <p class="hotel-add card-text">Hitec City, Plot No.5, Survey No. 83/1 Madhapur, opposite Inorbit Mall, Hyderabad, Telangana 500081•040 6766 0101</p>
+           <h6>040 6766 0101</h6>
+            <a href="https://www.google.com/travel/search?q=hyderabad%20best%20hotels&g2lb=2502548%2C2503771%2C2503781%2C4258168%2C4270442%2C4284970%2C4291517%2C4308226%2C4597339%2C4757164%2C4814050%2C4874190%2C4893075%2C4924070%2C4965990%2C4990494%2C72298667%2C72302247%2C72317059%2C72370226%2C72378200%2C72379816%2C72382669%2C72389675%2C72389680%2C72390435%2C72393630%2C72404470&hl=en-IN&gl=in&cs=1&ssta=1&ts=CAESCgoCCAMKAggDEAAaNwoXEhUKCC9tLzA5YzZ3OglIeWRlcmFiYWQSHBIUCgcI5w8QCxgNEgcI5w8QCxgOGAEyBAgAEAAqCQoFOgNJTlIoCA&qs=CAAgACgAMihDaG9JbkwyeXI1dUk1dnlmQVJvTkwyY3ZNVEZuWm1wek9ITmliaEFCOA1IAA&ap=KigKEgmxcvkI0ygxQBGg6CZ2n5JTQBISCdb0YREPmjFAEaDoJjb-oFNAMABoAQ&ictx=1&sa=X&sqi=2&ved=0CAAQ5JsGahgKEwiY0evos4mCAxUAAAAAHQAAAAAQhgc&utm_campaign=sharing&utm_medium=link_btn&utm_source=htls" class="btn btn-primary">Book hotel</a>
+            </div>
+        </div>
+        </div>
+    <!-- </section> -->
+    <section class="highlight">
+      <h2>Visiting Time</h2>
+      <p class="sectionP">Mysore, a city located in the southern part of India, boasts a tropical wet and dry climate with warm temperatures throughout most of the year, except during the cool winter season. Therefore, the ideal time to visit Mysore is from October to February.</p>
+    </section>
+    <section class="highlight">
+      <h2>History</h2>
+      
+      <p class="sectionP">Mysore, the city with a rich history, was established by the Wadiyar dynasty's rulers. Its core was built around the magnificent Mysore Palace, which has remained the city's centerpiece throughout the centuries. Mysore flourished as a significant hub for trade and culture, especially renowned for its silk and sandalwood products.</p>
+    </section>
+    <section class="highlight">
+      <h2>Geography</h2>
+     <img style="height: 25rem;width: auto;" src="./Images/manali geography.jpg" alt="">
+      <p class="sectionP">Mysore is situated in the heart of Karnataka and covers an area of approximately 128.42 km2. The city is nestled within the Deccan Plateau, with an average elevation of around 770 m above sea level. Mysore is positioned at approximately 12.305° N latitude and 76.655° E longitude.</p>
+    </section>
+    <section class="highlight">
+      <h2>Weather</h2>
+     
+      <p class="sectionP">  The city's annual mean temperature averages around 24.5 °C (76.1 °F), Summers which extend from March to June (exceed 37 °C (98.6 °F)), Winter(8 °C (46.4 °F)). </p>
+      </section>
 
-<div class = 'weather'>
-    <h2>Weather</h2>
-</div>
-<div class = "highlight">
-    <h2>Highlight</h2>
-
-</div>
-<div class = "History">
-    <h2>History</h2>
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-</div>
-<h2 class="fest-">Festivals</h2>
-<div class = 'festival'>
-    <h3 class = 'fest-item'>Wangla</h3>
-    <p class = 'fest-item'>Wangala Festival of Meghalaya is a most popular festival among the Garos of Meghalaya, India. Wangala Festival is a harvest festival held in honour of Saljong, the Sun-god of fertility. The celebration of the Wangala Festival marks the end of a period of toil, which brings good output of the fields.</p>
-</div>
-</div>
-        <script src="" async defer></script>
-    </body>
+    <section class="highlight"> 
+      <h2>Features</h2>
+     
+      <p class="sectionP" >&#x2022;<strong>Rich Historical Heritage: </strong>Mysore has a captivating history, adorned with iconic landmarks such as the Mysore Palace, Chamundi Hill, and St. Philomena's Church, showcasing its cultural and historical importance.</p>
+      <p class="sectionP">&#x2022;<strong>Technology and Business Hub: </strong>Mysore is a bustling center for technology and commerce, featuring a growing presence of IT companies and startups. It's emerging as a significant contributor to India's tech industry, with areas like the Mysore IT Park fostering this growth.</p>
+      <p class="sectionP">&#x2022;<strong> Culinary Delights: </strong>  Mysore is celebrated for its distinctive and delectable cuisine, featuring the renowned Mysore Masala Dosa and a variety of mouthwatering dishes, creating a haven for food enthusiasts.</p>
+    </section>
+  </div> 
+    <!-- <section class="highlight">
+      <h2>Plan Your Pilgrimage</h2>
+      <p class="sectionP">Visiting Kedarnath Temple requires meticulous planning due to its high altitude and challenging terrain. Pilgrims are advised to be physically prepared and carry adequate warm clothing. Accommodation is available in nearby areas, and it's recommended to make advance bookings.</p>
+      
+    </section> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="../../temperature.js"></script>
+</body>
 </html>
