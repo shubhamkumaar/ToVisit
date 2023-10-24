@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patna</title>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="icon" href="../../Images/favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <style>
+      body{
+        text-align: center;
+        background-color: #f4f4f4;      
+      }
+      section{
+        padding: 20px;
+        
+      }
+      .sectionP{
+        width: 50rem;
+        margin: auto;
+        word-spacing: 1.1px;
+        line-height: 1.5;
+        font-size: 18px;
+        text-align: justify;
+      }
+      section *{
+            width: 50rem;
+            margin: auto;
+            word-spacing: 1.1px;
+            line-height: 1.9;
+            text-align: justify;
+        }
+      .featured {
+            background: url('./Images/chennai\ background.jpg') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            /* margin-top: 70px; */
+            padding: 100px 0;
+        }
+
+        .featured h2 {
+            font-size: 36px;
+        }
+        .highlight {
+            background-color: #fff;
+            padding: 40px 20px;
+            margin: 20px 0;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .utube{
+          margin-top: 2rem;
+        }
+        ul li{
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          /* text-align: justify; */
+        }
+        nav{
+          margin: 2rem auto;
+          border-radius: 1rem;
+          width: 80%;
+          opacity: .8;
+        }
+        
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top " style = " background-color: #BEADFA;" >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../../index.html"><img style = "margin-right: 80px;" src="../../Images/navlogo.png" alt="Logo" height="50px" width="150px"></a>
+        </div>
+      </nav>
+
+    <div class="featured">
+      <img id="weatherIcon"src="" alt="">
+        <div class="temp">
+            <h4 id="temperature"></h4>
+            <p id="description"></p>
+        </div>
+       
+        <!-- <p>Explore the rich heritage, spirituality, and adventure of Bihar</p>  -->
+        <h2 style="color: black;">Discover the Divine Beauty of Patna</h2>
+        <p >Explore the rich heritage, spirituality, and adventure of Patna</p> 
+        <!-- <a href="#" style="background-color: #ff9800; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none;">Explore Now</a> -->
+        <iframe  class="utube" width="720" height="405" src="https://www.youtube.com/embed/z-eY2370Aq0?autoplay=1&mute=1&start=19" allowfullscreen></iframe>
+    
+      </div>
+
+ <div class="rest">  
+  <section class="highlight">
+    <h2>Details</h2>
+    <p class="sectionP"><strong>Location: </strong>Patna, Patna district, Bihar</p>
+    <p class="sectionP"><strong>Road Access: </strong>Patna, being the capital city of Bihar, is well-connected by road to various places. Patna Junction (Patna Railway Station) to Mithapur Bus Stand (6-7 Km & Depending on traffic, it can take around 15-20 minutes by car or auto-rickshaw.)</p>
+
+  </section>
+    <section class = 'highlight'>
+      <h2>About Patna</h2>
+      <p class="sectionP"> <strong id="capital">Patna,</strong> the capital of Bihar in North India, is a city steeped in cultural heritage, celebrated for its historical significance and traditional arts. It's a hub for commerce, with a notable presence in sectors like agriculture, trade, and education. The city is home to prestigious educational institutions and landmarks such as the Golghar and Patna Museum. While the primary language in Patna is Hindi, English is commonly used, especially in educational and business settings. With accessible healthcare services, a functional airport, and a well-developed transportation network, Patna is a dynamic urban center where the past and present harmoniously coexist.</p>
+    </section>
+
+    <!-- <section class="highlight"> -->
+      <h2>Accomodation</h2>
+      <!-- Create Card For Hotel -->
+      <div class="hotels">
+        <div class="card" style="width: 18rem;">
+            <img src="./Images/chennai hotel1.jpg" class="card-img-top" alt="1">
+            <div class="card-body">
+            <h5 class="card-title">Sheraton Grande Hotel Chennai</h5>
+            <p class="card-text">1/1, Nabhikhan, Shaik Ali Subedar St, near Nehru Indoor Stadium, Periyamet, Chennai, Tamil Nadu 600003</p>
+            <h6>096771 65873</h6>
+            <a href="https://www.google.com/travel/search?q=chennai%20best%20hotels&g2lb=2502548%2C2503771%2C2503781%2C4258168%2C4270442%2C4284970%2C4291517%2C4308226%2C4597339%2C4757164%2C4814050%2C4874190%2C4893075%2C4924070%2C4965990%2C4990494%2C72298667%2C72302247%2C72317059%2C72370226%2C72378200%2C72379816%2C72382669%2C72389675%2C72389680%2C72390435%2C72393630%2C72404470&hl=en-IN&gl=in&cs=1&ssta=1&ts=CAESCgoCCAMKAggDEAAaMwoVEhMKCC9tLzBjOHRrOgdDaGVubmFpEhoSFAoHCOcPEAsYDRIHCOcPEAsYDhgBMgIQACoJCgU6A0lOUigI&qs=CAAgACgAMidDaGtJbDVqWXZ1NzkwSmNTR2cwdlp5OHhNWE42Wm5nME0zUm9FQUU4DUgA&ap=KigKEgkJG4oVmXYpQBHDQHylngVUQBISCQSQkwXcXSpAEcNAfGX9E1RAMABoAQ&ictx=1&sa=X&sqi=2&ved=0CAAQ5JsGahgKEwiY0evos4mCAxUAAAAAHQAAAAAQjAg&utm_campaign=sharing&utm_medium=link_btn&utm_source=htls" class="btn btn-primary">Book hotel</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="./Images/chennai hotel2.jpg" class="card-img-top" alt="2">
+            <div class="card-body">
+            <h5 class="card-title">The Hydel Park ( Business Class Hotel)</h5>
+            <p class="card-text">12, VV Koil St, Park Town, Chennai, Tamil Nadu 600003</p>
+            <h6>091769 03442</h6>
+            <a class=" hotel-add btn btn-primary" href="https://www.google.com/travel/search?q=chennai%20best%20hotels&g2lb=2502548%2C2503771%2C2503781%2C4258168%2C4270442%2C4284970%2C4291517%2C4308226%2C4597339%2C4757164%2C4814050%2C4874190%2C4893075%2C4924070%2C4965990%2C4990494%2C72298667%2C72302247%2C72317059%2C72370226%2C72378200%2C72379816%2C72382669%2C72389675%2C72389680%2C72390435%2C72393630%2C72404470&hl=en-IN&gl=in&cs=1&ssta=1&ts=CAESCgoCCAMKAggDEAAaNQoVEhMKCC9tLzBjOHRrOgdDaGVubmFpEhwSFAoHCOcPEAsYDRIHCOcPEAsYDhgBMgQIABAAKgkKBToDSU5SKAg&qs=CAAgACgAMidDaGtJcXZYV2xQLVkxdXQxR2cwdlp5OHhNWEpyY0dSbmVUQjVFQUU4DUgA&ap=KigKEgkJG4oVmXYpQBHDQHylngVUQBISCQSQkwXcXSpAEcNAfGX9E1RAMABoAQ&ictx=1&sa=X&sqi=2&ved=0CAAQ5JsGahgKEwiY0evos4mCAxUAAAAAHQAAAAAQrAg&utm_campaign=sharing&utm_medium=link_btn&utm_source=htls">Book hotel</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="./Images/chennai hotel3.jpg" class="card-img-top" alt="3">
+            <div class="card-body">
+            <h5 class="card-title">ZThe Madras Grand - Hotel Egmore</h5>
+            <p class="card-text">1, Chinna St, Egmore, Chennai, Tamil Nadu 600008</p>
+            <h6>093848 81777</h6>
+            <a class=" hotel-add btn btn-primary" href="https://www.google.com/travel/search?q=chennai%20best%20hotels&g2lb=2502548%2C2503771%2C2503781%2C4258168%2C4270442%2C4284970%2C4291517%2C4308226%2C4597339%2C4757164%2C4814050%2C4874190%2C4893075%2C4924070%2C4965990%2C4990494%2C72298667%2C72302247%2C72317059%2C72370226%2C72378200%2C72379816%2C72382669%2C72389675%2C72389680%2C72390435%2C72393630%2C72404470&hl=en-IN&gl=in&cs=1&ssta=1&ts=CAESCgoCCAMKAggDEAAaNQoVEhMKCC9tLzBjOHRrOgdDaGVubmFpEhwSFAoHCOcPEAsYDRIHCOcPEAsYDhgBMgQIABAAKgkKBToDSU5SKAg&qs=CAAgACgAMidDaGtJMi1tUHVveUprSXcwR2cwdlp5OHhNVzVmZUhkc2JYbHpFQUU4DUgA&ap=KigKEgkJG4oVmXYpQBHDQHylngVUQBISCQSQkwXcXSpAEcNAfGX9E1RAMABoAQ&ictx=1&sa=X&sqi=2&ved=0CAAQ5JsGahgKEwiY0evos4mCAxUAAAAAHQAAAAAQywg&utm_campaign=sharing&utm_medium=link_btn&utm_source=htls" >Book hotel</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="./Images/chennai hotel4.jpg" class="card-img-top" alt="4">
+            <div class="card-body">
+            <h5 class="card-title">The Leela Palace Chennai - Seaside Modern Palace Hotel</h5>
+            <p class="hotel-add card-text">Adyar Sea Face, Leela Palace Rd, MRC Nagar, Raja Annamalai Puram, Chennai, Tamil Nadu 600028</p>
+           <h6>044 3366 1234</h6>
+            <a href="https://www.google.com/travel/search?q=chennai%20best%20hotels&g2lb=2502548%2C2503771%2C2503781%2C4258168%2C4270442%2C4284970%2C4291517%2C4308226%2C4597339%2C4757164%2C4814050%2C4874190%2C4893075%2C4924070%2C4965990%2C4990494%2C72298667%2C72302247%2C72317059%2C72370226%2C72378200%2C72379816%2C72382669%2C72389675%2C72389680%2C72390435%2C72393630%2C72404470&hl=en-IN&gl=in&cs=1&ssta=1&ts=CAESCgoCCAMKAggDEAAaNQoVEhMKCC9tLzBjOHRrOgdDaGVubmFpEhwSFAoHCOcPEAsYDRIHCOcPEAsYDhgBMgQIABAAKgkKBToDSU5SKAg&qs=CAAgACgAMiNDaFlJajh1VnBhZW1wS3htR2dvdmJTOHdhSHB5Y0dZNUVBRTgNSAA&ap=KigKEgkJG4oVmXYpQBHDQHylngVUQBISCQSQkwXcXSpAEcNAfGX9E1RAMABoAQ&ictx=1&sa=X&sqi=2&ved=0CAAQ5JsGahgKEwiY0evos4mCAxUAAAAAHQAAAAAQ6Qg&utm_campaign=sharing&utm_medium=link_btn&utm_source=htls" class="btn btn-primary">Book hotel</a>
+            </div>
+        </div>
+        </div>
+    <!-- </section> -->
+    <section class="highlight">
+      <h2>Visiting Time</h2>
+      <p class="sectionP">Peak Season - The ideal time to visit Patna is from October to February, which covers the post-monsoon period and the entire winter. During these months, the weather is generally pleasant, making it a comfortable and less humid time to explore the city.</p>
+    </section>
+    <section class="highlight">
+      <h2>History</h2>
+      
+      <p class="sectionP">Patna, formerly known as Pataliputra, is the capital of the state of Bihar and is one of India's oldest cities. It is situated on the southern bank of the Ganges River. With an estimated population of 2.4 million, this ancient city holds a significant place in history and is an important cultural and historical center in India.</p>
+    </section>
+    <section class="highlight">
+      <h2>Geography</h2>
+     <img style="height: 25rem;width: auto;" src="./Images/manali geography.jpg" alt="">
+      <p class="sectionP">Patna is situated at approximately 25.61°N 85.14°E in the northern part of India, along the southern bank of the Ganges River. The city is nestled in the fertile Gangetic plains. Patna's elevation is relatively low, with an average of about 53 meters, and its highest point reaches around 64 meters above sea level.</p>
+    </section>
+    <section class="highlight">
+      <h2>Weather</h2>
+     
+      <p class="sectionP"> Patna, located in northern India, has a diverse climate with noticeable seasons. Summers, from March to June, are warm and dry, with temperatures frequently rising above 40°C (104°F). The monsoon season, from June to October, brings substantial rainfall and the potential for flooding. The months following the monsoon, November and December, offer more comfortable weather. Winters, in January and February, are mild and present an excellent time for visiting. Patna experiences humidity, especially during the summer and monsoon, but the post-monsoon and winter months are preferred for outdoor activities and tourism.</p>
+      </section>
+
+    <section class="highlight"> 
+      <h2>Features</h2>
+     
+      <p class="sectionP" >&#x2022;<strong>Ancient City: </strong>Patna, formerly known as Pataliputra, has a rich historical legacy. It was the capital of the Maurya and Gupta empires and an important center of learning during ancient times.</p>
+      <p class="sectionP">&#x2022;<strong>Historical Landmarks: </strong>The city is home to historical landmarks such as the Golghar, a granary built during the British Raj, and Patna Museum, which houses a vast collection of artifacts.</p>
+      <p class="sectionP">&#x2022;<strong> Arts and Culture: </strong> Patna is known for its vibrant cultural scene, with a strong presence of traditional music, dance, and art.</p>
+    </section>
+  </div> 
+    <!-- <section class="highlight">
+      <h2>Plan Your Pilgrimage</h2>
+      <p class="sectionP">Visiting Kedarnath Temple requires meticulous planning due to its high altitude and challenging terrain. Pilgrims are advised to be physically prepared and carry adequate warm clothing. Accommodation is available in nearby areas, and it's recommended to make advance bookings.</p>
+      
+    </section> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="../../temperature.js"></script>
+</body>
+</html>
