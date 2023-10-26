@@ -3,13 +3,10 @@ const path = require("path")
 const LogInCollection = require("./mongo")
 const port = process.env.PORT || 3000
 
-
 const app = express()
 app.use(express.json())
 
 app.use(express.urlencoded({ extended: false }))
-
-
 
 var cons = require('consolidate');
 const publicPath = path.join(__dirname, '../public')
@@ -26,9 +23,7 @@ app.get('/', (req, res) => {
     res.render('login')
 })
 
-
 app.post('/signup', async (req, res) => {
-
     const data = {
         name: req.body.name,
         password: req.body.password
@@ -50,10 +45,6 @@ app.post('/signup', async (req, res) => {
     res.status(201).render("index")
 })
 
-function logOut(req,res){
-     document.getElementById("logOut").addEventListener("click",res.redirect("/"))
-}
-
 app.post('/login', async (req, res) => {
 
     try {
@@ -68,10 +59,6 @@ app.post('/login', async (req, res) => {
     catch (e) {
         res.send("wrong details") 
     }
-})
-
-app.post('/logout',(req,res)=>{
-
 })
 
 app.listen(port, () => {
