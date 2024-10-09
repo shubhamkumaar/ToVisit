@@ -12,15 +12,15 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
         
         <!-- styleSheet -->
-        <link rel="stylesheet" href="style.css">
-        <link rel="icon" href="Images/favicon.png">
+        <link rel="stylesheet" href="./public/style.css">
+        <link rel="icon" href="./public/Images/favicon.png">
      </head>
     <body>
       
       <!-- NavBar -->
        <nav class="mainNav navbar navbar-expand-lg fixed-top " style = "background-color: #BEADFA;" >
         <div class="container-fluid">
-          <a class="navbar-brand" href="./index.html"><img style = "margin-right: 80px;" src="./Images/navlogo.png" alt="Logo" height="50px" width="150px"></a>
+          <a class="navbar-brand" href="./index.html"><img style = "margin-right: 80px;" src="./public/Images/navlogo.png" alt="Logo" height="50px" width="150px"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -55,8 +55,8 @@
 
     <!-- Introduction -->
         <div class ="intro">
-          <img class = "logo-item" src="Images/logo.png" alt="ToVisit">
-          <img id = "brand" src="Images/navlogo.png" alt="ToVisit">
+          <img class = "logo-item" src="public/Images/logo.png" alt="ToVisit">
+          <img id = "brand" src="public/Images/navlogo.png" alt="ToVisit">
           <p class ="para">Hello! Welcome to "Tovisit", your ultimate destination for unforgettable travel experiences! Our website is designed to be your virtual guide as you explore India's most captivating destinations. Whether you're an avid adventurer or a leisure traveler, "Tovisit" offers a curated selection of travel guides, tips, and recommendations to ensure your journeys are filled with joy and discovery. From hidden gems to iconic landmarks, our platform is your gateway to crafting your perfect itinerary. Embark on a journey of exploration with "Tovisit" and let the wonders of the world become your playground. Start your adventure now...</p>
        
       <!-- Introduction Paragraph Ends Here -->
@@ -76,8 +76,8 @@
               
               <div class="carousel-inner">
                 <div class="carousel-item active " data-bs-interval="3000">
-                  <a id='prem' href="./States/UP/premMandir.html">
-                  <img  src="./Images/premMandir.jpg" class="d-block w-100" alt="Prem Mandir">
+                  <a id='prem' href="./public/States/UP/premMandir.html">
+                  <img  src="./public/Images/premMandir.jpg" class="d-block w-100" alt="Prem Mandir">
                 </a>
                   <div class="carousel-caption d-none d-md-block">
                     <h5 id="prem"class="slide-txt">Prem Mandir</h5>
@@ -87,8 +87,8 @@
           
                 
                 <div class="carousel-item" data-bs-interval="3000">
-                  <a id='taj' href="./States/UP/tajmahal.html">
-                  <img src="./States/UP/Images/tajMahal.jpg" class="d-block w-100" alt="Taj Mahal">
+                  <a id='taj' href="./public/States/UP/tajmahal.html">
+                  <img src="./public/States/UP/Images/tajMahal.jpg" class="d-block w-100" alt="Taj Mahal">
                 </a>
                   <div class="carousel-caption d-none d-md-block">
                     <h5 class="slide-txt">Taj Mahal</h5>
@@ -96,8 +96,8 @@
                   </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="3000">
-                  <a href="./States/Uttarakhand/kedarnath.html">
-                  <img src="./Images/kedarnath.jpg" class="d-block w-100" alt="Kedarnath">
+                  <a href="./public/States/Uttarakhand/kedarnath.html">
+                  <img src="./public/Images/kedarnath.jpg" class="d-block w-100" alt="Kedarnath">
                   </a>
                   <div class="carousel-caption d-none d-md-block">
                     <h5 class="slide-txt">Kedarnath</h5>
@@ -105,8 +105,8 @@
                   </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="3000">
-                  <a href="./States/Himachal-pradesh/manali.html">
-                    <img src="./Images/Manali.jpg" class="d-block w-100" alt="Manali">
+                  <a href="./public/States/Himachal-pradesh/manali.html">
+                    <img src="./public/Images/Manali.jpg" class="d-block w-100" alt="Manali">
                   </a>
                   <div class="carousel-caption d-none d-md-block">
                     <h5 class="slide-txt">Manali</h5>
@@ -114,8 +114,8 @@
                   </div>
                 </div>
                  <div class="carousel-item" data-bs-interval="3000">
-                  <a href="./States/Karnataka/coorg.html">
-                   <img src="./Images/Coorg waterfall .jpg" class="d-block w-100" alt="Coorg waterfalls"></a>
+                  <a href="./public/States/Karnataka/coorg.html">
+                   <img src="./public/Images/Coorg waterfall .jpg" class="d-block w-100" alt="Coorg waterfalls"></a>
                    <div class="carousel-caption d-none d-md-block">
                      <h5 class="slide-txt">Coorg</h5>
                      <p class="slide-txt">Coorg's enchanting waterfalls, are nature's symphony, where the cascading waters dance to the rhythm of tranquility, inviting you to lose yourself in their pristine beauty.</p>
@@ -143,33 +143,33 @@
     <!-- Northern States -->
     <center><strong><h2 style = "margin-top: 20px;" id = "north">Northern States</h2></strong></center>
     <div class = 'container-fluid'>
-      <button title="Ladakh" onclick = "window.location.href='States/Ladakh/ladakh.html'; "class = "ladakh bton">Ladakh</button> 
-      <button title="Jammu & Kashmir" onclick = "window.location.href='States/Jammu/jammu.html'; "class = "jammu bton">Jammu & Kashmir</button> 
-      <button title="Himachal Pradesh" onclick = "window.location.href='States/Himachal-pradesh/himachalPradesh.html'; "class = "himachal bton">Himachal Pradesh</button> 
-      <button title="Punjab" onclick = "window.location.href='States/Punjab/punjab.html';" class = "punjab bton">Punjab</button> 
-      <button title="Haryana"  onclick = "window.location.href='States/Haryana/haryana.html';" class = "haryana bton">Haryana</button> 
-      <button title="Rajasthan" onclick = "window.location.href='States/Rajasthan/rajasthan.html'; "class = "rajasthan bton">Rajasthan</button> 
+      <button title="Ladakh" onclick = "window.location.href='public/States/Ladakh/ladakh.html'; "class = "ladakh bton">Ladakh</button> 
+      <button title="Jammu & Kashmir" onclick = "window.location.href='public/States/Jammu/jammu.html'; "class = "jammu bton">Jammu & Kashmir</button> 
+      <button title="Himachal Pradesh" onclick = "window.location.href='public/States/Himachal-pradesh/himachalPradesh.html'; "class = "himachal bton">Himachal Pradesh</button> 
+      <button title="Punjab" onclick = "window.location.href='public/States/Punjab/punjab.html';" class = "punjab bton">Punjab</button> 
+      <button title="Haryana"  onclick = "window.location.href='public/States/Haryana/haryana.html';" class = "haryana bton">Haryana</button> 
+      <button title="Rajasthan" onclick = "window.location.href='public/States/Rajasthan/rajasthan.html'; "class = "rajasthan bton">Rajasthan</button> 
     </div>
     <!-- Northern States Ends -->
 
     <!-- Central -->
     <center><strong><h2 style = "margin-top: 20px;" id = "central">Central States</h2></strong></center>
     <div class = 'container-fluid'>
-      <button title="Delhi" onclick = "window.location.href='States/Delhi/delhi.html'; "class = "del bton">Delhi</button> 
-      <button title="Uttarakhand" onclick = "window.location.href='States/Uttarakhand/uttarakhand.html'; "class = "Uttarakhand bton">Uttarakhand</button> 
-      <button title="Uttar Pradesh" onclick = "window.location.href='States/UP/uttarPradesh.html'; "class = "up bton">Uttar Pradesh</button> 
-      <button title="Madhya Pradesh" onclick = "window.location.href='States/MadhyaPradesh/madhyaPradesh.html';" class = "mp bton">Madhya Pradesh</button> 
-      <button title="Chhattisgarh" onclick = "window.location.href='States/Chhattisgarh/Chattisgarh.html';" class = "chhattisgarh bton">Chhattisgarh</button> 
+      <button title="Delhi" onclick = "window.location.href='public/States/Delhi/delhi.html'; "class = "del bton">Delhi</button> 
+      <button title="Uttarakhand" onclick = "window.location.href='public/States/Uttarakhand/uttarakhand.html'; "class = "Uttarakhand bton">Uttarakhand</button> 
+      <button title="Uttar Pradesh" onclick = "window.location.href='public/States/UP/uttarPradesh.html'; "class = "up bton">Uttar Pradesh</button> 
+      <button title="Madhya Pradesh" onclick = "window.location.href='public/States/MadhyaPradesh/madhyaPradesh.html';" class = "mp bton">Madhya Pradesh</button> 
+      <button title="Chhattisgarh" onclick = "window.location.href='public/States/Chhattisgarh/chattisgarh.html';" class = "chhattisgarh bton">Chhattisgarh</button> 
     </div>
 <!-- Central Ends -->
 
     <!-- North Eastern  -->
     <center><strong><h2 style = "margin-top: 20px;" id = "north-east">North Eastern States</h2></strong></center>
     <div class = 'container-fluid'>
-      <button title="Bihar" onclick = "window.location.href='States/Bihar/bihar.html'; "class = "bihar bton">Bihar</button> 
-      <button title="Jharkhand" onclick = "window.location.href='States/Jharkhand/jharkhand.html'; "class = "jharkhand bton">Jharkhand</button> 
-      <button title="West Bengal" onclick = "window.location.href='States/West-bengal/westBengal.html'; "class = "west-bengal bton">West Bengal</button>
-      <button title="Odisha" onclick = "window.location.href='States/Odisha/odisha.html'; "class = "odisha bton">Odisha</button> 
+      <button title="Bihar" onclick = "window.location.href='public/States/Bihar/bihar.html'; "class = "bihar bton">Bihar</button> 
+      <button title="Jharkhand" onclick = "window.location.href='public/States/Jharkhand/jharkhand.html'; "class = "jharkhand bton">Jharkhand</button> 
+      <button title="West Bengal" onclick = "window.location.href='public/States/West-bengal/westBengal.html'; "class = "west-bengal bton">West Bengal</button>
+      <button title="Odisha" onclick = "window.location.href='public/States/Odisha/odisha.html'; "class = "odisha bton">Odisha</button> 
     </div>
     <!-- North Eastern States Ends -->
 
@@ -177,13 +177,13 @@
     <!-- Eastern States -->
     <center><h2 style = "margin-top: 20px;" id = "east">Eastern States</h2></center>
     <div class = 'container-fluid'>
-      <button title="Meghalaya" onclick = "window.location.href='States/Meghalaya/meghalaya.html';" class = "meghalaya bton">Meghalaya</button>
-      <button title="Assam" onclick = "window.location.href='States/Assam/assam.html'; "class = "assam bton">Assam</button> 
-      <button title="Manipur" onclick = "window.location.href='States/Manipur/manipur.html'; "class = "manipur bton">Manipur</button> 
-      <button title="Sikkim" onclick = "window.location.href='States/Sikkim/sikkim.html'; "class = "sikkim bton">Sikkim</button> 
-      <button title="Arunachal Pradesh" onclick = "window.location.href='States/Arunachal-Pradesh/arunachal.html'; "class = "arunachal bton">Arunachal Pradesh</button> 
-      <button title="Tripura" onclick = "window.location.href='States/Tripura/tripura.html'; "class = "tripura bton">Tripura</button>
-      <button title="Nagaland" onclick = "window.location.href='States/Nagaland/nagaland.html'; "class = "nagaland bton">Nagaland</button> 
+      <button title="Meghalaya" onclick = "window.location.href='public/States/Meghalaya/meghalaya.html';" class = "meghalaya bton">Meghalaya</button>
+      <button title="Assam" onclick = "window.location.href='public/States/Assam/assam.html'; "class = "assam bton">Assam</button> 
+      <button title="Manipur" onclick = "window.location.href='public/States/Manipur/manipur.html'; "class = "manipur bton">Manipur</button> 
+      <button title="Sikkim" onclick = "window.location.href='public/States/Sikkim/sikkim.html'; "class = "sikkim bton">Sikkim</button> 
+      <button title="Arunachal Pradesh" onclick = "window.location.href='public/States/Arunachal-Pradesh/arunachal.html'; "class = "arunachal bton">Arunachal Pradesh</button> 
+      <button title="Tripura" onclick = "window.location.href='public/States/Tripura/tripura.html'; "class = "tripura bton">Tripura</button>
+      <button title="Nagaland" onclick = "window.location.href='public/States/Nagaland/nagaland.html'; "class = "nagaland bton">Nagaland</button> 
     </div>
     <!-- Eastern States Ends Here -->
 
@@ -191,20 +191,20 @@
     <!-- Western -->
     <center><h2 style = "margin-top: 20px;" id = "west">Western States</h2></center>
     <div class="'container-fluid">
-      <button title="Gujarat"  onclick = "window.location.href='States/Gujarat/gujarat.html'; "class = "gujarat bton">Gujarat</button> 
-      <button title="Maharashtra" onclick = "window.location.href='States/Maharashtra/maharashtra.html'; "class = "maharashtra bton">Maharashtra</button> 
-      <button title="Goa" onclick = "window.location.href='States/Goa/goa.html'; "class = "goa bton">Goa</button>
+      <button title="Gujarat"  onclick = "window.location.href='public/States/Gujarat/gujarat.html'; "class = "gujarat bton">Gujarat</button> 
+      <button title="Maharashtra" onclick = "window.location.href='public/States/Maharashtra/maharashtra.html'; "class = "maharashtra bton">Maharashtra</button> 
+      <button title="Goa" onclick = "window.location.href='public/States/Goa/goa.html'; "class = "goa bton">Goa</button>
     </div>
 
 
     <!-- Southern States -->
     <center><strong><h2 style = "margin-top: 20px;" id = "south">Southern States</h2></strong></center>
     <div class = 'container-fluid'>
-      <button title="Telangana" onclick = "window.location.href='States/Telangana/telangana.html'; "class = "telangana bton">Telangana</button> 
-      <button title="Karnataka" onclick = "window.location.href='States/Karnataka/karnataka.html'; "class = "karnataka bton">Karnataka</button> 
-      <button title="Tamil Nadu" onclick = "window.location.href='States/TamilNadu/tamilnadu.html'; "class = "tamil bton">Tamil Nadu</button>
-      <button title="Kerala" onclick = "window.location.href='States/Kerala/kerala.html'; "class = "kerala bton">Kerala</button> 
-      <button title="Andhra Pradesh" onclick = "window.location.href='States/AP/andhraPradesh.html'; "class = "ap bton">Andhra Pradesh</button> 
+      <button title="Telangana" onclick = "window.location.href='public/States/Telangana/telangana.html'; "class = "telangana bton">Telangana</button> 
+      <button title="Karnataka" onclick = "window.location.href='public/States/Karnataka/karnataka.html'; "class = "karnataka bton">Karnataka</button> 
+      <button title="Tamil Nadu" onclick = "window.location.href='public/States/TamilNadu/tamilnadu.html'; "class = "tamil bton">Tamil Nadu</button>
+      <button title="Kerala" onclick = "window.location.href='public/States/Kerala/kerala.html'; "class = "kerala bton">Kerala</button> 
+      <button title="Andhra Pradesh" onclick = "window.location.href='public/States/AP/andhraPradesh.html'; "class = "ap bton">Andhra Pradesh</button> 
     </div>
 
 <!-- Kachra -->

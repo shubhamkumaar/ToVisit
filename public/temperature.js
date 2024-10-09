@@ -27,3 +27,8 @@ fetch(URL)
  
     console.error(error); 
   });
+
+  const button = document.getElementsByClassName("navbar-brand")
+  button[0].addEventListener("click", function(){
+    window.location.href = "/";
+  });
